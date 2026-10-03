@@ -21,10 +21,17 @@ async function init() {
 // ===== 選択操作 =====
 const find = (text) => state.selected.findIndex((s) => s.text === text);
 
-function toggle(text, label) {
+function toggle(text, label, sec) {
   const i = find(text);
   if (i >= 0) state.selected.splice(i, 1);
-  else state.selected.push({ text, label, weight: 1.0 });
+  else {
+    // exclusive セクション: 同じセクションの他の選択を外して入れ替える
+    if (sec && sec.exclusive) {
+      const others = sec.items.map((x) => x.text);
+      state.selected = state.selected.filter((s) => !others.includes(s.text));
+    }
+    state.selected.push({ text, label, weight: 1.0 });
+  }
   update();
 }
 
@@ -64,9 +71,13 @@ function renderContent() {
       if (it.variation) {
         row.appendChild(el("button", it.label, "var", () => openVariation(it.variation)));
       } else {
-        const b = el("button", it.label, find(it.text) >= 0 ? "on" : "", () => toggle(it.text, it.label));
-        if (it.desc) b.title = it.desc + (it.note ? "\n注意: " + it.note : "");
-        row.appendChild(b);
+        const b = el("button", it.label, find(it.text) >= 0 ? "on" : "", () => toggle(it.text, it.label, sec));
+        if (it.desc || it.note) {
+          const wrap = el("span", "", "item");
+          wrap.appendChild(b);
+          wrap.appendChild(el("button", "?", "q", () => openInfo(it)));
+          row.appendChild(wrap);
+        } else row.appendChild(b);
       }
     });
     box.appendChild(row);
@@ -87,30 +98,56 @@ function renderChips() {
 // ===== パネル(バリエーション / 重み) =====
 function openPanel(title, buttons) {
   const p = $("panel");
+  const top = p.scrollTop; // 開いたまま更新するときスクロール位置を保つ
   p.innerHTML = "";
   p.appendChild(el("h3", title));
   buttons.forEach((b) => p.appendChild(b));
   p.appendChild(el("button", "閉じる", "close", closePanel));
   $("overlay").hidden = false;
+  p.scrollTop = top;
 }
 function closePanel() { $("overlay").hidden = true; }
+
+function openInfo(it) {
+  const p = $("panel");
+  p.scrollTop = 0;
+  const box = [el("p", it.desc || "")];
+  if (it.note) box.push(el("p", "注意: " + it.note, "note"));
+  box.push(el("code", it.text));
+  openPanel(it.label, box);
+}
 
 function openVariation(key) {
   const v = state.data.variations[key];
   const btns = v.options.map((o) => {
-    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); closePanel(); });
+    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); openVariation(key); });
     if (o.desc) b.appendChild(el("small", o.desc));
     return b;
   });
   openPanel(v.title, btns);
 }
 
+function move(i, d) {
+  const j = i + d;
+  if (j < 0 || j >= state.selected.length) return;
+  const a = state.selected;
+  [a[i], a[j]] = [a[j], a[i]];
+  update();
+  openWeight(j);
+}
+
 function openWeight(i) {
   const s = state.selected[i];
-  const btns = WEIGHTS.map((w) =>
-    el("button", String(w), w === s.weight ? "on" : "", () => { s.weight = w; closePanel(); update(); }));
+  const btns = [];
+  const mv = el("div", "", "moverow");
+  mv.appendChild(el("button", "◀ 前へ", "", () => move(i, -1)));
+  mv.appendChild(el("button", "後ろへ ▶", "", () => move(i, 1)));
+  btns.push(mv);
+  btns.push(el("p", "重み", "sub"));
+  WEIGHTS.forEach((w) =>
+    btns.push(el("button", String(w), w === s.weight ? "on" : "", () => { s.weight = w; update(); openWeight(i); })));
   btns.push(el("button", "このチップを削除", "danger", () => { state.selected.splice(i, 1); closePanel(); update(); }));
-  openPanel((s.label || s.text) + " の重み", btns);
+  openPanel((s.label || s.text) + "(" + (i + 1) + "/" + state.selected.length + ")", btns);
 }
 
 // ===== コピー =====
