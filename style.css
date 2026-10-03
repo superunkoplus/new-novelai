@@ -19,7 +19,7 @@ button:active { opacity:.7; }
 #tabs button { white-space:nowrap; padding:9px 13px; }
 #tabs .active { background:var(--accent); color:#fff; border-color:var(--accent); }
 #content { padding:4px 12px 40px; }
-h2 { font-size:15px; color:var(--muted); margin:22px 0 8px; }
+
 .buttons { display:flex; flex-wrap:wrap; gap:8px; }
 .buttons .var { background:var(--var); }
 .on { background:var(--soft) !important; border-color:var(--accent) !important; color:var(--accent); }
@@ -40,3 +40,6 @@ h2 { font-size:15px; color:var(--muted); margin:22px 0 8px; }
 #panel code { display:block; background:var(--bg); padding:10px; border-radius:8px; font-size:14px; word-break:break-all; }
 .moverow { display:flex; gap:8px; }
 .moverow button { flex:1; text-align:center !important; }
+.sechead { display:block; width:100%; text-align:left; margin:8px 0 0; font-weight:600; background:var(--card); }
+.sechead.open { color:var(--accent); border-color:var(--accent); }
+.buttons { margin:8px 0 12px; }
