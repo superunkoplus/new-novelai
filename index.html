@@ -1,66 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NovelAI Prompt Tool</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NovelAI Prompt Tool</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div>
-      <h1>NovelAI Prompt Tool</h1>
-      <p>タグを選んで、プロンプトを組み立てる</p>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="builder panel" aria-labelledby="builder-title">
-      <div class="section-heading">
-        <h2 id="builder-title">タグを選ぶ</h2>
-        <p>カテゴリーを選択して、追加したいタグを押してください。</p>
-      </div>
-      <nav id="category-list" class="category-list" aria-label="タグカテゴリー"></nav>
-      <div id="tag-list" class="tag-list" aria-live="polite"></div>
-    </section>
-
-    <section class="preview panel" aria-labelledby="preview-title">
-      <div class="section-heading">
-        <h2 id="preview-title">プロンプトプレビュー</h2>
-        <p>追加したタグは下の一覧から個別に削除できます。</p>
-      </div>
-
-      <section class="prompt-section">
-        <div class="prompt-heading">
-          <h3>通常プロンプト</h3>
-          <button class="button button-small button-secondary" id="copy-positive" type="button">コピー</button>
-        </div>
-        <div id="positive-tags" class="selected-tags" aria-label="通常プロンプトの選択タグ">
-          <p class="empty-message">まだタグが選択されていません。</p>
-        </div>
-      </section>
-
-      <section class="prompt-section">
-        <div class="prompt-heading">
-          <h3>ネガティブプロンプト</h3>
-          <button class="button button-small button-secondary" id="copy-negative" type="button">コピー</button>
-        </div>
-        <div id="negative-tags" class="selected-tags" aria-label="ネガティブプロンプトの選択タグ">
-          <p class="empty-message">まだタグが選択されていません。</p>
-        </div>
-      </section>
-
-      <div class="preview-actions">
-        <button class="button button-primary" id="copy-all" type="button">両方をまとめてコピー</button>
-        <button class="button button-danger" id="clear-all" type="button">すべてクリア</button>
-      </div>
-      <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>タグの内容は prompts.json で管理します。</p>
-  </footer>
+<header id="top">
+  <div id="chips"></div>
+  <div class="actions">
+    <button id="copy">コピー</button>
+    <button id="clear">全消去</button>
+  </div>
+  <nav id="tabs"></nav>
+</header>
+<main id="content"></main>
+<div id="overlay" hidden><div id="panel"></div></div>
+<script src="app.js"></script>
 </body>
 </html>
