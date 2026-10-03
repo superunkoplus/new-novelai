@@ -1,6 +1,6 @@
 // ===== 状態 =====
 const WEIGHTS = [0.8, 1.0, 1.1, 1.2, 1.3, 1.5];
-const state = { data: null, tab: 0, selected: [] }; // selected: { text, label, weight }
+const state = { data: null, tab: 0, selected: [], open: new Set() }; // open: 展開中のセクション // selected: { text, label, weight }
 const $ = (id) => document.getElementById(id);
 
 // ===== 起動 =====
@@ -56,7 +56,7 @@ function renderTabs() {
   box.innerHTML = "";
   state.data.categories.forEach((c, i) => {
     box.appendChild(el("button", c.name, i === state.tab ? "active" : "", () => {
-      state.tab = i; window.scrollTo(0, 0); update();
+      state.tab = i; state.open.clear(); window.scrollTo(0, 0); update();
     }));
   });
 }
@@ -65,7 +65,14 @@ function renderContent() {
   const box = $("content");
   box.innerHTML = "";
   state.data.categories[state.tab].sections.forEach((sec) => {
-    if (sec.title) box.appendChild(el("h2", sec.title));
+    const isOpen = state.open.has(sec.title);
+    const n = sec.items.filter((it) => it.text && find(it.text) >= 0).length;
+    const head = el("button", (isOpen ? "▾ " : "▸ ") + sec.title + (n ? "  (" + n + ")" : ""), "sechead" + (isOpen ? " open" : ""), () => {
+      if (isOpen) state.open.delete(sec.title); else state.open.add(sec.title);
+      renderContent();
+    });
+    box.appendChild(head);
+    if (!isOpen) return;
     const row = el("div", "", "buttons");
     sec.items.forEach((it) => {
       if (it.variation) {
@@ -120,7 +127,7 @@ function openInfo(it) {
 function openVariation(key) {
   const v = state.data.variations[key];
   const btns = v.options.map((o) => {
-    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); openVariation(key); });
+    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); closePanel(); });
     if (o.desc) b.appendChild(el("small", o.desc));
     return b;
   });
