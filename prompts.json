@@ -1,0 +1,127 @@
+{
+  "categories": [
+    {
+      "id": "base",
+      "name": "ベース",
+      "tags": [
+        {
+          "label": "anime coloring",
+          "prompt": "anime coloring"
+        },
+        {
+          "label": "official art",
+          "prompt": "official art"
+        },
+        {
+          "label": "highres",
+          "prompt": "highres"
+        },
+        {
+          "label": "highly detailed",
+          "prompt": "highly detailed"
+        },
+        {
+          "label": "clean lineart",
+          "prompt": "clean lineart"
+        }
+      ]
+    },
+    {
+      "id": "view",
+      "name": "視点・画角",
+      "tags": [
+        {
+          "label": "from above（俯瞰）",
+          "prompt": "from above"
+        },
+        {
+          "label": "from below（煽り）",
+          "prompt": "from below"
+        },
+        {
+          "label": "pov（主観視点）",
+          "prompt": "pov"
+        },
+        {
+          "label": "close-up（顔・物のアップ）",
+          "prompt": "close-up"
+        },
+        {
+          "label": "full body（全身）",
+          "prompt": "full body"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "name": "表情",
+      "tags": [
+        {
+          "label": "smile（笑顔）",
+          "prompt": "smile"
+        },
+        {
+          "label": "smirk（ニヤリ）",
+          "prompt": "smirk"
+        },
+        {
+          "label": "wry smile（苦笑い）",
+          "prompt": "wry smile"
+        },
+        {
+          "label": "angry（怒り）",
+          "prompt": "angry"
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "服装",
+      "tags": [
+        {
+          "label": "school uniform（制服）",
+          "prompt": "school uniform"
+        },
+        {
+          "label": "sailor uniform（セーラー服）",
+          "prompt": "sailor uniform"
+        },
+        {
+          "label": "hoodie（パーカー）",
+          "prompt": "hoodie"
+        }
+      ]
+    },
+    {
+      "id": "negative",
+      "name": "ネガティブ",
+      "tags": [
+        {
+          "label": "lowres",
+          "prompt": "lowres",
+          "target": "negative"
+        },
+        {
+          "label": "worst quality",
+          "prompt": "worst quality",
+          "target": "negative"
+        },
+        {
+          "label": "jpeg artifacts",
+          "prompt": "jpeg artifacts",
+          "target": "negative"
+        },
+        {
+          "label": "multiple views",
+          "prompt": "multiple views",
+          "target": "negative"
+        }
+      ]
+    },
+    {
+      "id": "character",
+      "name": "キャラクター",
+      "tags": []
+    }
+  ]
+}
