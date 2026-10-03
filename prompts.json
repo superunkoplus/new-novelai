@@ -218,6 +218,31 @@
        "label": "シネマティック",
        "text": "cinematic angle",
        "desc": "映画的な画角・ライティングを意識した構図。"
+      },
+      {
+       "label": "上半身",
+       "text": "upper body",
+       "desc": "腰から上を写す構図"
+      },
+      {
+       "label": "バストアップ",
+       "text": "portrait",
+       "desc": "顔から胸元までを中心にした構図"
+      },
+      {
+       "label": "膝上",
+       "text": "cowboy shot",
+       "desc": "太もも付近までを写す構図"
+      },
+      {
+       "label": "全身",
+       "text": "full body",
+       "desc": "頭から足先まで全身を写す構図"
+      },
+      {
+       "label": "パース強調",
+       "text": "foreshortening",
+       "desc": "手前のものを大きく見せる強い遠近表現"
       }
      ]
     },
@@ -296,43 +321,6 @@
        "desc": "片目をつぶっている。"
       }
      ]
-    },
-    {
-     "title": "構図（追加）",
-     "items": [
-      {
-       "label": "上半身",
-       "text": "upper body"
-      },
-      {
-       "label": "バストアップ",
-       "text": "portrait"
-      },
-      {
-       "label": "膝上",
-       "text": "cowboy shot"
-      },
-      {
-       "label": "全身",
-       "text": "full body"
-      },
-      {
-       "label": "パース強調",
-       "text": "foreshortening"
-      },
-      {
-       "label": "横から視点",
-       "text": "from side"
-      },
-      {
-       "label": "顔アップ",
-       "text": "close-up"
-      },
-      {
-       "label": "遠近感",
-       "text": "perspective"
-      }
-     ]
     }
    ]
   },
@@ -378,119 +366,148 @@
       },
       {
        "label": "寝室",
-       "text": "bedroom"
+       "text": "bedroom",
+       "desc": "寝室"
       },
       {
        "label": "教室",
-       "text": "classroom"
+       "text": "classroom",
+       "desc": "学校の教室"
       },
       {
        "label": "浴室",
-       "text": "bathroom"
+       "text": "bathroom",
+       "desc": "浴室・バスルーム"
       },
       {
        "label": "シャワー",
-       "text": "shower"
+       "text": "shower",
+       "desc": "シャワーを浴びている場面"
       },
       {
        "label": "キッチン",
-       "text": "kitchen"
+       "text": "kitchen",
+       "desc": "キッチン"
       },
       {
        "label": "リビング",
-       "text": "living room"
+       "text": "living room",
+       "desc": "リビング"
       },
       {
        "label": "おしゃれな部屋",
-       "text": "stylish room"
+       "text": "stylish room",
+       "desc": "おしゃれな内装の部屋"
       },
       {
        "label": "オフィス",
-       "text": "office"
+       "text": "office",
+       "desc": "オフィス"
       },
       {
        "label": "ホテルの部屋",
-       "text": "hotel room"
+       "text": "hotel room",
+       "desc": "ホテルの客室"
       },
       {
        "label": "ビーチ",
-       "text": "beach"
+       "text": "beach",
+       "desc": "砂浜・海辺"
       },
       {
        "label": "プール",
-       "text": "pool"
+       "text": "pool",
+       "desc": "プール"
       },
       {
        "label": "公園",
-       "text": "park"
+       "text": "park",
+       "desc": "公園"
       },
       {
        "label": "街中",
-       "text": "street"
+       "text": "street",
+       "desc": "街中の通り"
       },
       {
        "label": "屋上",
-       "text": "rooftop"
+       "text": "rooftop",
+       "desc": "建物の屋上"
       },
       {
        "label": "電車内",
-       "text": "train"
+       "text": "train",
+       "desc": "電車の車内"
       },
       {
        "label": "車内",
-       "text": "car interior"
+       "text": "car interior",
+       "desc": "自動車の車内"
       },
       {
        "label": "更衣室",
-       "text": "locker room"
+       "text": "locker room",
+       "desc": "更衣室"
       },
       {
        "label": "図書館",
-       "text": "library"
+       "text": "library",
+       "desc": "図書館"
       },
       {
        "label": "ステージ",
-       "text": "stage"
+       "text": "stage",
+       "desc": "ステージ"
       },
       {
        "label": "温泉",
-       "text": "onsen, hot spring"
+       "text": "onsen, hot spring",
+       "desc": "温泉"
       },
       {
        "label": "試着室",
-       "text": "changing room"
+       "text": "changing room",
+       "desc": "試着室"
       },
       {
        "label": "エレベーター",
-       "text": "elevator"
+       "text": "elevator",
+       "desc": "エレベーター内"
       },
       {
        "label": "路地",
-       "text": "alley"
+       "text": "alley",
+       "desc": "狭い路地"
       },
       {
        "label": "雨",
-       "text": "rain"
+       "text": "rain",
+       "desc": "雨の天気・雨が降る様子"
       },
       {
        "label": "カフェ",
-       "text": "cafe"
+       "text": "cafe",
+       "desc": "カフェ"
       },
       {
        "label": "レストラン",
-       "text": "restaurant"
+       "text": "restaurant",
+       "desc": "レストラン"
       },
       {
        "label": "放課後の教室",
-       "text": "classroom after school"
+       "text": "classroom after school",
+       "desc": "放課後の誰もいない教室"
       },
       {
        "label": "体育倉庫",
-       "text": "gym storage"
+       "text": "gym storage",
+       "desc": "体育倉庫"
       },
       {
        "label": "夜の屋上",
-       "text": "rooftop at night"
+       "text": "rooftop at night",
+       "desc": "夜の屋上"
       },
       {
        "label": "ベッドの上",
@@ -499,12 +516,78 @@
       },
       {
        "label": "床の上",
-       "text": "on floor"
+       "text": "on floor",
+       "desc": "床の上にいる状態"
       },
       {
-       "label": "壁際",
-       "text": "against wall",
-       "desc": "壁の近く、または壁に寄った位置。"
+       "label": "ソファ",
+       "text": "couch",
+       "desc": "ソファ"
+      },
+      {
+       "label": "椅子",
+       "text": "chair",
+       "desc": "椅子"
+      },
+      {
+       "label": "机",
+       "text": "desk",
+       "desc": "机"
+      },
+      {
+       "label": "窓辺",
+       "text": "window",
+       "desc": "窓辺"
+      },
+      {
+       "label": "バルコニー",
+       "text": "balcony",
+       "desc": "バルコニー"
+      },
+      {
+       "label": "森",
+       "text": "forest",
+       "desc": "森"
+      },
+      {
+       "label": "花畑",
+       "text": "flower field",
+       "desc": "花畑"
+      },
+      {
+       "label": "海",
+       "text": "ocean",
+       "desc": "海"
+      },
+      {
+       "label": "神社",
+       "text": "shrine",
+       "desc": "神社"
+      },
+      {
+       "label": "廊下",
+       "text": "hallway",
+       "desc": "廊下"
+      },
+      {
+       "label": "階段",
+       "text": "stairs",
+       "desc": "階段"
+      },
+      {
+       "label": "学校",
+       "text": "school",
+       "desc": "学校"
+      },
+      {
+       "label": "草原",
+       "text": "grass",
+       "desc": "草原"
+      },
+      {
+       "label": "川",
+       "text": "river",
+       "desc": "川"
       }
      ]
     },
@@ -541,7 +624,8 @@
       },
       {
        "label": "グラデーション背景",
-       "text": "gradient background"
+       "text": "gradient background",
+       "desc": "色が滑らかに変化する背景"
       },
       {
        "label": "詳細な背景",
@@ -561,31 +645,38 @@
       },
       {
        "label": "背景なし",
-       "text": "no background"
+       "text": "no background",
+       "desc": "背景を描かない"
       },
       {
        "label": "風景",
-       "text": "scenery"
+       "text": "scenery",
+       "desc": "風景を主体にした背景"
       },
       {
        "label": "街並み",
-       "text": "cityscape"
+       "text": "cityscape",
+       "desc": "都市の街並み"
       },
       {
        "label": "自然",
-       "text": "nature"
+       "text": "nature",
+       "desc": "自然の中"
       },
       {
        "label": "室内照明",
-       "text": "indoor lighting"
+       "text": "indoor lighting",
+       "desc": "室内灯の照明"
       },
       {
        "label": "ドラマチック照明",
-       "text": "dramatic lighting"
+       "text": "dramatic lighting",
+       "desc": "陰影の強いドラマチックな照明"
       },
       {
        "label": "柔らかい光",
-       "text": "soft lighting"
+       "text": "soft lighting",
+       "desc": "柔らかい光"
       },
       {
        "label": "逆光",
@@ -594,7 +685,8 @@
       },
       {
        "label": "ネオン",
-       "text": "neon lights"
+       "text": "neon lights",
+       "desc": "ネオンの光"
       },
       {
        "label": "壁",
@@ -603,53 +695,83 @@
       },
       {
        "label": "無地の壁",
-       "text": "plain wall"
+       "text": "plain wall",
+       "desc": "模様のない壁"
       },
       {
        "label": "レンガの壁",
-       "text": "brick wall"
+       "text": "brick wall",
+       "desc": "レンガの壁"
       },
       {
        "label": "コンクリートの壁",
-       "text": "concrete wall"
+       "text": "concrete wall",
+       "desc": "コンクリートの壁"
       },
       {
        "label": "木の壁",
-       "text": "wooden wall"
+       "text": "wooden wall",
+       "desc": "木の壁"
       },
       {
        "label": "壁に寄りかかる",
        "text": "against wall",
        "desc": "壁に体を預けている寄りかかり。"
-      }
-     ]
-    },
-    {
-     "title": "道具",
-     "items": [
-      {
-       "label": "コンドーム",
-       "variation": "condom"
       },
       {
-       "label": "ディルド",
-       "variation": "dildo"
+       "label": "日差し",
+       "text": "sunlight",
+       "desc": "日差し"
       },
       {
-       "label": "バイブ",
-       "variation": "vibrator"
+       "label": "木漏れ日",
+       "text": "dappled sunlight",
+       "desc": "木漏れ日"
       },
       {
-       "label": "アナル系",
-       "variation": "anal"
+       "label": "光の筋",
+       "text": "light rays",
+       "desc": "光の筋が差し込む"
       },
       {
-       "label": "拘束具",
-       "variation": "restraint"
+       "label": "レンズフレア",
+       "text": "lens flare",
+       "desc": "レンズフレア(光のにじみ)"
       },
       {
-       "label": "その他性具",
-       "variation": "other_toy"
+       "label": "リムライト",
+       "text": "rim lighting",
+       "desc": "輪郭を縁取る逆光気味の光"
+      },
+      {
+       "label": "影",
+       "text": "shadow",
+       "desc": "影"
+      },
+      {
+       "label": "キラキラ",
+       "text": "sparkle",
+       "desc": "キラキラした光の粒"
+      },
+      {
+       "label": "湯気",
+       "text": "steam",
+       "desc": "湯気"
+      },
+      {
+       "label": "水滴",
+       "text": "water drop",
+       "desc": "水滴"
+      },
+      {
+       "label": "濡れた",
+       "text": "wet",
+       "desc": "濡れた質感"
+      },
+      {
+       "label": "窓の光",
+       "text": "window light",
+       "desc": "窓から差し込む光"
       }
      ]
     },
@@ -658,181 +780,83 @@
      "items": [
       {
        "label": "日の出",
-       "text": "sunrise"
+       "text": "sunrise",
+       "desc": "日の出"
       },
       {
        "label": "夕焼け",
-       "text": "sunset"
+       "text": "sunset",
+       "desc": "夕焼け・夕日"
       },
       {
        "label": "星空",
-       "text": "starry sky"
+       "text": "starry sky",
+       "desc": "星の見える夜空"
       },
       {
        "label": "月",
-       "text": "moon"
+       "text": "moon",
+       "desc": "月が描かれる"
       },
       {
        "label": "月明かり",
-       "text": "moonlight"
+       "text": "moonlight",
+       "desc": "月の光に照らされる"
       },
       {
        "label": "晴れ",
-       "text": "sunny"
+       "text": "sunny",
+       "desc": "晴天"
       },
       {
        "label": "曇り",
-       "text": "cloudy"
+       "text": "cloudy",
+       "desc": "曇り空"
       },
       {
        "label": "雪",
-       "text": "snow"
+       "text": "snow",
+       "desc": "雪が降る・積もる"
       },
       {
        "label": "春",
-       "text": "spring"
+       "text": "spring",
+       "desc": "春の雰囲気"
       },
       {
        "label": "夏",
-       "text": "summer"
+       "text": "summer",
+       "desc": "夏の雰囲気"
       },
       {
        "label": "秋",
-       "text": "autumn"
+       "text": "autumn",
+       "desc": "秋の雰囲気"
       },
       {
        "label": "冬",
-       "text": "winter"
+       "text": "winter",
+       "desc": "冬の雰囲気"
       },
       {
        "label": "桜",
-       "text": "cherry blossoms"
+       "text": "cherry blossoms",
+       "desc": "桜の花"
       },
       {
        "label": "花びら",
-       "text": "petals"
+       "text": "petals",
+       "desc": "花びらが舞う"
       },
       {
        "label": "紅葉",
-       "text": "autumn leaves"
+       "text": "autumn leaves",
+       "desc": "紅葉"
       },
       {
        "label": "蛍",
-       "text": "fireflies"
-      }
-     ]
-    },
-    {
-     "title": "光・雰囲気",
-     "items": [
-      {
-       "label": "日差し",
-       "text": "sunlight"
-      },
-      {
-       "label": "木漏れ日",
-       "text": "dappled sunlight"
-      },
-      {
-       "label": "光の筋",
-       "text": "light rays"
-      },
-      {
-       "label": "レンズフレア",
-       "text": "lens flare"
-      },
-      {
-       "label": "リムライト",
-       "text": "rim lighting"
-      },
-      {
-       "label": "影",
-       "text": "shadow"
-      },
-      {
-       "label": "キラキラ",
-       "text": "sparkle"
-      },
-      {
-       "label": "湯気",
-       "text": "steam"
-      },
-      {
-       "label": "水滴",
-       "text": "water drop"
-      },
-      {
-       "label": "濡れた",
-       "text": "wet"
-      },
-      {
-       "label": "窓の光",
-       "text": "window light"
-      }
-     ]
-    },
-    {
-     "title": "場所（追加）",
-     "items": [
-      {
-       "label": "ソファ",
-       "text": "couch"
-      },
-      {
-       "label": "椅子",
-       "text": "chair"
-      },
-      {
-       "label": "机",
-       "text": "desk"
-      },
-      {
-       "label": "窓辺",
-       "text": "window"
-      },
-      {
-       "label": "バルコニー",
-       "text": "balcony"
-      },
-      {
-       "label": "森",
-       "text": "forest"
-      },
-      {
-       "label": "花畑",
-       "text": "flower field"
-      },
-      {
-       "label": "海",
-       "text": "ocean"
-      },
-      {
-       "label": "神社",
-       "text": "shrine"
-      },
-      {
-       "label": "廊下",
-       "text": "hallway"
-      },
-      {
-       "label": "階段",
-       "text": "stairs"
-      },
-      {
-       "label": "学校",
-       "text": "school"
-      },
-      {
-       "label": "草原",
-       "text": "grass"
-      },
-      {
-       "label": "川",
-       "text": "river"
-      },
-      {
-       "label": "夜の街",
-       "text": "night, city lights"
+       "text": "fireflies",
+       "desc": "蛍の光"
       }
      ]
     }
@@ -915,6 +939,51 @@
       {
        "label": "首を軽く締める",
        "variation": "choking"
+      },
+      {
+       "label": "ディープキス",
+       "text": "french kiss",
+       "desc": "舌を絡める濃厚なキス"
+      },
+      {
+       "label": "乳首を舐める",
+       "text": "licking nipple",
+       "desc": "乳首を舐める"
+      },
+      {
+       "label": "胸を吸う",
+       "text": "breast sucking",
+       "desc": "胸を吸う"
+      },
+      {
+       "label": "胸を揉む",
+       "text": "grabbing another's breast",
+       "desc": "相手の胸を揉む・掴む"
+      },
+      {
+       "label": "尻を掴む",
+       "text": "grabbing another's ass",
+       "desc": "相手のお尻を掴む"
+      },
+      {
+       "label": "喉奥フェラ",
+       "text": "deepthroat",
+       "desc": "喉の奥まで咥え込む"
+      },
+      {
+       "label": "腿コキ",
+       "text": "thigh sex",
+       "desc": "太ももで挟んで擦る"
+      },
+      {
+       "label": "尻コキ",
+       "text": "buttjob",
+       "desc": "お尻で挟んで擦る"
+      },
+      {
+       "label": "自慰",
+       "text": "masturbation",
+       "desc": "自慰行為"
       }
      ]
     },
@@ -992,6 +1061,46 @@
       {
        "label": "逆正常位",
        "variation": "reverse_missionary"
+      },
+      {
+       "label": "背面騎乗位",
+       "text": "reverse cowgirl position",
+       "desc": "背面騎乗位"
+      },
+      {
+       "label": "寝バック",
+       "text": "prone bone",
+       "desc": "うつ伏せで後ろから"
+      },
+      {
+       "label": "上体を起こした騎乗位",
+       "text": "upright straddle",
+       "desc": "上体を起こした騎乗位"
+      },
+      {
+       "label": "立ち",
+       "text": "standing sex",
+       "desc": "立ったままの体位"
+      },
+      {
+       "label": "後ろから",
+       "text": "sex from behind",
+       "desc": "後ろからの体位"
+      },
+      {
+       "label": "脚を折りたたむ",
+       "text": "folded",
+       "desc": "脚を折りたたまれた体位"
+      },
+      {
+       "label": "膝の上に座る",
+       "text": "sitting on lap",
+       "desc": "相手の膝の上に座る"
+      },
+      {
+       "label": "またがる",
+       "text": "straddling",
+       "desc": "相手にまたがる"
       }
      ]
     },
@@ -1043,6 +1152,160 @@
       {
        "label": "溢れ出す精液",
        "variation": "cum_overflow"
+      },
+      {
+       "label": "顔射",
+       "text": "facial",
+       "desc": "顔に精液がかかる"
+      },
+      {
+       "label": "体にかける",
+       "text": "cum on body",
+       "desc": "体に精液がかかる"
+      },
+      {
+       "label": "胸にかける",
+       "text": "cum on breasts",
+       "desc": "胸に精液がかかる"
+      },
+      {
+       "label": "お腹にかける",
+       "text": "cum on stomach",
+       "desc": "お腹に精液がかかる"
+      },
+      {
+       "label": "お尻にかける",
+       "text": "cum on ass",
+       "desc": "お尻に精液がかかる"
+      },
+      {
+       "label": "口内射精",
+       "text": "cum in mouth",
+       "desc": "口の中に精液がある"
+      },
+      {
+       "label": "精液が垂れる",
+       "text": "cum drip",
+       "desc": "精液が垂れる"
+      },
+      {
+       "label": "射精",
+       "text": "ejaculation",
+       "desc": "射精"
+      },
+      {
+       "label": "潮吹き",
+       "text": "squirting",
+       "desc": "潮吹き"
+      },
+      {
+       "label": "ハート",
+       "text": "hearts",
+       "desc": "ハートマークのエフェクト"
+      },
+      {
+       "label": "吹き出しのハート",
+       "text": "spoken heart",
+       "desc": "吹き出しの中のハート"
+      }
+     ]
+    },
+    {
+     "title": "脱衣・着衣状態",
+     "items": [
+      {
+       "label": "全裸",
+       "text": "nude",
+       "desc": "全裸"
+      },
+      {
+       "label": "上半身裸",
+       "text": "topless",
+       "desc": "上半身裸"
+      },
+      {
+       "label": "下半身裸",
+       "text": "bottomless",
+       "desc": "下半身裸"
+      },
+      {
+       "label": "脱いでいる途中",
+       "text": "undressing",
+       "desc": "服を脱いでいる最中"
+      },
+      {
+       "label": "着衣のまま",
+       "text": "clothed sex",
+       "desc": "服を着たままの行為"
+      },
+      {
+       "label": "シャツをまくる",
+       "text": "shirt lift",
+       "desc": "シャツをまくり上げる"
+      },
+      {
+       "label": "スカートをめくる",
+       "text": "skirt lift",
+       "desc": "スカートをめくり上げる"
+      },
+      {
+       "label": "ブラをずらす",
+       "text": "bra lift",
+       "desc": "ブラをずらして胸を出す"
+      },
+      {
+       "label": "下着をずらす",
+       "text": "panties aside",
+       "desc": "下着をずらす"
+      },
+      {
+       "label": "ノーパン",
+       "text": "no panties",
+       "desc": "下着をつけていない"
+      },
+      {
+       "label": "服を開く",
+       "text": "open clothes",
+       "desc": "服の前を開いている"
+      },
+      {
+       "label": "破れた服",
+       "text": "torn clothes",
+       "desc": "破れた服"
+      },
+      {
+       "label": "胸を出す",
+       "text": "breasts out",
+       "desc": "胸をさらけ出している"
+      }
+     ]
+    },
+    {
+     "title": "道具",
+     "items": [
+      {
+       "label": "コンドーム",
+       "variation": "condom"
+      },
+      {
+       "label": "ディルド",
+       "variation": "dildo"
+      },
+      {
+       "label": "バイブ",
+       "variation": "vibrator"
+      },
+      {
+       "label": "アナル系",
+       "variation": "anal"
+      },
+      {
+       "label": "拘束具",
+       "variation": "restraint"
+      },
+      {
+       "label": "その他性具",
+       "variation": "other_toy"
       }
      ]
     }
@@ -1120,35 +1383,43 @@
       },
       {
        "label": "膝立ち",
-       "text": "kneeling"
+       "text": "kneeling",
+       "desc": "膝をついた姿勢"
       },
       {
        "label": "しゃがむ",
-       "text": "crouching"
+       "text": "crouching",
+       "desc": "しゃがむ"
       },
       {
        "label": "四つん這い",
-       "text": "on all fours"
+       "text": "on all fours",
+       "desc": "四つん這い"
       },
       {
        "label": "前かがみ",
-       "text": "leaning forward"
+       "text": "leaning forward",
+       "desc": "上体を前に傾ける"
       },
       {
        "label": "背中を反らす",
-       "text": "arching back"
+       "text": "arching back",
+       "desc": "背中を反らす"
       },
       {
        "label": "脚を開く",
-       "text": "legs spread"
+       "text": "legs spread",
+       "desc": "脚を開く"
       },
       {
        "label": "片脚を上げる",
-       "text": "one leg raised"
+       "text": "one leg raised",
+       "desc": "片脚を持ち上げる"
       },
       {
        "label": "差し出し・見せつけ",
-       "text": "presenting, presenting ass, presenting pussy"
+       "text": "presenting, presenting ass, presenting pussy",
+       "desc": "体を相手に向けて差し出す"
       },
       {
        "label": "M字開脚",
@@ -1157,55 +1428,68 @@
       },
       {
        "label": "尻を高く上げる",
-       "text": "all fours, face down ass up"
+       "text": "all fours, face down ass up",
+       "desc": "顔を伏せて尻を高く上げる"
       },
       {
        "label": "前屈み・机に手をつく",
-       "text": "bent over, bent over table"
+       "text": "bent over, bent over table",
+       "desc": "前屈みで机に手をつく"
       },
       {
        "label": "仰向けで脚上げ",
-       "text": "lying on back, legs up"
+       "text": "lying on back, legs up",
+       "desc": "仰向けで脚を上げる"
       },
       {
        "label": "横向き",
-       "text": "lying on side"
+       "text": "lying on side",
+       "desc": "横向きに寝る"
       },
       {
        "label": "しゃがみ込み",
-       "text": "squatting, deep squat"
+       "text": "squatting, deep squat",
+       "desc": "深くしゃがみ込む"
       },
       {
        "label": "頭の後ろで手を組む",
-       "text": "hands behind head"
+       "text": "hands behind head",
+       "desc": "頭の後ろで手を組む"
       },
       {
        "label": "両手を後ろに",
-       "text": "arms behind back"
+       "text": "arms behind back",
+       "desc": "両腕を背中側に回す"
       },
       {
        "label": "局部を隠す",
-       "text": "covering breasts, covering pussy"
+       "text": "covering breasts, covering pussy",
+       "desc": "手で胸や下半身を隠す"
       },
       {
        "label": "体を伸ばす",
-       "text": "stretching, body stretch"
+       "text": "stretching, body stretch",
+       "desc": "体を伸ばす"
       },
       {
        "label": "正座・あぐら",
-       "text": "wariza, seiza"
+       "text": "wariza, seiza",
+       "desc": "正座・女の子座り"
       },
       {
        "label": "膝に手",
-       "text": "hands on knees"
+       "text": "hands on knees",
+       "desc": "膝に手を置く"
       },
       {
        "label": "手を伸ばす",
-       "text": "reaching out"
+       "text": "reaching out",
+       "desc": "前に手を伸ばす"
       },
       {
        "label": "膝を抱える",
-       "text": "hugging knees"
+       "text": "hugging knees",
+       "desc": "膝を抱える"
       },
       {
        "label": "頭を撫でる",
@@ -1218,127 +1502,126 @@
       {
        "label": "頭を掴む",
        "variation": "hair_pull"
+      },
+      {
+       "label": "後ろにもたれる",
+       "text": "leaning back",
+       "desc": "上体を後ろに傾ける"
+      },
+      {
+       "label": "仰向け",
+       "text": "on back",
+       "desc": "仰向けに寝る"
+      },
+      {
+       "label": "うつ伏せ",
+       "text": "on stomach",
+       "desc": "うつ伏せに寝る"
+      },
+      {
+       "label": "脚を組む",
+       "text": "crossed legs",
+       "desc": "脚を組む"
+      },
+      {
+       "label": "首をかしげる",
+       "text": "head tilt",
+       "desc": "首をかしげる"
+      },
+      {
+       "label": "歩く",
+       "text": "walking",
+       "desc": "歩いている"
+      },
+      {
+       "label": "走る",
+       "text": "running",
+       "desc": "走っている"
+      },
+      {
+       "label": "ジャンプ",
+       "text": "jumping",
+       "desc": "ジャンプしている"
+      },
+      {
+       "label": "ベッドに寝る",
+       "text": "lying on bed",
+       "desc": "ベッドに横たわる"
+      },
+      {
+       "label": "ベッドに座る",
+       "text": "sitting on bed",
+       "desc": "ベッドに座る"
       }
      ]
     },
     {
-     "title": "ポーズ（追加）",
+     "title": "手・腕",
      "items": [
       {
        "label": "両手を上げる",
-       "text": "arms up"
+       "text": "arms up",
+       "desc": "両腕を上に上げる"
       },
       {
        "label": "腰に手を当てる",
-       "text": "hand on own hip"
+       "text": "hand on own hip",
+       "desc": "腰に手を当てる"
       },
       {
        "label": "胸に手を当てる",
-       "text": "hand on own chest"
+       "text": "hand on own chest",
+       "desc": "胸元に手を当てる"
       },
       {
        "label": "頬に手を当てる",
-       "text": "hand on own cheek"
+       "text": "hand on own cheek",
+       "desc": "頬に手を添える"
       },
       {
        "label": "顔に手を当てる",
-       "text": "hand on own face"
+       "text": "hand on own face",
+       "desc": "顔に手を当てる"
       },
       {
        "label": "腕を組む",
-       "text": "crossed arms"
+       "text": "crossed arms",
+       "desc": "腕を組む"
       },
       {
        "label": "ピース",
-       "text": "peace sign"
+       "text": "peace sign",
+       "desc": "ピースサイン"
       },
       {
        "label": "手を振る",
-       "text": "waving"
-      },
-      {
-       "label": "後ろにもたれる",
-       "text": "leaning back"
-      },
-      {
-       "label": "横向きに寝る",
-       "text": "on side"
-      },
-      {
-       "label": "仰向け",
-       "text": "on back"
-      },
-      {
-       "label": "うつ伏せ",
-       "text": "on stomach"
-      },
-      {
-       "label": "正座",
-       "text": "seiza"
-      },
-      {
-       "label": "女の子座り",
-       "text": "wariza"
-      },
-      {
-       "label": "脚を組む",
-       "text": "crossed legs"
-      },
-      {
-       "label": "伸びをする",
-       "text": "stretching"
+       "text": "waving",
+       "desc": "手を振る"
       },
       {
        "label": "抱きしめる",
-       "text": "hug"
+       "text": "hug",
+       "desc": "相手を抱きしめる"
       },
       {
        "label": "手をつなぐ",
-       "text": "holding hands"
+       "text": "holding hands",
+       "desc": "手をつなぐ"
       },
       {
        "label": "指を口に当てる",
-       "text": "finger to mouth"
-      },
-      {
-       "label": "首をかしげる",
-       "text": "head tilt"
-      },
-      {
-       "label": "歩く",
-       "text": "walking"
-      },
-      {
-       "label": "走る",
-       "text": "running"
-      },
-      {
-       "label": "ジャンプ",
-       "text": "jumping"
-      },
-      {
-       "label": "ベッドに寝る",
-       "text": "lying on bed"
-      },
-      {
-       "label": "ベッドに座る",
-       "text": "sitting on bed"
-      },
-      {
-       "label": "壁にもたれる",
-       "text": "leaning against wall"
-      },
-      {
-       "label": "膝を抱える",
-       "text": "hugging own legs"
+       "text": "finger to mouth",
+       "desc": "指を口元に当てる"
       },
       {
        "label": "髪をかき上げる",
-       "text": "hand in own hair"
+       "text": "hand in own hair",
+       "desc": "髪に手を入れてかき上げる"
       },
       {
        "label": "スカートをつまむ",
-       "text": "skirt hold"
+       "text": "skirt hold",
+       "desc": "スカートの裾をつまむ"
       }
      ]
     }
@@ -1363,7 +1646,8 @@
       },
       {
        "label": "誘惑する視線",
-       "text": "seductive gaze"
+       "text": "seductive gaze",
+       "desc": "誘うような視線"
       },
       {
        "label": "色気のある半目",
@@ -1372,95 +1656,118 @@
       },
       {
        "label": "唇を舐める",
-       "text": "licking lips"
+       "text": "licking lips",
+       "desc": "唇を舐める"
       },
       {
        "label": "唇が少し開いている",
-       "text": "parted lips"
+       "text": "parted lips",
+       "desc": "唇が少し開いている"
       },
       {
        "label": "口がわずかに開いている",
-       "text": "slightly open mouth"
+       "text": "slightly open mouth",
+       "desc": "口がわずかに開いている"
       },
       {
        "label": "興奮で顔が赤い",
-       "text": "flushed with arousal"
+       "text": "flushed with arousal",
+       "desc": "興奮で顔が紅潮している"
       },
       {
        "label": "息切れ",
-       "text": "panting"
+       "text": "panting",
+       "desc": "息を切らしている"
       },
       {
        "label": "荒い息",
-       "text": "breathing heavily"
+       "text": "breathing heavily",
+       "desc": "荒い呼吸"
       },
       {
        "label": "快感でぼんやりする",
-       "text": "dazed expression"
+       "text": "dazed expression",
+       "desc": "快感でぼんやりした表情"
       },
       {
        "label": "酔ったような目",
-       "text": "intoxicated look"
+       "text": "intoxicated look",
+       "desc": "酔ったようなとろんとした目"
       },
       {
        "label": "夢見心地の目",
-       "text": "dreamy eyes"
+       "text": "dreamy eyes",
+       "desc": "夢見心地のうっとりした目"
       },
       {
        "label": "飢えた目",
-       "text": "hungry gaze"
+       "text": "hungry gaze",
+       "desc": "相手を求めるような目つき"
       },
       {
        "label": "焦らす目つき",
-       "text": "teasing look"
+       "text": "teasing look",
+       "desc": "焦らすような目つき"
       },
       {
        "label": "誘っている",
-       "text": "inviting expression"
+       "text": "inviting expression",
+       "desc": "誘うような表情"
       },
       {
        "label": "快感で目が上を向く",
-       "text": "rolling eyes back"
+       "text": "rolling eyes back",
+       "desc": "白目気味に目が上を向く"
       },
       {
        "label": "舌が少し出る",
-       "text": "tongue out slightly"
+       "text": "tongue out slightly",
+       "desc": "舌が少し出ている"
       },
       {
        "label": "少しよだれが出る",
-       "text": "drooling slightly"
+       "text": "drooling slightly",
+       "desc": "少しよだれが出ている"
       },
       {
        "label": "絶頂",
-       "text": "orgasmic expression"
+       "text": "orgasmic expression",
+       "desc": "絶頂時の表情"
       },
       {
        "label": "恍惚",
-       "text": "ecstasy face"
+       "text": "ecstasy face",
+       "desc": "恍惚とした表情"
       },
       {
        "label": "快感で震える",
-       "text": "trembling with pleasure"
+       "text": "trembling with pleasure",
+       "desc": "快感で震えている"
       },
       {
        "label": "唇を噛む",
-       "text": "biting lip"
+       "text": "biting lip",
+       "desc": "唇を噛む"
       },
       {
        "label": "喘ぎ",
-       "text": "moaning"
+       "text": "moaning",
+       "desc": "喘ぎ声を漏らす"
       },
       {
        "label": "快感で泣く",
-       "text": "crying from pleasure"
+       "text": "crying from pleasure",
+       "desc": "快感で涙を流す"
       },
       {
        "label": "戸惑いながらの興奮",
-       "text": "confused arousal"
+       "text": "confused arousal",
+       "desc": "戸惑いながら興奮している"
       },
       {
        "label": "快感の表情",
-       "text": "pleasure face"
+       "text": "pleasure face",
+       "desc": "快感を感じている顔"
       },
       {
        "label": "理性が飛ぶ",
@@ -1474,103 +1781,128 @@
      "items": [
       {
        "label": "笑顔",
-       "text": "smiling"
+       "text": "smiling",
+       "desc": "基本の笑顔"
       },
       {
        "label": "柔らかい笑顔",
-       "text": "soft smile"
+       "text": "soft smile",
+       "desc": "穏やかで柔らかい笑顔"
       },
       {
        "label": "照れた笑顔",
-       "text": "shy smile"
+       "text": "shy smile",
+       "desc": "照れながらの笑顔"
       },
       {
        "label": "はにかんだ笑顔",
-       "text": "bashful smile"
+       "text": "bashful smile",
+       "desc": "はにかんだ笑顔"
       },
       {
        "label": "気まずい笑顔",
-       "text": "awkward smile"
+       "text": "awkward smile",
+       "desc": "気まずそうな笑顔"
       },
       {
        "label": "恥ずかしそうな笑顔",
-       "text": "embarrassed smile"
+       "text": "embarrassed smile",
+       "desc": "恥ずかしそうな笑顔"
       },
       {
        "label": "苦笑い",
-       "text": "wry smile"
+       "text": "wry smile",
+       "desc": "苦笑い"
       },
       {
        "label": "作り笑い",
-       "text": "forced smile"
+       "text": "forced smile",
+       "desc": "無理に作った笑顔"
       },
       {
        "label": "ビジネススマイル",
-       "text": "business smile"
+       "text": "business smile",
+       "desc": "よそ行きの営業スマイル"
       },
       {
        "label": "悪戯っぽい笑顔",
-       "text": "mischievous smile"
+       "text": "mischievous smile",
+       "desc": "悪戯っぽい笑顔"
       },
       {
        "label": "からかうような笑顔",
-       "text": "teasing smile"
+       "text": "teasing smile",
+       "desc": "からかうような笑顔"
       },
       {
        "label": "誘惑する笑顔",
-       "text": "seductive smile"
+       "text": "seductive smile",
+       "desc": "誘惑するような笑顔"
       },
       {
        "label": "謎めいた笑顔",
-       "text": "mysterious smile"
+       "text": "mysterious smile",
+       "desc": "何を考えているか分からない笑顔"
       },
       {
        "label": "意味深な笑顔",
-       "text": "knowing smile"
+       "text": "knowing smile",
+       "desc": "何かを知っていそうな意味深な笑顔"
       },
       {
        "label": "涙ぐみながらの笑顔",
-       "text": "tearful smile"
+       "text": "tearful smile",
+       "desc": "涙ぐみながら笑う"
       },
       {
        "label": "侮蔑の笑顔",
-       "text": "sneering"
+       "text": "sneering",
+       "desc": "見下すような冷笑"
       },
       {
        "label": "涙を流しながら笑う",
-       "text": "smiling through tears"
+       "text": "smiling through tears",
+       "desc": "涙を流しながら笑う"
       },
       {
        "label": "声を出して笑う",
-       "text": "laughing"
+       "text": "laughing",
+       "desc": "声を出して笑う"
       },
       {
        "label": "腹を抱えて笑う",
-       "text": "laughing hard"
+       "text": "laughing hard",
+       "desc": "腹を抱えて大笑いする"
       },
       {
        "label": "クスクス笑う",
-       "text": "giggling"
+       "text": "giggling",
+       "desc": "クスクス笑う"
       },
       {
        "label": "小さめに笑う",
-       "text": "chuckling"
+       "text": "chuckling",
+       "desc": "小さく笑う"
       },
       {
        "label": "口を手で覆って笑う",
-       "text": "covering mouth while laughing"
+       "text": "covering mouth while laughing",
+       "desc": "口を手で隠して笑う"
       },
       {
        "label": "笑いすぎて目を細める",
-       "text": "eyes closed from laughing"
+       "text": "eyes closed from laughing",
+       "desc": "笑って目を細める"
       },
       {
        "label": "歯が見える笑顔",
-       "text": "teeth showing smile"
+       "text": "teeth showing smile",
+       "desc": "歯を見せて笑う"
       },
       {
        "label": "片側だけ上がった笑顔",
-       "text": "one-sided smile"
+       "text": "one-sided smile",
+       "desc": "口の片側だけ上がった笑顔"
       }
      ]
     },
@@ -1579,67 +1911,83 @@
      "items": [
       {
        "label": "泣く",
-       "text": "crying"
+       "text": "crying",
+       "desc": "泣いている"
       },
       {
        "label": "すすり泣き",
-       "text": "sobbing"
+       "text": "sobbing",
+       "desc": "しゃくり上げて泣く"
       },
       {
        "label": "しくしく泣く",
-       "text": "weeping"
+       "text": "weeping",
+       "desc": "しくしくと泣く"
       },
       {
        "label": "今にも泣きそう",
-       "text": "teary-eyed"
+       "text": "teary-eyed",
+       "desc": "今にも泣きそうで目が潤んでいる"
       },
       {
        "label": "涙が頬を伝って流れる",
-       "text": "tears streaming down face"
+       "text": "tears streaming down face",
+       "desc": "涙が頬を伝って流れる"
       },
       {
        "label": "一筋の涙が頬を伝う",
-       "text": "single tear rolling down cheek"
+       "text": "single tear rolling down cheek",
+       "desc": "一筋の涙が頬を伝う"
       },
       {
        "label": "子供っぽく泣く",
-       "text": "crying with open mouth"
+       "text": "crying with open mouth",
+       "desc": "口を開けて子供のように泣く"
       },
       {
        "label": "目を閉じて泣く",
-       "text": "crying with closed eyes"
+       "text": "crying with closed eyes",
+       "desc": "目を閉じて泣く"
       },
       {
        "label": "声を出さず泣く",
-       "text": "silently crying"
+       "text": "silently crying",
+       "desc": "声を出さずに泣く"
       },
       {
        "label": "泣いた後鼻をすする",
-       "text": "sniffing"
+       "text": "sniffing",
+       "desc": "鼻をすする"
       },
       {
        "label": "泣いた後の顔",
-       "text": "red-rimmed eyes"
+       "text": "red-rimmed eyes",
+       "desc": "泣いた後の赤い目"
       },
       {
        "label": "泣いて目が腫れる",
-       "text": "puffy eyes from crying"
+       "text": "puffy eyes from crying",
+       "desc": "泣いて腫れた目"
       },
       {
        "label": "打ちのめされた顔",
-       "text": "devastated look"
+       "text": "devastated look",
+       "desc": "打ちのめされた表情"
       },
       {
        "label": "虚ろな目",
-       "text": "empty eyes"
+       "text": "empty eyes",
+       "desc": "光のない虚ろな目"
       },
       {
        "label": "悲しそうに下を向く",
-       "text": "looking down sadly"
+       "text": "looking down sadly",
+       "desc": "悲しそうに下を向く"
       },
       {
        "label": "悲しさで唇を噛む",
-       "text": "biting lip in sadness"
+       "text": "biting lip in sadness",
+       "desc": "悲しみで唇を噛む"
       }
      ]
     },
@@ -1648,43 +1996,53 @@
      "items": [
       {
        "label": "睨む",
-       "text": "angry glare"
+       "text": "angry glare",
+       "desc": "怒って睨みつける"
       },
       {
        "label": "眉間に皺を寄せる",
-       "text": "furrowed brows"
+       "text": "furrowed brows",
+       "desc": "眉間に皺を寄せる"
       },
       {
        "label": "歯を食いしばる",
-       "text": "clenched teeth"
+       "text": "clenched teeth",
+       "desc": "歯を食いしばる"
       },
       {
        "label": "怒りで顔を赤くする",
-       "text": "flushed with anger"
+       "text": "flushed with anger",
+       "desc": "怒りで顔が赤い"
       },
       {
        "label": "感情を殺した怒り",
-       "text": "cold stare"
+       "text": "cold stare",
+       "desc": "感情を押し殺した冷たい視線"
       },
       {
        "label": "冷たい表情",
-       "text": "icy expression"
+       "text": "icy expression",
+       "desc": "冷たい表情"
       },
       {
        "label": "イライラした顔",
-       "text": "irritated look"
+       "text": "irritated look",
+       "desc": "イライラした顔"
       },
       {
        "label": "うんざりした顔",
-       "text": "annoyed face"
+       "text": "annoyed face",
+       "desc": "うんざりした顔"
       },
       {
        "label": "上から目線",
-       "text": "looking down on someone"
+       "text": "looking down on someone",
+       "desc": "相手を見下す上から目線"
       },
       {
        "label": "唇を結び怒りを堪える",
-       "text": "tight-lipped anger"
+       "text": "tight-lipped anger",
+       "desc": "唇を結んで怒りを堪える"
       }
      ]
     },
@@ -1693,47 +2051,58 @@
      "items": [
       {
        "label": "目を大きく見開く",
-       "text": "eyes wide open"
+       "text": "eyes wide open",
+       "desc": "目を大きく見開く"
       },
       {
        "label": "眉を上げる",
-       "text": "raised eyebrows"
+       "text": "raised eyebrows",
+       "desc": "眉を上げる"
       },
       {
        "label": "口を開け放している",
-       "text": "mouth agape"
+       "text": "mouth agape",
+       "desc": "口を開けっ放しにする"
       },
       {
        "label": "呆然とした顔",
-       "text": "stunned expression"
+       "text": "stunned expression",
+       "desc": "呆然とした顔"
       },
       {
        "label": "強張った顔",
-       "text": "stiff expression"
+       "text": "stiff expression",
+       "desc": "強張った顔"
       },
       {
        "label": "青ざめた顔",
-       "text": "pale face"
+       "text": "pale face",
+       "desc": "青ざめた顔"
       },
       {
        "label": "怯えた目",
-       "text": "frightened eyes"
+       "text": "frightened eyes",
+       "desc": "怯えた目"
       },
       {
        "label": "震える",
-       "text": "trembling"
+       "text": "trembling",
+       "desc": "震えている"
       },
       {
        "label": "緊張で汗をかく",
-       "text": "sweating nervously"
+       "text": "sweating nervously",
+       "desc": "緊張で汗をかく"
       },
       {
        "label": "ショックで口を手で覆う",
-       "text": "covering mouth in shock"
+       "text": "covering mouth in shock",
+       "desc": "ショックで口を手で覆う"
       },
       {
        "label": "爪を噛む",
-       "text": "biting nails"
+       "text": "biting nails",
+       "desc": "不安で爪を噛む"
       }
      ]
     },
@@ -1742,63 +2111,78 @@
      "items": [
       {
        "label": "驚いた顔",
-       "text": "surprised"
+       "text": "surprised",
+       "desc": "驚いた顔"
       },
       {
        "label": "ショックを受けた顔",
-       "text": "shocked"
+       "text": "shocked",
+       "desc": "ショックを受けた顔"
       },
       {
        "label": "目を見開く",
-       "text": "wide-eyed"
+       "text": "wide-eyed",
+       "desc": "目を見開く"
       },
       {
        "label": "口を開けて驚く",
-       "text": "mouth open in surprise"
+       "text": "mouth open in surprise",
+       "desc": "驚いて口を開ける"
       },
       {
        "label": "ハッとする",
-       "text": "gasping"
+       "text": "gasping",
+       "desc": "ハッと息をのむ"
       },
       {
        "label": "びくりとする",
-       "text": "startled"
+       "text": "startled",
+       "desc": "びくっとする"
       },
       {
        "label": "たじろぐ",
-       "text": "taken aback"
+       "text": "taken aback",
+       "desc": "たじろぐ"
       },
       {
        "label": "仰天した顔",
-       "text": "astonished"
+       "text": "astonished",
+       "desc": "仰天した顔"
       },
       {
        "label": "あっけにとられる",
-       "text": "jaw dropped"
+       "text": "jaw dropped",
+       "desc": "あっけにとられて口が開く"
       },
       {
        "label": "驚いて口を手で覆う",
-       "text": "covering mouth in surprise"
+       "text": "covering mouth in surprise",
+       "desc": "驚いて口を手で覆う"
       },
       {
        "label": "眉を上げて驚く",
-       "text": "raised eyebrows in surprise"
+       "text": "raised eyebrows in surprise",
+       "desc": "驚いて眉を上げる"
       },
       {
        "label": "言葉を失う",
-       "text": "speechless"
+       "text": "speechless",
+       "desc": "言葉を失う"
       },
       {
        "label": "慌てて驚く",
-       "text": "flustered surprise"
+       "text": "flustered surprise",
+       "desc": "慌てて驚く"
       },
       {
        "label": "嬉しい驚き",
-       "text": "pleasant surprise"
+       "text": "pleasant surprise",
+       "desc": "嬉しい驚き"
       },
       {
        "label": "信じられない顔",
-       "text": "disbelief"
+       "text": "disbelief",
+       "desc": "信じられないという顔"
       }
      ]
     },
@@ -1807,39 +2191,48 @@
      "items": [
       {
        "label": "照れ",
-       "text": "blushing"
+       "text": "blushing",
+       "desc": "頬が赤くなる"
       },
       {
        "label": "強い赤面",
-       "text": "heavy blush"
+       "text": "heavy blush",
+       "desc": "強く赤面する"
       },
       {
        "label": "顔全体が赤い",
-       "text": "red face"
+       "text": "red face",
+       "desc": "顔全体が赤い"
       },
       {
        "label": "恥ずかしそうに目を逸らす",
-       "text": "looking away shyly"
+       "text": "looking away shyly",
+       "desc": "恥ずかしそうに目を逸らす"
       },
       {
        "label": "横目でちらっと見る",
-       "text": "glancing sideways"
+       "text": "glancing sideways",
+       "desc": "横目でちらっと見る"
       },
       {
        "label": "指の隙間から覗く",
-       "text": "peeking through fingers"
+       "text": "peeking through fingers",
+       "desc": "指の隙間から覗く"
       },
       {
        "label": "両手で顔を隠す",
-       "text": "covering face with hands"
+       "text": "covering face with hands",
+       "desc": "両手で顔を隠す"
       },
       {
        "label": "そわそわする",
-       "text": "fidgeting"
+       "text": "fidgeting",
+       "desc": "そわそわする"
       },
       {
        "label": "はにかんで下を向く",
-       "text": "looking down bashfully"
+       "text": "looking down bashfully",
+       "desc": "はにかんで下を向く"
       }
      ]
     },
@@ -1848,47 +2241,58 @@
      "items": [
       {
        "label": "嫌がる",
-       "text": "reluctant face"
+       "text": "reluctant face",
+       "desc": "嫌そうな顔"
       },
       {
        "label": "気の進まない",
-       "text": "unwilling face"
+       "text": "unwilling face",
+       "desc": "気の進まない顔"
       },
       {
        "label": "苦しそうな顔",
-       "text": "pained expression"
+       "text": "pained expression",
+       "desc": "苦しそうな表情"
       },
       {
        "label": "困惑した顔",
-       "text": "distressed face"
+       "text": "distressed face",
+       "desc": "困惑した顔"
       },
       {
        "label": "しかめ面",
-       "text": "grimacing"
+       "text": "grimacing",
+       "desc": "顔をしかめる"
       },
       {
        "label": "視線を逸らす",
-       "text": "averted gaze"
+       "text": "averted gaze",
+       "desc": "視線を逸らす"
       },
       {
        "label": "口を固く閉じる",
-       "text": "tightly closed mouth"
+       "text": "tightly closed mouth",
+       "desc": "口を固く閉じる"
       },
       {
        "label": "恥ずかしそうに嫌がる",
-       "text": "embarrassed reluctant"
+       "text": "embarrassed reluctant",
+       "desc": "恥ずかしさから嫌がる"
       },
       {
        "label": "抵抗する顔",
-       "text": "resisting expression"
+       "text": "resisting expression",
+       "desc": "抵抗する表情"
       },
       {
        "label": "首を横に振る",
-       "text": "shaking head"
+       "text": "shaking head",
+       "desc": "首を横に振る"
       },
       {
        "label": "冷や汗",
-       "text": "sweat drop"
+       "text": "sweat drop",
+       "desc": "冷や汗が出る"
       }
      ]
     },
@@ -1897,92 +2301,98 @@
      "items": [
       {
        "label": "うんざり",
-       "text": "exasperated"
+       "text": "exasperated",
+       "desc": "うんざりした様子"
       },
       {
        "label": "失望",
-       "text": "disappointed"
+       "text": "disappointed",
+       "desc": "失望した顔"
       },
       {
        "label": "疲れた顔",
-       "text": "tired expression"
+       "text": "tired expression",
+       "desc": "疲れた顔"
       },
       {
        "label": "面白くなさそう",
-       "text": "unamused"
+       "text": "unamused",
+       "desc": "面白くなさそうな顔"
       },
       {
        "label": "ため息をつく",
-       "text": "sighing"
+       "text": "sighing",
+       "desc": "ため息をつく"
       },
       {
        "label": "眉をひそめる",
-       "text": "furrowed brow"
+       "text": "furrowed brow",
+       "desc": "眉をひそめる"
       },
       {
        "label": "目を細める",
-       "text": "narrowed eyes"
+       "text": "narrowed eyes",
+       "desc": "目を細める"
       },
       {
        "label": "軽く眉を下げる",
-       "text": "slight frown"
+       "text": "slight frown",
+       "desc": "軽く眉を下げた不満顔"
       },
       {
        "label": "無表情",
-       "text": "deadpan"
+       "text": "deadpan",
+       "desc": "感情のない無表情"
       }
      ]
     },
     {
-     "title": "口・目・その他",
+     "title": "口・目まわり",
      "items": [
       {
        "label": "口を閉じる",
-       "text": "closed mouth"
+       "text": "closed mouth",
+       "desc": "口を閉じる"
       },
       {
        "label": "口を開ける",
-       "text": "open mouth"
-      },
-      {
-       "label": "舌を出す",
-       "text": "tongue out"
+       "text": "open mouth",
+       "desc": "口を開ける"
       },
       {
        "label": "むくれる",
-       "text": "pout"
+       "text": "pout",
+       "desc": "不満そうにむくれる"
       },
       {
        "label": "頬を膨らませる",
-       "text": "puffy cheeks"
+       "text": "puffy cheeks",
+       "desc": "頬を膨らませる"
       },
       {
        "label": "八重歯",
-       "text": "fang"
+       "text": "fang",
+       "desc": "八重歯・牙"
       },
       {
        "label": "涙",
-       "text": "tears"
-      },
-      {
-       "label": "冷や汗",
-       "text": "sweatdrop"
+       "text": "tears",
+       "desc": "涙"
       },
       {
        "label": "鼻まで赤い",
-       "text": "nose blush"
+       "text": "nose blush",
+       "desc": "鼻まで赤くなる"
       },
       {
        "label": "ドヤ顔",
-       "text": "smug"
+       "text": "smug",
+       "desc": "ドヤ顔"
       },
       {
        "label": "眠そう",
-       "text": "sleepy"
-      },
-      {
-       "label": "うっとり",
-       "text": "dreamy"
+       "text": "sleepy",
+       "desc": "眠そうな顔"
       }
      ]
     }
@@ -1996,7 +2406,8 @@
      "items": [
       {
        "label": "白の無地のTシャツ",
-       "text": "Plain white T-shirt"
+       "text": "Plain white T-shirt",
+       "desc": "無地の白Tシャツ"
       },
       {
        "label": "ランジェリー(色)",
@@ -2052,11 +2463,13 @@
       },
       {
        "label": "体操服",
-       "text": "gym uniform"
+       "text": "gym uniform",
+       "desc": "体操服"
       },
       {
        "label": "ブルマ",
-       "text": "bloomers"
+       "text": "bloomers",
+       "desc": "ブルマ"
       },
       {
        "label": "OL・スーツ(色)",
@@ -2072,51 +2485,218 @@
       },
       {
        "label": "ガーターベルト",
-       "text": "garter belt"
+       "text": "garter belt",
+       "desc": "ガーターベルト"
       },
       {
        "label": "ストッキング",
-       "text": "stockings"
+       "text": "stockings",
+       "desc": "ストッキング"
       },
       {
        "label": "サイハイソックス",
-       "text": "thighhighs"
+       "text": "thighhighs",
+       "desc": "太ももまでのソックス"
       },
       {
        "label": "網タイツ",
-       "text": "fishnet stockings"
+       "text": "fishnet stockings",
+       "desc": "網タイツ"
       },
       {
        "label": "首輪",
-       "text": "collar"
+       "text": "collar",
+       "desc": "首輪"
       },
       {
        "label": "チョーカー",
-       "text": "choker"
+       "text": "choker",
+       "desc": "首に巻くチョーカー"
       },
       {
        "label": "エプロン",
-       "text": "apron"
+       "text": "apron",
+       "desc": "エプロン"
       },
       {
        "label": "白衣",
-       "text": "lab coat"
+       "text": "lab coat",
+       "desc": "白衣"
       },
       {
        "label": "チア衣装",
-       "text": "cheerleader outfit"
+       "text": "cheerleader outfit",
+       "desc": "チアリーダー衣装"
       },
       {
        "label": "水着",
-       "text": "swimsuit"
+       "text": "swimsuit",
+       "desc": "水着"
       },
       {
        "label": "タオルだけ",
-       "text": "towel"
+       "text": "towel",
+       "desc": "タオルだけを巻く"
       },
       {
        "label": "シャツ一枚",
-       "text": "open shirt"
+       "text": "open shirt",
+       "desc": "前を開けたシャツ一枚"
+      }
+     ]
+    },
+    {
+     "title": "服装 / 一般",
+     "items": [
+      {
+       "label": "ワンピース",
+       "text": "dress",
+       "desc": "ワンピースドレス"
+      },
+      {
+       "label": "白ワンピース",
+       "text": "white dress",
+       "desc": "白いワンピース"
+      },
+      {
+       "label": "サンドレス",
+       "text": "sundress",
+       "desc": "夏向けの軽いワンピース"
+      },
+      {
+       "label": "スカート",
+       "text": "skirt",
+       "desc": "スカート"
+      },
+      {
+       "label": "ミニスカート",
+       "text": "miniskirt",
+       "desc": "丈の短いスカート"
+      },
+      {
+       "label": "プリーツスカート",
+       "text": "pleated skirt",
+       "desc": "プリーツスカート"
+      },
+      {
+       "label": "ロングスカート",
+       "text": "long skirt",
+       "desc": "丈の長いスカート"
+      },
+      {
+       "label": "ショートパンツ",
+       "text": "shorts",
+       "desc": "ショートパンツ"
+      },
+      {
+       "label": "ジーンズ",
+       "text": "jeans",
+       "desc": "ジーンズ"
+      },
+      {
+       "label": "Tシャツ",
+       "text": "t-shirt",
+       "desc": "Tシャツ"
+      },
+      {
+       "label": "シャツ",
+       "text": "shirt",
+       "desc": "襟付きのシャツ"
+      },
+      {
+       "label": "白シャツ",
+       "text": "white shirt",
+       "desc": "白いシャツ"
+      },
+      {
+       "label": "セーター",
+       "text": "sweater",
+       "desc": "セーター"
+      },
+      {
+       "label": "パーカー",
+       "text": "hoodie",
+       "desc": "フード付きパーカー"
+      },
+      {
+       "label": "カーディガン",
+       "text": "cardigan",
+       "desc": "カーディガン"
+      },
+      {
+       "label": "ブレザー",
+       "text": "blazer",
+       "desc": "ブレザー"
+      },
+      {
+       "label": "ジャケット",
+       "text": "jacket",
+       "desc": "ジャケット"
+      },
+      {
+       "label": "コート",
+       "text": "coat",
+       "desc": "コート"
+      },
+      {
+       "label": "タンクトップ",
+       "text": "tank top",
+       "desc": "タンクトップ"
+      },
+      {
+       "label": "キャミソール",
+       "text": "camisole",
+       "desc": "キャミソール"
+      },
+      {
+       "label": "クロップトップ",
+       "text": "crop top",
+       "desc": "丈の短いトップス"
+      },
+      {
+       "label": "着物",
+       "text": "kimono",
+       "desc": "着物"
+      },
+      {
+       "label": "浴衣",
+       "text": "yukata",
+       "desc": "浴衣"
+      },
+      {
+       "label": "セーラー服",
+       "text": "serafuku",
+       "desc": "セーラー服"
+      },
+      {
+       "label": "パジャマ",
+       "text": "pajamas",
+       "desc": "パジャマ"
+      },
+      {
+       "label": "バスローブ",
+       "text": "bathrobe",
+       "desc": "バスローブ"
+      },
+      {
+       "label": "オフショルダー",
+       "text": "off shoulder",
+       "desc": "肩を出した服"
+      },
+      {
+       "label": "タートルネック",
+       "text": "turtleneck",
+       "desc": "タートルネック"
+      },
+      {
+       "label": "サンダル",
+       "text": "sandals",
+       "desc": "サンダル"
+      },
+      {
+       "label": "ブーツ",
+       "text": "boots",
+       "desc": "ブーツ"
       }
      ]
     },
@@ -2125,19 +2705,113 @@
      "items": [
       {
        "label": "北宇治高校制服",
-       "text": "kitauji school uniform"
+       "text": "kitauji school uniform",
+       "desc": "北宇治高校の制服"
       },
       {
        "label": "初星学園制服",
-       "text": "hatsuboshi gakuen school uniform"
+       "text": "hatsuboshi gakuen school uniform",
+       "desc": "初星学園の制服"
       },
       {
        "label": "君とセミブルー",
-       "text": "kimi to semi blue (idolmaster)"
+       "text": "kimi to semi blue (idolmaster)",
+       "desc": "アイドルマスターの衣装"
       },
       {
        "label": "牛ビキニ",
-       "text": "cow print bikini, micro bikini, cow print elbow gloves, cow ears, small cow horns"
+       "text": "cow print bikini, micro bikini, cow print elbow gloves, cow ears, small cow horns",
+       "desc": "牛柄のマイクロビキニ"
+      }
+     ]
+    },
+    {
+     "title": "小物・アクセサリー",
+     "items": [
+      {
+       "label": "パンスト",
+       "text": "pantyhose",
+       "desc": "パンスト(パンティストッキング)"
+      },
+      {
+       "label": "ソックス",
+       "text": "socks",
+       "desc": "ソックス"
+      },
+      {
+       "label": "手袋",
+       "text": "gloves",
+       "desc": "手袋"
+      },
+      {
+       "label": "メガネ",
+       "text": "glasses",
+       "desc": "メガネ"
+      },
+      {
+       "label": "サングラス",
+       "text": "sunglasses",
+       "desc": "サングラス"
+      },
+      {
+       "label": "ネックレス",
+       "text": "necklace",
+       "desc": "ネックレス"
+      },
+      {
+       "label": "イヤリング",
+       "text": "earrings",
+       "desc": "イヤリング・ピアス"
+      },
+      {
+       "label": "リボン",
+       "text": "ribbon",
+       "desc": "リボン"
+      },
+      {
+       "label": "髪リボン",
+       "text": "hair ribbon",
+       "desc": "髪につけるリボン"
+      },
+      {
+       "label": "ヘアバンド",
+       "text": "hairband",
+       "desc": "ヘアバンド"
+      },
+      {
+       "label": "ヘアピン",
+       "text": "hairclip",
+       "desc": "ヘアピン"
+      },
+      {
+       "label": "髪飾り",
+       "text": "hair ornament",
+       "desc": "髪飾り"
+      },
+      {
+       "label": "帽子",
+       "text": "hat",
+       "desc": "帽子"
+      },
+      {
+       "label": "ベレー帽",
+       "text": "beret",
+       "desc": "ベレー帽"
+      },
+      {
+       "label": "マフラー",
+       "text": "scarf",
+       "desc": "マフラー・スカーフ"
+      },
+      {
+       "label": "腕輪",
+       "text": "bracelet",
+       "desc": "腕輪"
+      },
+      {
+       "label": "指輪",
+       "text": "ring",
+       "desc": "指輪"
       }
      ]
     },
@@ -2146,75 +2820,178 @@
      "items": [
       {
        "label": "ポニーテール",
-       "text": "ponytail"
+       "text": "ponytail",
+       "desc": "後ろで1つにまとめた髪"
       },
       {
        "label": "ハイポニテ",
-       "text": "high ponytail"
+       "text": "high ponytail",
+       "desc": "高い位置のポニーテール"
       },
       {
        "label": "ローポニテ",
-       "text": "low ponytail"
+       "text": "low ponytail",
+       "desc": "低い位置のポニーテール"
       },
       {
        "label": "サイドポニテ",
-       "text": "side ponytail"
+       "text": "side ponytail",
+       "desc": "横でまとめたポニーテール"
       },
       {
        "label": "お団子",
-       "text": "hair bun"
+       "text": "hair bun",
+       "desc": "お団子にまとめた髪"
       },
       {
        "label": "ツインテール",
-       "text": "twin tails"
+       "text": "twin tails",
+       "desc": "左右2つに結んだ髪"
       },
       {
        "label": "ロングヘア",
-       "text": "long hair"
+       "text": "long hair",
+       "desc": "長い髪"
       },
       {
        "label": "ショートヘア",
-       "text": "short hair"
+       "text": "short hair",
+       "desc": "短い髪"
       },
       {
        "label": "ミディアムヘア",
-       "text": "medium hair"
+       "text": "medium hair",
+       "desc": "肩ほどの長さの髪"
       },
       {
        "label": "三つ編み",
-       "text": "braided hair"
+       "text": "braided hair",
+       "desc": "三つ編み"
       },
       {
        "label": "ボサボサ髪",
-       "text": "messy hair"
+       "text": "messy hair",
+       "desc": "ボサボサの髪"
       },
       {
        "label": "濡れた髪",
-       "text": "wet hair"
+       "text": "wet hair",
+       "desc": "濡れた髪"
       },
       {
        "label": "片目隠れ",
-       "text": "hair over one eye"
+       "text": "hair over one eye",
+       "desc": "片目が髪で隠れる"
       },
       {
        "label": "アホ毛",
-       "text": "ahoge"
+       "text": "ahoge",
+       "desc": "頭頂部の跳ねたアホ毛"
       },
       {
        "label": "下ろした髪",
-       "text": "hair down"
+       "text": "hair down",
+       "desc": "結ばずに下ろした髪"
       },
       {
        "label": "乱れた髪",
-       "text": "disheveled hair"
+       "text": "disheveled hair",
+       "desc": "乱れた髪"
       },
       {
        "label": "ボブ",
-       "text": "bob cut"
+       "text": "bob cut",
+       "desc": "ボブヘア"
       },
       {
        "label": "巻き髪",
-       "text": "curly hair"
+       "text": "curly hair",
+       "desc": "くるくるした巻き髪"
+      },
+      {
+       "label": "ストレート",
+       "text": "straight hair",
+       "desc": "まっすぐな髪"
+      },
+      {
+       "label": "ウェーブ",
+       "text": "wavy hair",
+       "desc": "ゆるくうねった髪"
+      },
+      {
+       "label": "縦ロール",
+       "text": "drill hair",
+       "desc": "縦ロール"
+      },
+      {
+       "label": "超ロング",
+       "text": "very long hair",
+       "desc": "腰より長い超ロングヘア"
+      },
+      {
+       "label": "ツーサイドアップ",
+       "text": "two side up",
+       "desc": "髪の上側だけ左右で結ぶ"
+      },
+      {
+       "label": "編み込み",
+       "text": "french braid",
+       "desc": "編み込み"
+      },
+      {
+       "label": "サイド三つ編み",
+       "text": "side braid",
+       "desc": "横で1本にまとめた三つ編み"
+      },
+      {
+       "label": "ツイン三つ編み",
+       "text": "twin braids",
+       "desc": "左右2本の三つ編み"
+      },
+      {
+       "label": "ハーフアップ",
+       "text": "half updo",
+       "desc": "髪の上半分をまとめる"
+      },
+      {
+       "label": "姫カット",
+       "text": "hime cut",
+       "desc": "姫カット"
+      },
+      {
+       "label": "ぱっつん前髪",
+       "text": "blunt bangs",
+       "desc": "ぱっつん前髪"
+      },
+      {
+       "label": "斜め前髪",
+       "text": "swept bangs",
+       "desc": "斜めに流した前髪"
+      },
+      {
+       "label": "横髪",
+       "text": "sidelocks",
+       "desc": "顔の横に垂れる髪"
+      },
+      {
+       "label": "目の間の髪",
+       "text": "hair between eyes",
+       "desc": "目の間に垂れる髪"
+      },
+      {
+       "label": "髪を肩に流す",
+       "text": "hair over shoulder",
+       "desc": "髪を肩の前に流す"
+      },
+      {
+       "label": "髪を耳にかける",
+       "text": "hair tucked behind ear",
+       "desc": "髪を耳にかける"
+      },
+      {
+       "label": "前髪あり",
+       "text": "bangs",
+       "desc": "前髪"
       }
      ]
     },
@@ -2223,71 +3000,88 @@
      "items": [
       {
        "label": "黒髪",
-       "text": "black hair"
+       "text": "black hair",
+       "desc": "黒色の髪"
       },
       {
        "label": "茶髪",
-       "text": "brown hair"
+       "text": "brown hair",
+       "desc": "茶色の髪"
       },
       {
        "label": "金髪",
-       "text": "blonde hair"
+       "text": "blonde hair",
+       "desc": "金色の髪"
       },
       {
        "label": "赤髪",
-       "text": "red hair"
+       "text": "red hair",
+       "desc": "赤色の髪"
       },
       {
        "label": "オレンジ髪",
-       "text": "orange hair"
+       "text": "orange hair",
+       "desc": "オレンジ色の髪"
       },
       {
        "label": "ピンク髪",
-       "text": "pink hair"
+       "text": "pink hair",
+       "desc": "ピンク色の髪"
       },
       {
        "label": "紫髪",
-       "text": "purple hair"
+       "text": "purple hair",
+       "desc": "紫色の髪"
       },
       {
        "label": "青髪",
-       "text": "blue hair"
+       "text": "blue hair",
+       "desc": "青色の髪"
       },
       {
        "label": "水色髪",
-       "text": "light blue hair"
+       "text": "light blue hair",
+       "desc": "水色色の髪"
       },
       {
        "label": "緑髪",
-       "text": "green hair"
+       "text": "green hair",
+       "desc": "緑色の髪"
       },
       {
        "label": "銀髪",
-       "text": "silver hair"
+       "text": "silver hair",
+       "desc": "銀色の髪"
       },
       {
        "label": "白髪",
-       "text": "white hair"
+       "text": "white hair",
+       "desc": "白色の髪"
       },
       {
        "label": "グレー髪",
-       "text": "grey hair"
+       "text": "grey hair",
+       "desc": "グレー色の髪"
       },
       {
        "label": "マルチカラー",
-       "text": "multicolored hair"
+       "text": "multicolored hair",
+       "desc": "複数の色が混ざった髪"
       },
       {
        "label": "ツートン",
-       "text": "two-tone hair"
+       "text": "two-tone hair",
+       "desc": "2色に分かれた髪"
       },
       {
        "label": "グラデーション",
-       "text": "gradient hair"
+       "text": "gradient hair",
+       "desc": "毛先に向かって色が変わる髪"
       },
       {
        "label": "メッシュ",
-       "text": "streaked hair"
+       "text": "streaked hair",
+       "desc": "部分的に別の色が入った髪"
       }
      ],
      "exclusive": true
@@ -2297,346 +3091,88 @@
      "items": [
       {
        "label": "青目",
-       "text": "blue eyes"
+       "text": "blue eyes",
+       "desc": "青色の瞳"
       },
       {
        "label": "赤目",
-       "text": "red eyes"
+       "text": "red eyes",
+       "desc": "赤色の瞳"
       },
       {
        "label": "緑目",
-       "text": "green eyes"
+       "text": "green eyes",
+       "desc": "緑色の瞳"
       },
       {
        "label": "茶目",
-       "text": "brown eyes"
+       "text": "brown eyes",
+       "desc": "茶色の瞳"
       },
       {
        "label": "紫目",
-       "text": "purple eyes"
+       "text": "purple eyes",
+       "desc": "紫色の瞳"
       },
       {
        "label": "黄目",
-       "text": "yellow eyes"
+       "text": "yellow eyes",
+       "desc": "黄色の瞳"
       },
       {
        "label": "水色目",
-       "text": "aqua eyes"
+       "text": "aqua eyes",
+       "desc": "水色色の瞳"
       },
       {
        "label": "ピンク目",
-       "text": "pink eyes"
+       "text": "pink eyes",
+       "desc": "ピンク色の瞳"
       },
       {
        "label": "オレンジ目",
-       "text": "orange eyes"
+       "text": "orange eyes",
+       "desc": "オレンジ色の瞳"
       },
       {
        "label": "グレー目",
-       "text": "grey eyes"
+       "text": "grey eyes",
+       "desc": "グレー色の瞳"
       },
       {
        "label": "オッドアイ",
-       "text": "heterochromia"
+       "text": "heterochromia",
+       "desc": "左右で色が違う瞳"
       },
       {
        "label": "きらきらした目",
-       "text": "sparkling eyes"
+       "text": "sparkling eyes",
+       "desc": "きらきら輝く瞳"
       },
       {
        "label": "光る目",
-       "text": "glowing eyes"
+       "text": "glowing eyes",
+       "desc": "発光したように光る瞳"
       },
       {
        "label": "ハート目",
-       "text": "heart-shaped pupils"
+       "text": "heart-shaped pupils",
+       "desc": "ハート形の瞳"
       },
       {
        "label": "ジト目",
-       "text": "jitome"
+       "text": "jitome",
+       "desc": "半目気味のジト目"
       },
       {
        "label": "たれ目",
-       "text": "tareme"
+       "text": "tareme",
+       "desc": "目尻が下がったたれ目"
       },
       {
        "label": "つり目",
-       "text": "tsurime"
-      }
-     ]
-    },
-    {
-     "title": "髪型（追加）",
-     "items": [
-      {
-       "label": "ストレート",
-       "text": "straight hair"
-      },
-      {
-       "label": "ウェーブ",
-       "text": "wavy hair"
-      },
-      {
-       "label": "縦ロール",
-       "text": "drill hair"
-      },
-      {
-       "label": "超ロング",
-       "text": "very long hair"
-      },
-      {
-       "label": "ツーサイドアップ",
-       "text": "two side up"
-      },
-      {
-       "label": "編み込み",
-       "text": "french braid"
-      },
-      {
-       "label": "サイド三つ編み",
-       "text": "side braid"
-      },
-      {
-       "label": "ツイン三つ編み",
-       "text": "twin braids"
-      },
-      {
-       "label": "ハーフアップ",
-       "text": "half updo"
-      },
-      {
-       "label": "姫カット",
-       "text": "hime cut"
-      },
-      {
-       "label": "ぱっつん前髪",
-       "text": "blunt bangs"
-      },
-      {
-       "label": "斜め前髪",
-       "text": "swept bangs"
-      },
-      {
-       "label": "横髪",
-       "text": "sidelocks"
-      },
-      {
-       "label": "目の間の髪",
-       "text": "hair between eyes"
-      },
-      {
-       "label": "髪を肩に流す",
-       "text": "hair over shoulder"
-      },
-      {
-       "label": "髪を耳にかける",
-       "text": "hair tucked behind ear"
-      },
-      {
-       "label": "前髪あり",
-       "text": "bangs"
-      }
-     ]
-    },
-    {
-     "title": "服装（一般）",
-     "items": [
-      {
-       "label": "ワンピース",
-       "text": "dress"
-      },
-      {
-       "label": "白ワンピース",
-       "text": "white dress"
-      },
-      {
-       "label": "サンドレス",
-       "text": "sundress"
-      },
-      {
-       "label": "スカート",
-       "text": "skirt"
-      },
-      {
-       "label": "ミニスカート",
-       "text": "miniskirt"
-      },
-      {
-       "label": "プリーツスカート",
-       "text": "pleated skirt"
-      },
-      {
-       "label": "ロングスカート",
-       "text": "long skirt"
-      },
-      {
-       "label": "ショートパンツ",
-       "text": "shorts"
-      },
-      {
-       "label": "ジーンズ",
-       "text": "jeans"
-      },
-      {
-       "label": "Tシャツ",
-       "text": "t-shirt"
-      },
-      {
-       "label": "シャツ",
-       "text": "shirt"
-      },
-      {
-       "label": "白シャツ",
-       "text": "white shirt"
-      },
-      {
-       "label": "セーター",
-       "text": "sweater"
-      },
-      {
-       "label": "パーカー",
-       "text": "hoodie"
-      },
-      {
-       "label": "カーディガン",
-       "text": "cardigan"
-      },
-      {
-       "label": "ブレザー",
-       "text": "blazer"
-      },
-      {
-       "label": "ジャケット",
-       "text": "jacket"
-      },
-      {
-       "label": "コート",
-       "text": "coat"
-      },
-      {
-       "label": "タンクトップ",
-       "text": "tank top"
-      },
-      {
-       "label": "キャミソール",
-       "text": "camisole"
-      },
-      {
-       "label": "クロップトップ",
-       "text": "crop top"
-      },
-      {
-       "label": "着物",
-       "text": "kimono"
-      },
-      {
-       "label": "浴衣",
-       "text": "yukata"
-      },
-      {
-       "label": "セーラー服",
-       "text": "serafuku"
-      },
-      {
-       "label": "パジャマ",
-       "text": "pajamas"
-      },
-      {
-       "label": "バスローブ",
-       "text": "bathrobe"
-      },
-      {
-       "label": "オフショルダー",
-       "text": "off shoulder"
-      },
-      {
-       "label": "タートルネック",
-       "text": "turtleneck"
-      },
-      {
-       "label": "サンダル",
-       "text": "sandals"
-      },
-      {
-       "label": "ブーツ",
-       "text": "boots"
-      }
-     ]
-    },
-    {
-     "title": "小物・アクセサリー",
-     "items": [
-      {
-       "label": "ストッキング",
-       "text": "pantyhose"
-      },
-      {
-       "label": "ガーターベルト",
-       "text": "garter straps"
-      },
-      {
-       "label": "ソックス",
-       "text": "socks"
-      },
-      {
-       "label": "手袋",
-       "text": "gloves"
-      },
-      {
-       "label": "メガネ",
-       "text": "glasses"
-      },
-      {
-       "label": "サングラス",
-       "text": "sunglasses"
-      },
-      {
-       "label": "ネックレス",
-       "text": "necklace"
-      },
-      {
-       "label": "イヤリング",
-       "text": "earrings"
-      },
-      {
-       "label": "リボン",
-       "text": "ribbon"
-      },
-      {
-       "label": "髪リボン",
-       "text": "hair ribbon"
-      },
-      {
-       "label": "ヘアバンド",
-       "text": "hairband"
-      },
-      {
-       "label": "ヘアピン",
-       "text": "hairclip"
-      },
-      {
-       "label": "髪飾り",
-       "text": "hair ornament"
-      },
-      {
-       "label": "帽子",
-       "text": "hat"
-      },
-      {
-       "label": "ベレー帽",
-       "text": "beret"
-      },
-      {
-       "label": "マフラー",
-       "text": "scarf"
-      },
-      {
-       "label": "腕輪",
-       "text": "bracelet"
-      },
-      {
-       "label": "指輪",
-       "text": "ring"
+       "text": "tsurime",
+       "desc": "目尻が上がったつり目"
       }
      ]
     },
@@ -2645,43 +3181,53 @@
      "items": [
       {
        "label": "獣耳",
-       "text": "animal ears"
+       "text": "animal ears",
+       "desc": "獣耳"
       },
       {
        "label": "猫耳",
-       "text": "cat ears"
+       "text": "cat ears",
+       "desc": "猫耳"
       },
       {
        "label": "狐耳",
-       "text": "fox ears"
+       "text": "fox ears",
+       "desc": "狐耳"
       },
       {
        "label": "犬耳",
-       "text": "dog ears"
+       "text": "dog ears",
+       "desc": "犬耳"
       },
       {
        "label": "うさ耳",
-       "text": "rabbit ears"
+       "text": "rabbit ears",
+       "desc": "うさ耳"
       },
       {
        "label": "尻尾",
-       "text": "tail"
+       "text": "tail",
+       "desc": "尻尾"
       },
       {
        "label": "エルフ耳",
-       "text": "pointy ears"
+       "text": "pointy ears",
+       "desc": "とがったエルフ耳"
       },
       {
        "label": "角",
-       "text": "horns"
+       "text": "horns",
+       "desc": "頭の角"
       },
       {
        "label": "翼",
-       "text": "wings"
+       "text": "wings",
+       "desc": "背中の翼"
       },
       {
        "label": "天使の輪",
-       "text": "halo"
+       "text": "halo",
+       "desc": "頭上の天使の輪"
       }
      ]
     },
@@ -2690,63 +3236,78 @@
      "items": [
       {
        "label": "背が高い",
-       "text": "tall"
+       "text": "tall",
+       "desc": "背が高い"
       },
       {
        "label": "細身",
-       "text": "slim"
+       "text": "slim",
+       "desc": "細身の体型"
       },
       {
        "label": "グラマー",
-       "text": "curvy"
+       "text": "curvy",
+       "desc": "メリハリのある体型"
       },
       {
        "label": "筋肉質",
-       "text": "muscular female"
+       "text": "muscular female",
+       "desc": "筋肉質な女性"
       },
       {
        "label": "成熟した女性",
-       "text": "mature female"
+       "text": "mature female",
+       "desc": "大人の成熟した女性"
       },
       {
        "label": "大きい胸",
-       "text": "large breasts"
+       "text": "large breasts",
+       "desc": "大きな胸"
       },
       {
        "label": "普通の胸",
-       "text": "medium breasts"
+       "text": "medium breasts",
+       "desc": "標準的な大きさの胸"
       },
       {
        "label": "小さい胸",
-       "text": "small breasts"
+       "text": "small breasts",
+       "desc": "小さめの胸"
       },
       {
        "label": "広い腰",
-       "text": "wide hips"
+       "text": "wide hips",
+       "desc": "腰回りが広い"
       },
       {
        "label": "太もも",
-       "text": "thick thighs"
+       "text": "thick thighs",
+       "desc": "肉付きのいい太もも"
       },
       {
        "label": "色白",
-       "text": "pale skin"
+       "text": "pale skin",
+       "desc": "色白の肌"
       },
       {
        "label": "日焼け",
-       "text": "tan"
+       "text": "tan",
+       "desc": "日焼けした肌"
       },
       {
        "label": "褐色肌",
-       "text": "dark skin"
+       "text": "dark skin",
+       "desc": "褐色の肌"
       },
       {
        "label": "そばかす",
-       "text": "freckles"
+       "text": "freckles",
+       "desc": "そばかす"
       },
       {
        "label": "ほくろ",
-       "text": "mole"
+       "text": "mole",
+       "desc": "ほくろ"
       }
      ]
     }
@@ -2759,75 +3320,93 @@
    "options": [
     {
      "label": "男→女 首筋",
-     "text": "neck kissing, licking neck, man licking woman's neck"
+     "text": "neck kissing, licking neck, man licking woman's neck",
+     "desc": "男性が女性の首筋を舐める"
     },
     {
      "label": "男→女 耳",
-     "text": "ear licking, man licking woman's ear, whispering"
+     "text": "ear licking, man licking woman's ear, whispering",
+     "desc": "男性が女性の耳を舐める"
     },
     {
      "label": "男→女 脇",
-     "text": "armpit licking, man licking woman's armpit"
+     "text": "armpit licking, man licking woman's armpit",
+     "desc": "男性が女性の脇を舐める"
     },
     {
      "label": "男→女 へそ",
-     "text": "navel licking, man licking woman's navel"
+     "text": "navel licking, man licking woman's navel",
+     "desc": "男性が女性のへそを舐める"
     },
     {
      "label": "男→女 体・胸元",
-     "text": "body licking, licking body, man licking woman's body"
+     "text": "body licking, licking body, man licking woman's body",
+     "desc": "男性が女性の体・胸元を舐める"
     },
     {
      "label": "男→女 太もも",
-     "text": "licking thighs, man licking woman's thighs"
+     "text": "licking thighs, man licking woman's thighs",
+     "desc": "男性が女性の太ももを舐める"
     },
     {
      "label": "男→女 足・足指",
-     "text": "foot licking, toe sucking, man licking woman's feet"
+     "text": "foot licking, toe sucking, man licking woman's feet",
+     "desc": "男性が女性の足・足指を舐める"
     },
     {
      "label": "男→女 背中",
-     "text": "licking back, man licking woman's back"
+     "text": "licking back, man licking woman's back",
+     "desc": "男性が女性の背中を舐める"
     },
     {
      "label": "男→女 お腹",
-     "text": "licking stomach, man licking woman's stomach"
+     "text": "licking stomach, man licking woman's stomach",
+     "desc": "男性が女性のお腹を舐める"
     },
     {
      "label": "女→男 首筋",
-     "text": "neck kissing, licking neck, woman licking man's neck"
+     "text": "neck kissing, licking neck, woman licking man's neck",
+     "desc": "女性が男性の首筋を舐める"
     },
     {
      "label": "女→男 耳",
-     "text": "ear licking, woman licking man's ear, whispering"
+     "text": "ear licking, woman licking man's ear, whispering",
+     "desc": "女性が男性の耳を舐める"
     },
     {
      "label": "女→男 脇",
-     "text": "armpit licking, woman licking man's armpit"
+     "text": "armpit licking, woman licking man's armpit",
+     "desc": "女性が男性の脇を舐める"
     },
     {
      "label": "女→男 へそ",
-     "text": "navel licking, woman licking man's navel"
+     "text": "navel licking, woman licking man's navel",
+     "desc": "女性が男性のへそを舐める"
     },
     {
      "label": "女→男 体・胸元",
-     "text": "body licking, licking body, woman licking man's body"
+     "text": "body licking, licking body, woman licking man's body",
+     "desc": "女性が男性の体・胸元を舐める"
     },
     {
      "label": "女→男 太もも",
-     "text": "licking thighs, woman licking man's thighs"
+     "text": "licking thighs, woman licking man's thighs",
+     "desc": "女性が男性の太ももを舐める"
     },
     {
      "label": "女→男 足・足指",
-     "text": "foot licking, toe sucking, woman licking man's feet"
+     "text": "foot licking, toe sucking, woman licking man's feet",
+     "desc": "女性が男性の足・足指を舐める"
     },
     {
      "label": "女→男 背中",
-     "text": "licking back, woman licking man's back"
+     "text": "licking back, woman licking man's back",
+     "desc": "女性が男性の背中を舐める"
     },
     {
      "label": "女→男 お腹",
-     "text": "licking stomach, woman licking man's stomach"
+     "text": "licking stomach, woman licking man's stomach",
+     "desc": "女性が男性のお腹を舐める"
     }
    ]
   },
@@ -2836,23 +3415,28 @@
    "options": [
     {
      "label": "黒",
-     "text": "black lingerie"
+     "text": "black lingerie",
+     "desc": "黒のランジェリー"
     },
     {
      "label": "白",
-     "text": "white lingerie"
+     "text": "white lingerie",
+     "desc": "白のランジェリー"
     },
     {
      "label": "ピンク",
-     "text": "pink lingerie"
+     "text": "pink lingerie",
+     "desc": "ピンクのランジェリー"
     },
     {
      "label": "赤",
-     "text": "red lingerie"
+     "text": "red lingerie",
+     "desc": "赤のランジェリー"
     },
     {
      "label": "紫",
-     "text": "purple lingerie"
+     "text": "purple lingerie",
+     "desc": "紫のランジェリー"
     }
    ]
   },
@@ -2861,23 +3445,28 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "lingerie"
+     "text": "lingerie",
+     "desc": "ランジェリーを「普通に着ている」状態にする"
     },
     {
      "label": "ずらしている",
-     "text": "lingerie, lingerie aside, panties aside, pulled aside"
+     "text": "lingerie, lingerie aside, panties aside, pulled aside",
+     "desc": "ランジェリーを「ずらしている」状態にする"
     },
     {
      "label": "はだけている",
-     "text": "lingerie, open lingerie, disheveled lingerie"
+     "text": "lingerie, open lingerie, disheveled lingerie",
+     "desc": "ランジェリーを「はだけている」状態にする"
     },
     {
      "label": "半分脱がされている",
-     "text": "lingerie, half-removed lingerie, lingerie around thighs"
+     "text": "lingerie, half-removed lingerie, lingerie around thighs",
+     "desc": "ランジェリーを「半分脱がされている」状態にする"
     },
     {
      "label": "破れている",
-     "text": "lingerie, torn lingerie, ripped lingerie"
+     "text": "lingerie, torn lingerie, ripped lingerie",
+     "desc": "ランジェリーを「破れている」状態にする"
     }
    ]
   },
@@ -2886,27 +3475,33 @@
    "options": [
     {
      "label": "黒",
-     "text": "black bikini"
+     "text": "black bikini",
+     "desc": "黒のビキニ系"
     },
     {
      "label": "白",
-     "text": "white bikini"
+     "text": "white bikini",
+     "desc": "白のビキニ系"
     },
     {
      "label": "ピンク",
-     "text": "pink bikini"
+     "text": "pink bikini",
+     "desc": "ピンクのビキニ系"
     },
     {
      "label": "赤",
-     "text": "red bikini"
+     "text": "red bikini",
+     "desc": "赤のビキニ系"
     },
     {
      "label": "ネイビー",
-     "text": "navy bikini"
+     "text": "navy bikini",
+     "desc": "ネイビーのビキニ系"
     },
     {
      "label": "青",
-     "text": "blue bikini"
+     "text": "blue bikini",
+     "desc": "青のビキニ系"
     }
    ]
   },
@@ -2915,31 +3510,38 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "bikini"
+     "text": "bikini",
+     "desc": "ビキニ系を「普通に着ている」状態にする"
     },
     {
      "label": "マイクロビキニ",
-     "text": "bikini, micro bikini"
+     "text": "bikini, micro bikini",
+     "desc": "ビキニ系を「マイクロビキニ」状態にする"
     },
     {
      "label": "紐ビキニ",
-     "text": "bikini, string bikini"
+     "text": "bikini, string bikini",
+     "desc": "ビキニ系を「紐ビキニ」状態にする"
     },
     {
      "label": "紐を解いている",
-     "text": "bikini, untied bikini, bikini strings undone"
+     "text": "bikini, untied bikini, bikini strings undone",
+     "desc": "ビキニ系を「紐を解いている」状態にする"
     },
     {
      "label": "ずらしている",
-     "text": "bikini, bikini aside, pulled aside bikini"
+     "text": "bikini, bikini aside, pulled aside bikini",
+     "desc": "ビキニ系を「ずらしている」状態にする"
     },
     {
      "label": "濡れている",
-     "text": "bikini, wet bikini, see-through bikini"
+     "text": "bikini, wet bikini, see-through bikini",
+     "desc": "ビキニ系を「濡れている」状態にする"
     },
     {
      "label": "半分脱げている",
-     "text": "bikini, half-removed bikini, bikini around ankles"
+     "text": "bikini, half-removed bikini, bikini around ankles",
+     "desc": "ビキニ系を「半分脱げている」状態にする"
     }
    ]
   },
@@ -2948,15 +3550,18 @@
    "options": [
     {
      "label": "ネイビー",
-     "text": "navy school swimsuit"
+     "text": "navy school swimsuit",
+     "desc": "ネイビーのスクール水着"
     },
     {
      "label": "黒",
-     "text": "black school swimsuit"
+     "text": "black school swimsuit",
+     "desc": "黒のスクール水着"
     },
     {
      "label": "白",
-     "text": "white school swimsuit"
+     "text": "white school swimsuit",
+     "desc": "白のスクール水着"
     }
    ]
   },
@@ -2965,23 +3570,28 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "school swimsuit"
+     "text": "school swimsuit",
+     "desc": "スクール水着を「普通に着ている」状態にする"
     },
     {
      "label": "ずらしている",
-     "text": "school swimsuit, school swimsuit aside, pulled aside"
+     "text": "school swimsuit, school swimsuit aside, pulled aside",
+     "desc": "スクール水着を「ずらしている」状態にする"
     },
     {
      "label": "ずり下げ",
-     "text": "school swimsuit, school swimsuit pulled down, around thighs"
+     "text": "school swimsuit, school swimsuit pulled down, around thighs",
+     "desc": "スクール水着を「ずり下げ」状態にする"
     },
     {
      "label": "濡れている",
-     "text": "school swimsuit, wet school swimsuit, see-through school swimsuit"
+     "text": "school swimsuit, wet school swimsuit, see-through school swimsuit",
+     "desc": "スクール水着を「濡れている」状態にする"
     },
     {
      "label": "破れている",
-     "text": "school swimsuit, torn school swimsuit"
+     "text": "school swimsuit, torn school swimsuit",
+     "desc": "スクール水着を「破れている」状態にする"
     }
    ]
   },
@@ -2990,15 +3600,18 @@
    "options": [
     {
      "label": "紺",
-     "text": "navy school uniform"
+     "text": "navy school uniform",
+     "desc": "紺の制服"
     },
     {
      "label": "黒",
-     "text": "black school uniform"
+     "text": "black school uniform",
+     "desc": "黒の制服"
     },
     {
      "label": "指定なし",
-     "text": "school uniform"
+     "text": "school uniform",
+     "desc": "色を指定しない制服"
     }
    ]
   },
@@ -3007,23 +3620,28 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "school uniform, short skirt"
+     "text": "school uniform, short skirt",
+     "desc": "制服を「普通に着ている」状態にする"
     },
     {
      "label": "シャツはだけ",
-     "text": "school uniform, open shirt, unbuttoned blouse, short skirt"
+     "text": "school uniform, open shirt, unbuttoned blouse, short skirt",
+     "desc": "制服を「シャツはだけ」状態にする"
     },
     {
      "label": "スカートめくれ",
-     "text": "school uniform, skirt lift, lifted skirt, upskirt"
+     "text": "school uniform, skirt lift, lifted skirt, upskirt",
+     "desc": "制服を「スカートめくれ」状態にする"
     },
     {
      "label": "乱れている",
-     "text": "school uniform, disheveled uniform, messy clothes"
+     "text": "school uniform, disheveled uniform, messy clothes",
+     "desc": "制服を「乱れている」状態にする"
     },
     {
      "label": "半脱ぎ",
-     "text": "school uniform, half-undressed, clothes around waist"
+     "text": "school uniform, half-undressed, clothes around waist",
+     "desc": "制服を「半脱ぎ」状態にする"
     }
    ]
   },
@@ -3032,15 +3650,18 @@
    "options": [
     {
      "label": "白",
-     "text": "white nurse outfit"
+     "text": "white nurse outfit",
+     "desc": "白のナース・メイド"
     },
     {
      "label": "ピンク",
-     "text": "pink nurse outfit"
+     "text": "pink nurse outfit",
+     "desc": "ピンクのナース・メイド"
     },
     {
      "label": "黒",
-     "text": "black nurse outfit"
+     "text": "black nurse outfit",
+     "desc": "黒のナース・メイド"
     }
    ]
   },
@@ -3049,19 +3670,23 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "nurse outfit"
+     "text": "nurse outfit",
+     "desc": "ナース・メイドを「普通に着ている」状態にする"
     },
     {
      "label": "はだけている",
-     "text": "nurse outfit, open, unbuttoned, cleavage"
+     "text": "nurse outfit, open, unbuttoned, cleavage",
+     "desc": "ナース・メイドを「はだけている」状態にする"
     },
     {
      "label": "スカートめくれ",
-     "text": "nurse outfit, skirt lift, upskirt"
+     "text": "nurse outfit, skirt lift, upskirt",
+     "desc": "ナース・メイドを「スカートめくれ」状態にする"
     },
     {
      "label": "乱れている",
-     "text": "nurse outfit, disheveled, messy clothes"
+     "text": "nurse outfit, disheveled, messy clothes",
+     "desc": "ナース・メイドを「乱れている」状態にする"
     }
    ]
   },
@@ -3070,23 +3695,28 @@
    "options": [
     {
      "label": "赤",
-     "text": "red china dress"
+     "text": "red china dress",
+     "desc": "赤のチャイナドレス"
     },
     {
      "label": "青",
-     "text": "blue china dress"
+     "text": "blue china dress",
+     "desc": "青のチャイナドレス"
     },
     {
      "label": "黄",
-     "text": "yellow china dress"
+     "text": "yellow china dress",
+     "desc": "黄のチャイナドレス"
     },
     {
      "label": "紫",
-     "text": "purple china dress"
+     "text": "purple china dress",
+     "desc": "紫のチャイナドレス"
     },
     {
      "label": "白",
-     "text": "white china dress"
+     "text": "white china dress",
+     "desc": "白のチャイナドレス"
     }
    ]
   },
@@ -3095,19 +3725,23 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "china dress"
+     "text": "china dress",
+     "desc": "チャイナドレスを「普通に着ている」状態にする"
     },
     {
      "label": "スリット高め",
-     "text": "china dress, high slit"
+     "text": "china dress, high slit",
+     "desc": "チャイナドレスを「スリット高め」状態にする"
     },
     {
      "label": "はだけている",
-     "text": "china dress, open china dress"
+     "text": "china dress, open china dress",
+     "desc": "チャイナドレスを「はだけている」状態にする"
     },
     {
      "label": "乱れている",
-     "text": "china dress, disheveled china dress"
+     "text": "china dress, disheveled china dress",
+     "desc": "チャイナドレスを「乱れている」状態にする"
     }
    ]
   },
@@ -3116,15 +3750,18 @@
    "options": [
     {
      "label": "黒",
-     "text": "black office lady, suit"
+     "text": "black office lady, suit",
+     "desc": "黒のOL・スーツ"
     },
     {
      "label": "グレー",
-     "text": "gray office lady, suit"
+     "text": "gray office lady, suit",
+     "desc": "グレーのOL・スーツ"
     },
     {
      "label": "ネイビー",
-     "text": "navy office lady, suit"
+     "text": "navy office lady, suit",
+     "desc": "ネイビーのOL・スーツ"
     }
    ]
   },
@@ -3133,19 +3770,23 @@
    "options": [
     {
      "label": "普通に着ている",
-     "text": "office lady, suit, tight skirt"
+     "text": "office lady, suit, tight skirt",
+     "desc": "OL・スーツを「普通に着ている」状態にする"
     },
     {
      "label": "ブラウスはだけ",
-     "text": "office lady, suit, unbuttoned blouse, open shirt, tight skirt"
+     "text": "office lady, suit, unbuttoned blouse, open shirt, tight skirt",
+     "desc": "OL・スーツを「ブラウスはだけ」状態にする"
     },
     {
      "label": "スカートめくれ",
-     "text": "office lady, suit, skirt lift, tight skirt, upskirt"
+     "text": "office lady, suit, skirt lift, tight skirt, upskirt",
+     "desc": "OL・スーツを「スカートめくれ」状態にする"
     },
     {
      "label": "乱れている",
-     "text": "office lady, suit, disheveled, messy clothes"
+     "text": "office lady, suit, disheveled, messy clothes",
+     "desc": "OL・スーツを「乱れている」状態にする"
     }
    ]
   },
@@ -3943,19 +4584,19 @@
    "title": "頭を掴む",
    "options": [
     {
-     "label": "軽く髪を掴む",
+     "label": "軽く頭を掴む",
      "desc": "優しめ",
-     "text": "light hair pulling, holding hair"
+     "text": "light head pulling, holding head"
     },
     {
-     "label": "強く髪を掴む",
+     "label": "強く頭を掴む",
      "desc": "強め",
-     "text": "hard hair pulling, yanking hair"
+     "text": "hard head pulling, yanking head"
     },
     {
-     "label": "後ろから髪を掴む",
+     "label": "後ろから頭を掴む",
      "desc": "後背位などで",
-     "text": "hair pulling from behind"
+     "text": "head pulling from behind"
     }
    ]
   },
