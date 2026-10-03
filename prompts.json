@@ -48,7 +48,8 @@
        "desc": "画面内に人物が1人だけの構図。",
        "note": "1boy 1girl や 2girls と矛盾する。"
       }
-     ]
+     ],
+     "exclusive": true
     },
     {
      "title": "役割分担",
@@ -127,7 +128,8 @@
        "text": "worm's-eye view",
        "desc": "地面すれすれの極端なあおり構図。"
       }
-     ]
+     ],
+     "exclusive": true
     },
     {
      "title": "カメラの位置",
@@ -218,14 +220,9 @@
        "desc": "映画的な画角・ライティングを意識した構図。"
       }
      ]
-    }
-   ]
-  },
-  {
-   "name": "視点（被写体側）",
-   "sections": [
+    },
     {
-     "title": "",
+     "title": "被写体の視線",
      "items": [
       {
        "label": "カメラ目線",
@@ -297,6 +294,43 @@
        "label": "ウインク",
        "text": "winking",
        "desc": "片目をつぶっている。"
+      }
+     ]
+    },
+    {
+     "title": "構図（追加）",
+     "items": [
+      {
+       "label": "上半身",
+       "text": "upper body"
+      },
+      {
+       "label": "バストアップ",
+       "text": "portrait"
+      },
+      {
+       "label": "膝上",
+       "text": "cowboy shot"
+      },
+      {
+       "label": "全身",
+       "text": "full body"
+      },
+      {
+       "label": "パース強調",
+       "text": "foreshortening"
+      },
+      {
+       "label": "横から視点",
+       "text": "from side"
+      },
+      {
+       "label": "顔アップ",
+       "text": "close-up"
+      },
+      {
+       "label": "遠近感",
+       "text": "perspective"
       }
      ]
     }
@@ -618,6 +652,189 @@
        "variation": "other_toy"
       }
      ]
+    },
+    {
+     "title": "時間・天気・季節",
+     "items": [
+      {
+       "label": "日の出",
+       "text": "sunrise"
+      },
+      {
+       "label": "夕焼け",
+       "text": "sunset"
+      },
+      {
+       "label": "星空",
+       "text": "starry sky"
+      },
+      {
+       "label": "月",
+       "text": "moon"
+      },
+      {
+       "label": "月明かり",
+       "text": "moonlight"
+      },
+      {
+       "label": "晴れ",
+       "text": "sunny"
+      },
+      {
+       "label": "曇り",
+       "text": "cloudy"
+      },
+      {
+       "label": "雪",
+       "text": "snow"
+      },
+      {
+       "label": "春",
+       "text": "spring"
+      },
+      {
+       "label": "夏",
+       "text": "summer"
+      },
+      {
+       "label": "秋",
+       "text": "autumn"
+      },
+      {
+       "label": "冬",
+       "text": "winter"
+      },
+      {
+       "label": "桜",
+       "text": "cherry blossoms"
+      },
+      {
+       "label": "花びら",
+       "text": "petals"
+      },
+      {
+       "label": "紅葉",
+       "text": "autumn leaves"
+      },
+      {
+       "label": "蛍",
+       "text": "fireflies"
+      }
+     ]
+    },
+    {
+     "title": "光・雰囲気",
+     "items": [
+      {
+       "label": "日差し",
+       "text": "sunlight"
+      },
+      {
+       "label": "木漏れ日",
+       "text": "dappled sunlight"
+      },
+      {
+       "label": "光の筋",
+       "text": "light rays"
+      },
+      {
+       "label": "レンズフレア",
+       "text": "lens flare"
+      },
+      {
+       "label": "リムライト",
+       "text": "rim lighting"
+      },
+      {
+       "label": "影",
+       "text": "shadow"
+      },
+      {
+       "label": "キラキラ",
+       "text": "sparkle"
+      },
+      {
+       "label": "湯気",
+       "text": "steam"
+      },
+      {
+       "label": "水滴",
+       "text": "water drop"
+      },
+      {
+       "label": "濡れた",
+       "text": "wet"
+      },
+      {
+       "label": "窓の光",
+       "text": "window light"
+      }
+     ]
+    },
+    {
+     "title": "場所（追加）",
+     "items": [
+      {
+       "label": "ソファ",
+       "text": "couch"
+      },
+      {
+       "label": "椅子",
+       "text": "chair"
+      },
+      {
+       "label": "机",
+       "text": "desk"
+      },
+      {
+       "label": "窓辺",
+       "text": "window"
+      },
+      {
+       "label": "バルコニー",
+       "text": "balcony"
+      },
+      {
+       "label": "森",
+       "text": "forest"
+      },
+      {
+       "label": "花畑",
+       "text": "flower field"
+      },
+      {
+       "label": "海",
+       "text": "ocean"
+      },
+      {
+       "label": "神社",
+       "text": "shrine"
+      },
+      {
+       "label": "廊下",
+       "text": "hallway"
+      },
+      {
+       "label": "階段",
+       "text": "stairs"
+      },
+      {
+       "label": "学校",
+       "text": "school"
+      },
+      {
+       "label": "草原",
+       "text": "grass"
+      },
+      {
+       "label": "川",
+       "text": "river"
+      },
+      {
+       "label": "夜の街",
+       "text": "night, city lights"
+      }
+     ]
     }
    ]
   },
@@ -694,10 +911,6 @@
       {
        "label": "お尻を叩く",
        "variation": "spanking"
-      },
-      {
-       "label": "髪を掴む",
-       "variation": "hair_pull"
       },
       {
        "label": "首を軽く締める",
@@ -836,7 +1049,7 @@
    ]
   },
   {
-   "name": "身体描写",
+   "name": "ポーズ",
    "sections": [
     {
      "title": "身体の詳細",
@@ -885,7 +1098,7 @@
      ]
     },
     {
-     "title": "ポーズ",
+     "title": "基本ポーズ",
      "items": [
       {
        "label": "立つ",
@@ -1001,6 +1214,131 @@
       {
        "label": "身体を密着させる",
        "variation": "body_press"
+      },
+      {
+       "label": "頭を掴む",
+       "variation": "hair_pull"
+      }
+     ]
+    },
+    {
+     "title": "ポーズ（追加）",
+     "items": [
+      {
+       "label": "両手を上げる",
+       "text": "arms up"
+      },
+      {
+       "label": "腰に手を当てる",
+       "text": "hand on own hip"
+      },
+      {
+       "label": "胸に手を当てる",
+       "text": "hand on own chest"
+      },
+      {
+       "label": "頬に手を当てる",
+       "text": "hand on own cheek"
+      },
+      {
+       "label": "顔に手を当てる",
+       "text": "hand on own face"
+      },
+      {
+       "label": "腕を組む",
+       "text": "crossed arms"
+      },
+      {
+       "label": "ピース",
+       "text": "peace sign"
+      },
+      {
+       "label": "手を振る",
+       "text": "waving"
+      },
+      {
+       "label": "後ろにもたれる",
+       "text": "leaning back"
+      },
+      {
+       "label": "横向きに寝る",
+       "text": "on side"
+      },
+      {
+       "label": "仰向け",
+       "text": "on back"
+      },
+      {
+       "label": "うつ伏せ",
+       "text": "on stomach"
+      },
+      {
+       "label": "正座",
+       "text": "seiza"
+      },
+      {
+       "label": "女の子座り",
+       "text": "wariza"
+      },
+      {
+       "label": "脚を組む",
+       "text": "crossed legs"
+      },
+      {
+       "label": "伸びをする",
+       "text": "stretching"
+      },
+      {
+       "label": "抱きしめる",
+       "text": "hug"
+      },
+      {
+       "label": "手をつなぐ",
+       "text": "holding hands"
+      },
+      {
+       "label": "指を口に当てる",
+       "text": "finger to mouth"
+      },
+      {
+       "label": "首をかしげる",
+       "text": "head tilt"
+      },
+      {
+       "label": "歩く",
+       "text": "walking"
+      },
+      {
+       "label": "走る",
+       "text": "running"
+      },
+      {
+       "label": "ジャンプ",
+       "text": "jumping"
+      },
+      {
+       "label": "ベッドに寝る",
+       "text": "lying on bed"
+      },
+      {
+       "label": "ベッドに座る",
+       "text": "sitting on bed"
+      },
+      {
+       "label": "壁にもたれる",
+       "text": "leaning against wall"
+      },
+      {
+       "label": "膝を抱える",
+       "text": "hugging own legs"
+      },
+      {
+       "label": "髪をかき上げる",
+       "text": "hand in own hair"
+      },
+      {
+       "label": "スカートをつまむ",
+       "text": "skirt hold"
       }
      ]
     }
@@ -1594,6 +1932,59 @@
        "text": "deadpan"
       }
      ]
+    },
+    {
+     "title": "口・目・その他",
+     "items": [
+      {
+       "label": "口を閉じる",
+       "text": "closed mouth"
+      },
+      {
+       "label": "口を開ける",
+       "text": "open mouth"
+      },
+      {
+       "label": "舌を出す",
+       "text": "tongue out"
+      },
+      {
+       "label": "むくれる",
+       "text": "pout"
+      },
+      {
+       "label": "頬を膨らませる",
+       "text": "puffy cheeks"
+      },
+      {
+       "label": "八重歯",
+       "text": "fang"
+      },
+      {
+       "label": "涙",
+       "text": "tears"
+      },
+      {
+       "label": "冷や汗",
+       "text": "sweatdrop"
+      },
+      {
+       "label": "鼻まで赤い",
+       "text": "nose blush"
+      },
+      {
+       "label": "ドヤ顔",
+       "text": "smug"
+      },
+      {
+       "label": "眠そう",
+       "text": "sleepy"
+      },
+      {
+       "label": "うっとり",
+       "text": "dreamy"
+      }
+     ]
     }
    ]
   },
@@ -1824,6 +2215,538 @@
       {
        "label": "巻き髪",
        "text": "curly hair"
+      }
+     ]
+    },
+    {
+     "title": "髪色",
+     "items": [
+      {
+       "label": "黒髪",
+       "text": "black hair"
+      },
+      {
+       "label": "茶髪",
+       "text": "brown hair"
+      },
+      {
+       "label": "金髪",
+       "text": "blonde hair"
+      },
+      {
+       "label": "赤髪",
+       "text": "red hair"
+      },
+      {
+       "label": "オレンジ髪",
+       "text": "orange hair"
+      },
+      {
+       "label": "ピンク髪",
+       "text": "pink hair"
+      },
+      {
+       "label": "紫髪",
+       "text": "purple hair"
+      },
+      {
+       "label": "青髪",
+       "text": "blue hair"
+      },
+      {
+       "label": "水色髪",
+       "text": "light blue hair"
+      },
+      {
+       "label": "緑髪",
+       "text": "green hair"
+      },
+      {
+       "label": "銀髪",
+       "text": "silver hair"
+      },
+      {
+       "label": "白髪",
+       "text": "white hair"
+      },
+      {
+       "label": "グレー髪",
+       "text": "grey hair"
+      },
+      {
+       "label": "マルチカラー",
+       "text": "multicolored hair"
+      },
+      {
+       "label": "ツートン",
+       "text": "two-tone hair"
+      },
+      {
+       "label": "グラデーション",
+       "text": "gradient hair"
+      },
+      {
+       "label": "メッシュ",
+       "text": "streaked hair"
+      }
+     ],
+     "exclusive": true
+    },
+    {
+     "title": "目の色",
+     "items": [
+      {
+       "label": "青目",
+       "text": "blue eyes"
+      },
+      {
+       "label": "赤目",
+       "text": "red eyes"
+      },
+      {
+       "label": "緑目",
+       "text": "green eyes"
+      },
+      {
+       "label": "茶目",
+       "text": "brown eyes"
+      },
+      {
+       "label": "紫目",
+       "text": "purple eyes"
+      },
+      {
+       "label": "黄目",
+       "text": "yellow eyes"
+      },
+      {
+       "label": "水色目",
+       "text": "aqua eyes"
+      },
+      {
+       "label": "ピンク目",
+       "text": "pink eyes"
+      },
+      {
+       "label": "オレンジ目",
+       "text": "orange eyes"
+      },
+      {
+       "label": "グレー目",
+       "text": "grey eyes"
+      },
+      {
+       "label": "オッドアイ",
+       "text": "heterochromia"
+      },
+      {
+       "label": "きらきらした目",
+       "text": "sparkling eyes"
+      },
+      {
+       "label": "光る目",
+       "text": "glowing eyes"
+      },
+      {
+       "label": "ハート目",
+       "text": "heart-shaped pupils"
+      },
+      {
+       "label": "ジト目",
+       "text": "jitome"
+      },
+      {
+       "label": "たれ目",
+       "text": "tareme"
+      },
+      {
+       "label": "つり目",
+       "text": "tsurime"
+      }
+     ]
+    },
+    {
+     "title": "髪型（追加）",
+     "items": [
+      {
+       "label": "ストレート",
+       "text": "straight hair"
+      },
+      {
+       "label": "ウェーブ",
+       "text": "wavy hair"
+      },
+      {
+       "label": "縦ロール",
+       "text": "drill hair"
+      },
+      {
+       "label": "超ロング",
+       "text": "very long hair"
+      },
+      {
+       "label": "ツーサイドアップ",
+       "text": "two side up"
+      },
+      {
+       "label": "編み込み",
+       "text": "french braid"
+      },
+      {
+       "label": "サイド三つ編み",
+       "text": "side braid"
+      },
+      {
+       "label": "ツイン三つ編み",
+       "text": "twin braids"
+      },
+      {
+       "label": "ハーフアップ",
+       "text": "half updo"
+      },
+      {
+       "label": "姫カット",
+       "text": "hime cut"
+      },
+      {
+       "label": "ぱっつん前髪",
+       "text": "blunt bangs"
+      },
+      {
+       "label": "斜め前髪",
+       "text": "swept bangs"
+      },
+      {
+       "label": "横髪",
+       "text": "sidelocks"
+      },
+      {
+       "label": "目の間の髪",
+       "text": "hair between eyes"
+      },
+      {
+       "label": "髪を肩に流す",
+       "text": "hair over shoulder"
+      },
+      {
+       "label": "髪を耳にかける",
+       "text": "hair tucked behind ear"
+      },
+      {
+       "label": "前髪あり",
+       "text": "bangs"
+      }
+     ]
+    },
+    {
+     "title": "服装（一般）",
+     "items": [
+      {
+       "label": "ワンピース",
+       "text": "dress"
+      },
+      {
+       "label": "白ワンピース",
+       "text": "white dress"
+      },
+      {
+       "label": "サンドレス",
+       "text": "sundress"
+      },
+      {
+       "label": "スカート",
+       "text": "skirt"
+      },
+      {
+       "label": "ミニスカート",
+       "text": "miniskirt"
+      },
+      {
+       "label": "プリーツスカート",
+       "text": "pleated skirt"
+      },
+      {
+       "label": "ロングスカート",
+       "text": "long skirt"
+      },
+      {
+       "label": "ショートパンツ",
+       "text": "shorts"
+      },
+      {
+       "label": "ジーンズ",
+       "text": "jeans"
+      },
+      {
+       "label": "Tシャツ",
+       "text": "t-shirt"
+      },
+      {
+       "label": "シャツ",
+       "text": "shirt"
+      },
+      {
+       "label": "白シャツ",
+       "text": "white shirt"
+      },
+      {
+       "label": "セーター",
+       "text": "sweater"
+      },
+      {
+       "label": "パーカー",
+       "text": "hoodie"
+      },
+      {
+       "label": "カーディガン",
+       "text": "cardigan"
+      },
+      {
+       "label": "ブレザー",
+       "text": "blazer"
+      },
+      {
+       "label": "ジャケット",
+       "text": "jacket"
+      },
+      {
+       "label": "コート",
+       "text": "coat"
+      },
+      {
+       "label": "タンクトップ",
+       "text": "tank top"
+      },
+      {
+       "label": "キャミソール",
+       "text": "camisole"
+      },
+      {
+       "label": "クロップトップ",
+       "text": "crop top"
+      },
+      {
+       "label": "着物",
+       "text": "kimono"
+      },
+      {
+       "label": "浴衣",
+       "text": "yukata"
+      },
+      {
+       "label": "セーラー服",
+       "text": "serafuku"
+      },
+      {
+       "label": "パジャマ",
+       "text": "pajamas"
+      },
+      {
+       "label": "バスローブ",
+       "text": "bathrobe"
+      },
+      {
+       "label": "オフショルダー",
+       "text": "off shoulder"
+      },
+      {
+       "label": "タートルネック",
+       "text": "turtleneck"
+      },
+      {
+       "label": "サンダル",
+       "text": "sandals"
+      },
+      {
+       "label": "ブーツ",
+       "text": "boots"
+      }
+     ]
+    },
+    {
+     "title": "小物・アクセサリー",
+     "items": [
+      {
+       "label": "ストッキング",
+       "text": "pantyhose"
+      },
+      {
+       "label": "ガーターベルト",
+       "text": "garter straps"
+      },
+      {
+       "label": "ソックス",
+       "text": "socks"
+      },
+      {
+       "label": "手袋",
+       "text": "gloves"
+      },
+      {
+       "label": "メガネ",
+       "text": "glasses"
+      },
+      {
+       "label": "サングラス",
+       "text": "sunglasses"
+      },
+      {
+       "label": "ネックレス",
+       "text": "necklace"
+      },
+      {
+       "label": "イヤリング",
+       "text": "earrings"
+      },
+      {
+       "label": "リボン",
+       "text": "ribbon"
+      },
+      {
+       "label": "髪リボン",
+       "text": "hair ribbon"
+      },
+      {
+       "label": "ヘアバンド",
+       "text": "hairband"
+      },
+      {
+       "label": "ヘアピン",
+       "text": "hairclip"
+      },
+      {
+       "label": "髪飾り",
+       "text": "hair ornament"
+      },
+      {
+       "label": "帽子",
+       "text": "hat"
+      },
+      {
+       "label": "ベレー帽",
+       "text": "beret"
+      },
+      {
+       "label": "マフラー",
+       "text": "scarf"
+      },
+      {
+       "label": "腕輪",
+       "text": "bracelet"
+      },
+      {
+       "label": "指輪",
+       "text": "ring"
+      }
+     ]
+    },
+    {
+     "title": "耳・尻尾・その他",
+     "items": [
+      {
+       "label": "獣耳",
+       "text": "animal ears"
+      },
+      {
+       "label": "猫耳",
+       "text": "cat ears"
+      },
+      {
+       "label": "狐耳",
+       "text": "fox ears"
+      },
+      {
+       "label": "犬耳",
+       "text": "dog ears"
+      },
+      {
+       "label": "うさ耳",
+       "text": "rabbit ears"
+      },
+      {
+       "label": "尻尾",
+       "text": "tail"
+      },
+      {
+       "label": "エルフ耳",
+       "text": "pointy ears"
+      },
+      {
+       "label": "角",
+       "text": "horns"
+      },
+      {
+       "label": "翼",
+       "text": "wings"
+      },
+      {
+       "label": "天使の輪",
+       "text": "halo"
+      }
+     ]
+    },
+    {
+     "title": "体型・肌",
+     "items": [
+      {
+       "label": "背が高い",
+       "text": "tall"
+      },
+      {
+       "label": "細身",
+       "text": "slim"
+      },
+      {
+       "label": "グラマー",
+       "text": "curvy"
+      },
+      {
+       "label": "筋肉質",
+       "text": "muscular female"
+      },
+      {
+       "label": "成熟した女性",
+       "text": "mature female"
+      },
+      {
+       "label": "大きい胸",
+       "text": "large breasts"
+      },
+      {
+       "label": "普通の胸",
+       "text": "medium breasts"
+      },
+      {
+       "label": "小さい胸",
+       "text": "small breasts"
+      },
+      {
+       "label": "広い腰",
+       "text": "wide hips"
+      },
+      {
+       "label": "太もも",
+       "text": "thick thighs"
+      },
+      {
+       "label": "色白",
+       "text": "pale skin"
+      },
+      {
+       "label": "日焼け",
+       "text": "tan"
+      },
+      {
+       "label": "褐色肌",
+       "text": "dark skin"
+      },
+      {
+       "label": "そばかす",
+       "text": "freckles"
+      },
+      {
+       "label": "ほくろ",
+       "text": "mole"
       }
      ]
     }
@@ -3017,7 +3940,7 @@
    ]
   },
   "hair_pull": {
-   "title": "髪を掴む",
+   "title": "頭を掴む",
    "options": [
     {
      "label": "軽く髪を掴む",
