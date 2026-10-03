@@ -220,24 +220,9 @@
        "desc": "映画的な画角・ライティングを意識した構図。"
       },
       {
-       "label": "上半身",
-       "text": "upper body",
-       "desc": "腰から上を写す構図"
-      },
-      {
-       "label": "バストアップ",
-       "text": "portrait",
-       "desc": "顔から胸元までを中心にした構図"
-      },
-      {
        "label": "膝上",
        "text": "cowboy shot",
        "desc": "太もも付近までを写す構図"
-      },
-      {
-       "label": "全身",
-       "text": "full body",
-       "desc": "頭から足先まで全身を写す構図"
       },
       {
        "label": "パース強調",
@@ -328,30 +313,8 @@
    "name": "状況",
    "sections": [
     {
-     "title": "場所",
+     "title": "場所 / 一般",
      "items": [
-      {
-       "label": "夜",
-       "text": "night",
-       "desc": "夜間の時間帯。",
-       "note": "day / morning と矛盾する。"
-      },
-      {
-       "label": "昼",
-       "text": "day",
-       "desc": "昼間の時間帯。",
-       "note": "night と矛盾する。"
-      },
-      {
-       "label": "夕方",
-       "text": "evening",
-       "desc": "夕方・黄昏時。"
-      },
-      {
-       "label": "朝",
-       "text": "morning",
-       "desc": "朝の時間帯。"
-      },
       {
        "label": "室内",
        "text": "indoors",
@@ -480,11 +443,6 @@
        "desc": "狭い路地"
       },
       {
-       "label": "雨",
-       "text": "rain",
-       "desc": "雨の天気・雨が降る様子"
-      },
-      {
        "label": "カフェ",
        "text": "cafe",
        "desc": "カフェ"
@@ -588,6 +546,141 @@
        "label": "川",
        "text": "river",
        "desc": "川"
+      }
+     ]
+    },
+    {
+     "title": "場所 / 特殊",
+     "items": [
+      {
+       "label": "城",
+       "text": "castle",
+       "desc": "石造りの城"
+      },
+      {
+       "label": "玉座の間",
+       "text": "throne room",
+       "desc": "王の玉座がある広間"
+      },
+      {
+       "label": "宮殿",
+       "text": "palace",
+       "desc": "豪華な宮殿"
+      },
+      {
+       "label": "塔",
+       "text": "tower",
+       "desc": "高くそびえる塔"
+      },
+      {
+       "label": "地下牢",
+       "text": "dungeon",
+       "desc": "暗い地下牢・ダンジョン"
+      },
+      {
+       "label": "牢屋",
+       "text": "prison cell",
+       "desc": "牢獄の独房"
+      },
+      {
+       "label": "酒場",
+       "text": "tavern",
+       "desc": "中世風の酒場"
+      },
+      {
+       "label": "洞窟",
+       "text": "cave",
+       "desc": "洞窟の中"
+      },
+      {
+       "label": "遺跡",
+       "text": "ruins",
+       "desc": "古代の遺跡・廃墟"
+      },
+      {
+       "label": "神殿",
+       "text": "temple",
+       "desc": "荘厳な神殿"
+      },
+      {
+       "label": "教会",
+       "text": "church",
+       "desc": "教会の礼拝堂"
+      },
+      {
+       "label": "大聖堂",
+       "text": "cathedral",
+       "desc": "大聖堂の内部"
+      },
+      {
+       "label": "村",
+       "text": "village",
+       "desc": "素朴な村"
+      },
+      {
+       "label": "闘技場",
+       "text": "arena",
+       "desc": "円形の闘技場"
+      },
+      {
+       "label": "魔法陣",
+       "text": "magic circle",
+       "desc": "床や空中に浮かぶ魔法陣"
+      },
+      {
+       "label": "研究所",
+       "text": "laboratory",
+       "desc": "実験器具のある研究所"
+      },
+      {
+       "label": "砂漠",
+       "text": "desert",
+       "desc": "見渡す限りの砂漠"
+      },
+      {
+       "label": "山",
+       "text": "mountain",
+       "desc": "山岳地帯"
+      },
+      {
+       "label": "滝",
+       "text": "waterfall",
+       "desc": "滝のある場所"
+      },
+      {
+       "label": "湖",
+       "text": "lake",
+       "desc": "湖のほとり"
+      },
+      {
+       "label": "水中",
+       "text": "underwater",
+       "desc": "水の中"
+      },
+      {
+       "label": "火山",
+       "text": "volcano",
+       "desc": "火山・溶岩地帯"
+      },
+      {
+       "label": "浮遊島",
+       "text": "floating island",
+       "desc": "空に浮かぶ島"
+      },
+      {
+       "label": "空中の城",
+       "text": "floating castle",
+       "desc": "空に浮かぶ城"
+      },
+      {
+       "label": "飛空艇",
+       "text": "airship",
+       "desc": "空を飛ぶ飛行船"
+      },
+      {
+       "label": "宇宙",
+       "text": "outer space",
+       "desc": "宇宙空間"
       }
      ]
     },
@@ -779,6 +872,33 @@
      "title": "時間・天気・季節",
      "items": [
       {
+       "label": "夜",
+       "text": "night",
+       "desc": "夜間の時間帯。",
+       "note": "day / morning と矛盾する。"
+      },
+      {
+       "label": "昼",
+       "text": "day",
+       "desc": "昼間の時間帯。",
+       "note": "night と矛盾する。"
+      },
+      {
+       "label": "夕方",
+       "text": "evening",
+       "desc": "夕方・黄昏時。"
+      },
+      {
+       "label": "朝",
+       "text": "morning",
+       "desc": "朝の時間帯。"
+      },
+      {
+       "label": "雨",
+       "text": "rain",
+       "desc": "雨の天気・雨が降る様子"
+      },
+      {
        "label": "日の出",
        "text": "sunrise",
        "desc": "日の出"
@@ -941,49 +1061,9 @@
        "variation": "choking"
       },
       {
-       "label": "ディープキス",
-       "text": "french kiss",
-       "desc": "舌を絡める濃厚なキス"
-      },
-      {
-       "label": "乳首を舐める",
-       "text": "licking nipple",
-       "desc": "乳首を舐める"
-      },
-      {
-       "label": "胸を吸う",
-       "text": "breast sucking",
-       "desc": "胸を吸う"
-      },
-      {
-       "label": "胸を揉む",
-       "text": "grabbing another's breast",
-       "desc": "相手の胸を揉む・掴む"
-      },
-      {
-       "label": "尻を掴む",
-       "text": "grabbing another's ass",
-       "desc": "相手のお尻を掴む"
-      },
-      {
-       "label": "喉奥フェラ",
-       "text": "deepthroat",
-       "desc": "喉の奥まで咥え込む"
-      },
-      {
-       "label": "腿コキ",
-       "text": "thigh sex",
-       "desc": "太ももで挟んで擦る"
-      },
-      {
        "label": "尻コキ",
        "text": "buttjob",
        "desc": "お尻で挟んで擦る"
-      },
-      {
-       "label": "自慰",
-       "text": "masturbation",
-       "desc": "自慰行為"
       }
      ]
     },
@@ -1061,46 +1141,6 @@
       {
        "label": "逆正常位",
        "variation": "reverse_missionary"
-      },
-      {
-       "label": "背面騎乗位",
-       "text": "reverse cowgirl position",
-       "desc": "背面騎乗位"
-      },
-      {
-       "label": "寝バック",
-       "text": "prone bone",
-       "desc": "うつ伏せで後ろから"
-      },
-      {
-       "label": "上体を起こした騎乗位",
-       "text": "upright straddle",
-       "desc": "上体を起こした騎乗位"
-      },
-      {
-       "label": "立ち",
-       "text": "standing sex",
-       "desc": "立ったままの体位"
-      },
-      {
-       "label": "後ろから",
-       "text": "sex from behind",
-       "desc": "後ろからの体位"
-      },
-      {
-       "label": "脚を折りたたむ",
-       "text": "folded",
-       "desc": "脚を折りたたまれた体位"
-      },
-      {
-       "label": "膝の上に座る",
-       "text": "sitting on lap",
-       "desc": "相手の膝の上に座る"
-      },
-      {
-       "label": "またがる",
-       "text": "straddling",
-       "desc": "相手にまたがる"
       }
      ]
     },
@@ -1154,49 +1194,14 @@
        "variation": "cum_overflow"
       },
       {
-       "label": "顔射",
-       "text": "facial",
-       "desc": "顔に精液がかかる"
-      },
-      {
-       "label": "体にかける",
-       "text": "cum on body",
-       "desc": "体に精液がかかる"
-      },
-      {
-       "label": "胸にかける",
-       "text": "cum on breasts",
-       "desc": "胸に精液がかかる"
-      },
-      {
-       "label": "お腹にかける",
-       "text": "cum on stomach",
-       "desc": "お腹に精液がかかる"
-      },
-      {
        "label": "お尻にかける",
        "text": "cum on ass",
        "desc": "お尻に精液がかかる"
       },
       {
-       "label": "口内射精",
-       "text": "cum in mouth",
-       "desc": "口の中に精液がある"
-      },
-      {
-       "label": "精液が垂れる",
-       "text": "cum drip",
-       "desc": "精液が垂れる"
-      },
-      {
        "label": "射精",
        "text": "ejaculation",
        "desc": "射精"
-      },
-      {
-       "label": "潮吹き",
-       "text": "squirting",
-       "desc": "潮吹き"
       },
       {
        "label": "ハート",
@@ -1214,11 +1219,6 @@
      "title": "脱衣・着衣状態",
      "items": [
       {
-       "label": "全裸",
-       "text": "nude",
-       "desc": "全裸"
-      },
-      {
        "label": "上半身裸",
        "text": "topless",
        "desc": "上半身裸"
@@ -1227,16 +1227,6 @@
        "label": "下半身裸",
        "text": "bottomless",
        "desc": "下半身裸"
-      },
-      {
-       "label": "脱いでいる途中",
-       "text": "undressing",
-       "desc": "服を脱いでいる最中"
-      },
-      {
-       "label": "着衣のまま",
-       "text": "clothed sex",
-       "desc": "服を着たままの行為"
       },
       {
        "label": "シャツをまくる",
@@ -1264,19 +1254,30 @@
        "desc": "下着をつけていない"
       },
       {
-       "label": "服を開く",
-       "text": "open clothes",
-       "desc": "服の前を開いている"
-      },
-      {
-       "label": "破れた服",
-       "text": "torn clothes",
-       "desc": "破れた服"
-      },
-      {
        "label": "胸を出す",
        "text": "breasts out",
        "desc": "胸をさらけ出している"
+      }
+     ]
+    },
+    {
+     "title": "体液",
+     "items": [
+      {
+       "label": "愛液",
+       "variation": "love_juice"
+      },
+      {
+       "label": "精液",
+       "variation": "semen"
+      },
+      {
+       "label": "よだれ・唾液",
+       "variation": "saliva"
+      },
+      {
+       "label": "汗",
+       "variation": "sweat"
       }
      ]
     },
@@ -1336,27 +1337,6 @@
       {
        "label": "身体の強調",
        "variation": "body_focus"
-      }
-     ]
-    },
-    {
-     "title": "体液",
-     "items": [
-      {
-       "label": "愛液",
-       "variation": "love_juice"
-      },
-      {
-       "label": "精液",
-       "variation": "semen"
-      },
-      {
-       "label": "よだれ・唾液",
-       "variation": "saliva"
-      },
-      {
-       "label": "汗",
-       "variation": "sweat"
       }
      ]
     },
@@ -1597,11 +1577,6 @@
        "label": "手を振る",
        "text": "waving",
        "desc": "手を振る"
-      },
-      {
-       "label": "抱きしめる",
-       "text": "hug",
-       "desc": "相手を抱きしめる"
       },
       {
        "label": "手をつなぐ",
@@ -3260,11 +3235,6 @@
        "desc": "大人の成熟した女性"
       },
       {
-       "label": "大きい胸",
-       "text": "large breasts",
-       "desc": "大きな胸"
-      },
-      {
        "label": "普通の胸",
        "text": "medium breasts",
        "desc": "標準的な大きさの胸"
@@ -3278,11 +3248,6 @@
        "label": "広い腰",
        "text": "wide hips",
        "desc": "腰回りが広い"
-      },
-      {
-       "label": "太もも",
-       "text": "thick thighs",
-       "desc": "肉付きのいい太もも"
       },
       {
        "label": "色白",
