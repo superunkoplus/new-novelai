@@ -1,165 +1,133 @@
-const state = {
-  data: null,
-  activeCategory: null,
-  positive: [],
-  negative: []
-};
+// ===== 状態 =====
+const WEIGHTS = [0.8, 1.0, 1.1, 1.2, 1.3, 1.5];
+const state = { data: null, tab: 0, selected: [] }; // selected: { text, label, weight }
+const $ = (id) => document.getElementById(id);
 
-const categoryList = document.querySelector("#category-list");
-const tagList = document.querySelector("#tag-list");
-const positiveTags = document.querySelector("#positive-tags");
-const negativeTags = document.querySelector("#negative-tags");
-const statusMessage = document.querySelector("#status-message");
-
-async function loadPrompts() {
+// ===== 起動 =====
+async function init() {
   try {
-    const response = await fetch("./prompts.json");
-    if (!response.ok) throw new Error("prompts.json を読み込めませんでした。");
-    state.data = await response.json();
-    state.activeCategory = state.data.categories[0]?.id ?? null;
-    renderCategories();
-    renderTagButtons();
-    renderSelectedTags();
-  } catch (error) {
-    tagList.textContent = "タグデータを読み込めませんでした。GitHub PagesなどHTTP経由で開いているか、prompts.jsonがあるか確認してください。";
-    showStatus(error.message);
-  }
-}
-
-function renderCategories() {
-  categoryList.replaceChildren();
-  for (const category of state.data.categories) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "category-button" + (category.id === state.activeCategory ? " active" : "");
-    button.textContent = category.name;
-    button.setAttribute("aria-pressed", String(category.id === state.activeCategory));
-    button.addEventListener("click", () => {
-      state.activeCategory = category.id;
-      renderCategories();
-      renderTagButtons();
-    });
-    categoryList.append(button);
-  }
-}
-
-function getActiveCategory() {
-  return state.data.categories.find(category => category.id === state.activeCategory);
-}
-
-function renderTagButtons() {
-  tagList.replaceChildren();
-  const category = getActiveCategory();
-  if (!category || !Array.isArray(category.tags) || category.tags.length === 0) {
-    const message = document.createElement("p");
-    message.className = "empty-message";
-    message.textContent = "このカテゴリーにはまだタグがありません。";
-    tagList.append(message);
+    state.data = await (await fetch("prompts.json")).json();
+  } catch (e) {
+    $("content").textContent = "prompts.json を読み込めません(Live Server等で開いてください)";
     return;
   }
-
-  for (const tag of category.tags) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "tag-button";
-    button.textContent = tag.label;
-    button.title = tag.prompt;
-    const target = tag.target === "negative" ? state.negative : state.positive;
-    button.disabled = target.some(item => item.prompt === tag.prompt);
-    button.addEventListener("click", () => addTag(tag));
-    tagList.append(button);
-  }
+  try { state.selected = JSON.parse(localStorage.getItem("nai_selected") || "[]"); } catch (e) {}
+  $("copy").onclick = copyPrompt;
+  $("clear").onclick = () => { state.selected = []; update(); };
+  $("overlay").onclick = (e) => { if (e.target.id === "overlay") closePanel(); };
+  update();
 }
 
-function addTag(tag) {
-  const target = tag.target === "negative" ? state.negative : state.positive;
-  if (target.some(item => item.prompt === tag.prompt)) {
-    showStatus("同じタグは重複して追加できません。");
-    return;
-  }
-  target.push({ label: tag.label, prompt: tag.prompt });
-  renderSelectedTags();
-  renderTagButtons();
-  showStatus(`「${tag.label}」を追加しました。`);
+// ===== 選択操作 =====
+const find = (text) => state.selected.findIndex((s) => s.text === text);
+
+function toggle(text, label) {
+  const i = find(text);
+  if (i >= 0) state.selected.splice(i, 1);
+  else state.selected.push({ text, label, weight: 1.0 });
+  update();
 }
 
-function renderSelectedTags() {
-  renderTagGroup(positiveTags, state.positive, "positive");
-  renderTagGroup(negativeTags, state.negative, "negative");
+function update() {
+  try { localStorage.setItem("nai_selected", JSON.stringify(state.selected)); } catch (e) {}
+  renderTabs();
+  renderContent();
+  renderChips();
 }
 
-function renderTagGroup(container, items, targetName) {
-  container.replaceChildren();
-  if (items.length === 0) {
-    const message = document.createElement("p");
-    message.className = "empty-message";
-    message.textContent = "まだタグが選択されていません。";
-    container.append(message);
-    return;
-  }
+// ===== 描画 =====
+function el(tag, text, cls, onclick) {
+  const e = document.createElement(tag);
+  if (text) e.textContent = text;
+  if (cls) e.className = cls;
+  if (onclick) e.onclick = onclick;
+  return e;
+}
 
-  items.forEach((item, index) => {
-    const chip = document.createElement("div");
-    chip.className = "selected-tag";
-    const label = document.createElement("span");
-    label.textContent = item.prompt;
-    const remove = document.createElement("button");
-    remove.type = "button";
-    remove.className = "remove-tag";
-    remove.textContent = "×";
-    remove.setAttribute("aria-label", `${item.label}を削除`);
-    remove.addEventListener("click", () => {
-      state[targetName].splice(index, 1);
-      renderSelectedTags();
-      renderTagButtons();
-      showStatus(`「${item.label}」を削除しました。`);
-    });
-    chip.append(label, remove);
-    container.append(chip);
+function renderTabs() {
+  const box = $("tabs");
+  box.innerHTML = "";
+  state.data.categories.forEach((c, i) => {
+    box.appendChild(el("button", c.name, i === state.tab ? "active" : "", () => {
+      state.tab = i; window.scrollTo(0, 0); update();
+    }));
   });
 }
 
-function getPrompt(items) {
-  return items.map(item => item.prompt).join(", ");
+function renderContent() {
+  const box = $("content");
+  box.innerHTML = "";
+  state.data.categories[state.tab].sections.forEach((sec) => {
+    if (sec.title) box.appendChild(el("h2", sec.title));
+    const row = el("div", "", "buttons");
+    sec.items.forEach((it) => {
+      if (it.variation) {
+        row.appendChild(el("button", it.label, "var", () => openVariation(it.variation)));
+      } else {
+        const b = el("button", it.label, find(it.text) >= 0 ? "on" : "", () => toggle(it.text, it.label));
+        if (it.desc) b.title = it.desc + (it.note ? "\n注意: " + it.note : "");
+        row.appendChild(b);
+      }
+    });
+    box.appendChild(row);
+  });
 }
 
-async function copyText(text, label) {
-  if (!text) {
-    showStatus("コピーするタグがありません。");
-    return;
+function renderChips() {
+  const box = $("chips");
+  box.innerHTML = "";
+  if (!state.selected.length) box.appendChild(el("span", "ここに選択したプロンプトが表示されます", "hint"));
+  state.selected.forEach((s, i) => {
+    const c = el("span", s.label || s.text, "chip", () => openWeight(i));
+    if (s.weight !== 1.0) c.appendChild(el("b", String(s.weight)));
+    box.appendChild(c);
+  });
+}
+
+// ===== パネル(バリエーション / 重み) =====
+function openPanel(title, buttons) {
+  const p = $("panel");
+  p.innerHTML = "";
+  p.appendChild(el("h3", title));
+  buttons.forEach((b) => p.appendChild(b));
+  p.appendChild(el("button", "閉じる", "close", closePanel));
+  $("overlay").hidden = false;
+}
+function closePanel() { $("overlay").hidden = true; }
+
+function openVariation(key) {
+  const v = state.data.variations[key];
+  const btns = v.options.map((o) => {
+    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); closePanel(); });
+    if (o.desc) b.appendChild(el("small", o.desc));
+    return b;
+  });
+  openPanel(v.title, btns);
+}
+
+function openWeight(i) {
+  const s = state.selected[i];
+  const btns = WEIGHTS.map((w) =>
+    el("button", String(w), w === s.weight ? "on" : "", () => { s.weight = w; closePanel(); update(); }));
+  btns.push(el("button", "このチップを削除", "danger", () => { state.selected.splice(i, 1); closePanel(); update(); }));
+  openPanel((s.label || s.text) + " の重み", btns);
+}
+
+// ===== コピー =====
+async function copyPrompt() {
+  if (!state.selected.length) return;
+  let out = state.selected
+    .map((s) => (s.weight === 1.0 ? s.text : s.weight + "::" + s.text + "::"))
+    .join(", ");
+  if (!out.endsWith(",")) out += ",";
+  try { await navigator.clipboard.writeText(out); }
+  catch (e) {
+    const ta = el("textarea"); ta.value = out; document.body.appendChild(ta);
+    ta.select(); document.execCommand("copy"); ta.remove();
   }
-  try {
-    await navigator.clipboard.writeText(text);
-    showStatus(`${label}をコピーしました。`);
-  } catch {
-    const textarea = document.createElement("textarea");
-    textarea.value = text;
-    textarea.style.position = "fixed";
-    textarea.style.opacity = "0";
-    document.body.append(textarea);
-    textarea.select();
-    const copied = document.execCommand("copy");
-    textarea.remove();
-    showStatus(copied ? `${label}をコピーしました。` : "コピーできませんでした。テキストを選択してコピーしてください。");
-  }
+  const b = $("copy");
+  b.textContent = "コピーしました";
+  setTimeout(() => (b.textContent = "コピー"), 1200);
 }
 
-function showStatus(message) {
-  statusMessage.textContent = message;
-}
-
-document.querySelector("#copy-positive").addEventListener("click", () => copyText(getPrompt(state.positive), "通常プロンプト"));
-document.querySelector("#copy-negative").addEventListener("click", () => copyText(getPrompt(state.negative), "ネガティブプロンプト"));
-document.querySelector("#copy-all").addEventListener("click", () => {
-  const text = `通常プロンプト:\n${getPrompt(state.positive)}\n\nネガティブプロンプト:\n${getPrompt(state.negative)}`;
-  copyText(text, "両方のプロンプト");
-});
-document.querySelector("#clear-all").addEventListener("click", () => {
-  state.positive = [];
-  state.negative = [];
-  renderSelectedTags();
-  renderTagButtons();
-  showStatus("すべてのタグをクリアしました。");
-});
-
-loadPrompts();
+init();
