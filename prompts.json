@@ -96,220 +96,6 @@
    ]
   },
   {
-   "name": "視点",
-   "sections": [
-    {
-     "title": "基本の視点",
-     "items": [
-      {
-       "label": "目線の高さ",
-       "text": "eye-level view",
-       "desc": "人物の目線と同じ高さから見る構図。"
-      },
-      {
-       "label": "下から見上げる",
-       "text": "low-angle view",
-       "desc": "低い位置から見上げるアングル。",
-       "note": "強くしすぎると顔が小さく歪みやすい。"
-      },
-      {
-       "label": "上から見下ろす",
-       "text": "high-angle view",
-       "desc": "高い位置から見下ろす構図。",
-       "note": "頭が大きく、足元が画面外に出やすい。"
-      },
-      {
-       "label": "真上から",
-       "text": "bird's-eye view",
-       "desc": "真上（鳥瞰）から見下ろす構図。"
-      },
-      {
-       "label": "かなり低い位置から",
-       "text": "worm's-eye view",
-       "desc": "地面すれすれの極端なあおり構図。"
-      }
-     ],
-     "exclusive": true
-    },
-    {
-     "title": "カメラの位置",
-     "items": [
-      {
-       "label": "主観",
-       "text": "pov",
-       "desc": "見る側＝行為者側の視点。"
-      },
-      {
-       "label": "正面",
-       "text": "front view",
-       "desc": "被写体を真正面から捉える構図。"
-      },
-      {
-       "label": "横",
-       "text": "side view",
-       "desc": "横方向から見た構図。"
-      },
-      {
-       "label": "真横",
-       "text": "profile view",
-       "desc": "完全に横顔・真横のシルエット。"
-      },
-      {
-       "label": "後ろ",
-       "text": "rear view",
-       "desc": "背面からの構図。",
-       "note": "looking at viewer と矛盾しやすい。"
-      },
-      {
-       "label": "斜め",
-       "text": "three-quarter view",
-       "desc": "斜め約45度から捉える定番構図。"
-      },
-      {
-       "label": "後方",
-       "text": "from behind",
-       "desc": "やや後ろ寄りから見る構図。"
-      },
-      {
-       "label": "上方",
-       "text": "from above",
-       "desc": "上方向から見下ろすカメラ位置。"
-      },
-      {
-       "label": "下方",
-       "text": "from below",
-       "desc": "下方向から見上げるカメラ位置。"
-      },
-      {
-       "label": "引いた構図",
-       "text": "wide shot",
-       "desc": "被写体を小さく、周囲の空間を多く入れる。"
-      },
-      {
-       "label": "中距離",
-       "text": "medium shot",
-       "desc": "腰から上〜膝上程度の中距離ショット。"
-      },
-      {
-       "label": "全身+周囲",
-       "text": "long shot",
-       "desc": "全身が入る距離で背景もある程度写る。"
-      },
-      {
-       "label": "クローズアップ",
-       "variation": "closeup"
-      },
-      {
-       "label": "ダッチアングル",
-       "text": "dutch angle",
-       "desc": "カメラを斜めに傾ける構図。"
-      },
-      {
-       "label": "肩越し",
-       "text": "over the shoulder",
-       "desc": "手前の人物の肩越しに奥を見る構図。"
-      },
-      {
-       "label": "魚眼",
-       "text": "fisheye",
-       "desc": "魚眼レンズのような強い歪み。"
-      },
-      {
-       "label": "シネマティック",
-       "text": "cinematic angle",
-       "desc": "映画的な画角・ライティングを意識した構図。"
-      },
-      {
-       "label": "膝上",
-       "text": "cowboy shot",
-       "desc": "太もも付近までを写す構図"
-      },
-      {
-       "label": "パース強調",
-       "text": "foreshortening",
-       "desc": "手前のものを大きく見せる強い遠近表現"
-      }
-     ]
-    },
-    {
-     "title": "被写体の視線",
-     "items": [
-      {
-       "label": "カメラ目線",
-       "text": "looking at viewer",
-       "desc": "被写体がカメラを見つめている。",
-       "note": "from behind / rear view と矛盾しやすい。"
-      },
-      {
-       "label": "視線を外す",
-       "text": "looking away",
-       "desc": "カメラから意図的に視線を外している。"
-      },
-      {
-       "label": "遠くを見ている",
-       "text": "looking into the distance",
-       "desc": "遠くの一点を見つめる視線。"
-      },
-      {
-       "label": "横を見る",
-       "text": "looking to the side",
-       "desc": "横方向を見ている。"
-      },
-      {
-       "label": "振り返る",
-       "text": "looking back",
-       "desc": "体はそのまま、顔だけ振り返る。"
-      },
-      {
-       "label": "上を見る",
-       "text": "looking up",
-       "desc": "上方向を見ている。"
-      },
-      {
-       "label": "上目遣い",
-       "text": "upturned eyes",
-       "desc": "下がり気味の顔から上目で見る視線。"
-      },
-      {
-       "label": "下を見る",
-       "text": "looking down",
-       "desc": "下方向を見ている。"
-      },
-      {
-       "label": "うつむく",
-       "text": "downcast eyes",
-       "desc": "視線を落としてうつむいている。"
-      },
-      {
-       "label": "斜め上を見る",
-       "text": "looking diagonally upward",
-       "desc": "斜め上方を見ている。"
-      },
-      {
-       "label": "斜め下を見る",
-       "text": "looking diagonally downward",
-       "desc": "斜め下方を見ている。"
-      },
-      {
-       "label": "目を閉じる",
-       "text": "eyes closed",
-       "desc": "両目を閉じている。"
-      },
-      {
-       "label": "半目",
-       "text": "half-closed eyes",
-       "desc": "まぶたが半分閉じた、とろんとした目。"
-      },
-      {
-       "label": "ウインク",
-       "text": "winking",
-       "desc": "片目をつぶっている。"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "状況",
    "sections": [
     {
@@ -977,6 +763,220 @@
        "label": "蛍",
        "text": "fireflies",
        "desc": "蛍の光"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "視点",
+   "sections": [
+    {
+     "title": "基本の視点",
+     "items": [
+      {
+       "label": "目線の高さ",
+       "text": "eye-level view",
+       "desc": "人物の目線と同じ高さから見る構図。"
+      },
+      {
+       "label": "下から見上げる",
+       "text": "low-angle view",
+       "desc": "低い位置から見上げるアングル。",
+       "note": "強くしすぎると顔が小さく歪みやすい。"
+      },
+      {
+       "label": "上から見下ろす",
+       "text": "high-angle view",
+       "desc": "高い位置から見下ろす構図。",
+       "note": "頭が大きく、足元が画面外に出やすい。"
+      },
+      {
+       "label": "真上から",
+       "text": "bird's-eye view",
+       "desc": "真上（鳥瞰）から見下ろす構図。"
+      },
+      {
+       "label": "かなり低い位置から",
+       "text": "worm's-eye view",
+       "desc": "地面すれすれの極端なあおり構図。"
+      }
+     ],
+     "exclusive": true
+    },
+    {
+     "title": "カメラの位置",
+     "items": [
+      {
+       "label": "主観",
+       "text": "pov",
+       "desc": "見る側＝行為者側の視点。"
+      },
+      {
+       "label": "正面",
+       "text": "front view",
+       "desc": "被写体を真正面から捉える構図。"
+      },
+      {
+       "label": "横",
+       "text": "side view",
+       "desc": "横方向から見た構図。"
+      },
+      {
+       "label": "真横",
+       "text": "profile view",
+       "desc": "完全に横顔・真横のシルエット。"
+      },
+      {
+       "label": "後ろ",
+       "text": "rear view",
+       "desc": "背面からの構図。",
+       "note": "looking at viewer と矛盾しやすい。"
+      },
+      {
+       "label": "斜め",
+       "text": "three-quarter view",
+       "desc": "斜め約45度から捉える定番構図。"
+      },
+      {
+       "label": "後方",
+       "text": "from behind",
+       "desc": "やや後ろ寄りから見る構図。"
+      },
+      {
+       "label": "上方",
+       "text": "from above",
+       "desc": "上方向から見下ろすカメラ位置。"
+      },
+      {
+       "label": "下方",
+       "text": "from below",
+       "desc": "下方向から見上げるカメラ位置。"
+      },
+      {
+       "label": "引いた構図",
+       "text": "wide shot",
+       "desc": "被写体を小さく、周囲の空間を多く入れる。"
+      },
+      {
+       "label": "中距離",
+       "text": "medium shot",
+       "desc": "腰から上〜膝上程度の中距離ショット。"
+      },
+      {
+       "label": "全身+周囲",
+       "text": "long shot",
+       "desc": "全身が入る距離で背景もある程度写る。"
+      },
+      {
+       "label": "クローズアップ",
+       "variation": "closeup"
+      },
+      {
+       "label": "ダッチアングル",
+       "text": "dutch angle",
+       "desc": "カメラを斜めに傾ける構図。"
+      },
+      {
+       "label": "肩越し",
+       "text": "over the shoulder",
+       "desc": "手前の人物の肩越しに奥を見る構図。"
+      },
+      {
+       "label": "魚眼",
+       "text": "fisheye",
+       "desc": "魚眼レンズのような強い歪み。"
+      },
+      {
+       "label": "シネマティック",
+       "text": "cinematic angle",
+       "desc": "映画的な画角・ライティングを意識した構図。"
+      },
+      {
+       "label": "膝上",
+       "text": "cowboy shot",
+       "desc": "太もも付近までを写す構図"
+      },
+      {
+       "label": "パース強調",
+       "text": "foreshortening",
+       "desc": "手前のものを大きく見せる強い遠近表現"
+      }
+     ]
+    },
+    {
+     "title": "被写体の視線",
+     "items": [
+      {
+       "label": "カメラ目線",
+       "text": "looking at viewer",
+       "desc": "被写体がカメラを見つめている。",
+       "note": "from behind / rear view と矛盾しやすい。"
+      },
+      {
+       "label": "視線を外す",
+       "text": "looking away",
+       "desc": "カメラから意図的に視線を外している。"
+      },
+      {
+       "label": "遠くを見ている",
+       "text": "looking into the distance",
+       "desc": "遠くの一点を見つめる視線。"
+      },
+      {
+       "label": "横を見る",
+       "text": "looking to the side",
+       "desc": "横方向を見ている。"
+      },
+      {
+       "label": "振り返る",
+       "text": "looking back",
+       "desc": "体はそのまま、顔だけ振り返る。"
+      },
+      {
+       "label": "上を見る",
+       "text": "looking up",
+       "desc": "上方向を見ている。"
+      },
+      {
+       "label": "上目遣い",
+       "text": "upturned eyes",
+       "desc": "下がり気味の顔から上目で見る視線。"
+      },
+      {
+       "label": "下を見る",
+       "text": "looking down",
+       "desc": "下方向を見ている。"
+      },
+      {
+       "label": "うつむく",
+       "text": "downcast eyes",
+       "desc": "視線を落としてうつむいている。"
+      },
+      {
+       "label": "斜め上を見る",
+       "text": "looking diagonally upward",
+       "desc": "斜め上方を見ている。"
+      },
+      {
+       "label": "斜め下を見る",
+       "text": "looking diagonally downward",
+       "desc": "斜め下方を見ている。"
+      },
+      {
+       "label": "目を閉じる",
+       "text": "eyes closed",
+       "desc": "両目を閉じている。"
+      },
+      {
+       "label": "半目",
+       "text": "half-closed eyes",
+       "desc": "まぶたが半分閉じた、とろんとした目。"
+      },
+      {
+       "label": "ウインク",
+       "text": "winking",
+       "desc": "片目をつぶっている。"
       }
      ]
     }
@@ -3804,6 +3804,16 @@
      "text": "deepthroat, deep fellatio"
     },
     {
+     "label": "先端を舐めるフェラ",
+     "desc": "亀頭・先端を舌で舐める",
+     "text": "licking penis, glans"
+    },
+    {
+     "label": "裏筋を舐めるフェラ",
+     "desc": "裏側の筋を舌で舐め上げる",
+     "text": "licking penis, frenulum"
+    },
+    {
      "label": "玉も舐めるフェラ",
      "desc": "睾丸も舐める",
      "text": "fellatio, licking balls"
@@ -3817,11 +3827,6 @@
      "label": "口内射精されるフェラ",
      "desc": "口の中に出される",
      "text": "cum in mouth, oral creampie"
-    },
-    {
-     "label": "上から咥えるフェラ",
-     "desc": "女性が上から咥える",
-     "text": "woman on top fellatio, kneeling fellatio"
     }
    ]
   },
@@ -4217,11 +4222,6 @@
      "label": "基本のパイズリ",
      "desc": "胸で挟む",
      "text": "paizuri, titjob, breast job"
-    },
-    {
-     "label": "顔を押し付けるパイズリ",
-     "desc": "顔を胸に埋める",
-     "text": "paizuri, face pressed into breasts"
     },
     {
      "label": "胸に射精されるパイズリ",
