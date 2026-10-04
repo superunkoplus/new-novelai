@@ -13,9 +13,7 @@ async function init() {
   }
   try { state.selected = JSON.parse(localStorage.getItem("nai_selected") || "[]"); } catch (e) {}
   $("copy").onclick = copyPrompt;
-  // 固定(ピン留め)したチップは全消去で消えない。固定チップは常に先頭に並ぶ
-  $("clear").onclick = () => { state.selected = state.selected.filter((s) => s.pinned); update(); };
-  $("unpin").onclick = () => { state.selected.forEach((s) => (s.pinned = false)); update(); };
+  $("clear").onclick = () => { state.selected = []; update(); };
   $("overlay").onclick = (e) => { if (e.target.id === "overlay") closePanel(); };
   update();
 }
@@ -96,10 +94,9 @@ function renderContent() {
 function renderChips() {
   const box = $("chips");
   box.innerHTML = "";
-  $("unpin").hidden = !state.selected.some((s) => s.pinned);
   if (!state.selected.length) box.appendChild(el("span", "ここに選択したプロンプトが表示されます", "hint"));
   state.selected.forEach((s, i) => {
-    const c = el("span", (s.pinned ? "📌 " : "") + (s.label || s.text), "chip" + (s.pinned ? " pinned" : ""), () => openWeight(i));
+    const c = el("span", s.label || s.text, "chip", () => openWeight(i));
     if (s.weight !== 1.0) c.appendChild(el("b", String(s.weight)));
     box.appendChild(c);
   });
@@ -137,19 +134,10 @@ function openVariation(key) {
   openPanel(v.title, btns);
 }
 
-function togglePin(i) {
-  const s = state.selected[i];
-  s.pinned = !s.pinned;
-  state.selected = [...state.selected.filter((x) => x.pinned), ...state.selected.filter((x) => !x.pinned)];
-  update();
-  openWeight(state.selected.indexOf(s));
-}
-
 function move(i, d) {
   const j = i + d;
   const a = state.selected;
-  // 範囲外、または固定/非固定の境界をまたぐ移動はしない
-  if (j < 0 || j >= a.length || !!a[i].pinned !== !!a[j].pinned) return;
+  if (j < 0 || j >= a.length) return;
   [a[i], a[j]] = [a[j], a[i]];
   update();
   openWeight(j);
@@ -158,7 +146,6 @@ function move(i, d) {
 function openWeight(i) {
   const s = state.selected[i];
   const btns = [];
-  btns.push(el("button", s.pinned ? "📌 固定を解除" : "📌 固定する(全消去で消えない)", s.pinned ? "on" : "", () => togglePin(i)));
   const mv = el("div", "", "moverow");
   mv.appendChild(el("button", "◀ 前へ", "", () => move(i, -1)));
   mv.appendChild(el("button", "後ろへ ▶", "", () => move(i, 1)));
