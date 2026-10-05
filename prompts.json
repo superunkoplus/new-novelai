@@ -8,7 +8,7 @@
      "items": [
       {
        "label": "ベース",
-       "text": "best quality, amazing quality,1.5::artist:key(kagibangou)::,1.3::artist:ishigaki takashi::, 1.3::artist:meme50 ::, 1.2::artist:artist:kotoyama::, 1.2::artist:orushibu::, 1.2::artist:siirakannu::,highres,4K, highly detailed, Curated, masterpiece, simple background, depth of field,ultra complexity,anime screencap, clean lineart, flat colors, simple cel shading, smooth shading,-4::multiple views::,-4::speech bubble::,-4::sound effects::,-4::Low Luminance::,",
+       "text": "best quality, amazing quality,1.5::artist:key(kagibangou)::,1.3::artist:ishigaki takashi::, 1.3::artist:meme50 ::, 1.2::artist:kotoyama::, 1.2::artist:orushibu::, 1.2::artist:siirakannu::,highres,4K, highly detailed, Curated, masterpiece, simple background, depth of field,ultra complexity,anime screencap, clean lineart, flat colors, simple cel shading, smooth shading,-4::multiple views::,-4::speech bubble::,-4::sound effects::,-4::Low Luminance::,",
        "desc": "画質・アーティスト指定を底上げする定番セット。"
       },
       {
@@ -1078,6 +1078,156 @@
       {
        "label": "首を軽く締める",
        "variation": "choking"
+      },
+      {
+       "label": "顔面騎乗",
+       "text": "sitting on face",
+       "desc": "相手の顔の上に座る"
+      },
+      {
+       "label": "髪コキ",
+       "text": "hairjob",
+       "desc": "髪で包んで擦る"
+      },
+      {
+       "label": "亀頭責め",
+       "text": "glansjob",
+       "desc": "先端を集中して刺激する"
+      },
+      {
+       "label": "膝裏コキ",
+       "text": "kneepit sex",
+       "desc": "膝の裏で挟んで擦る"
+      },
+      {
+       "label": "背中コキ",
+       "text": "backjob",
+       "desc": "背中で擦る"
+      },
+      {
+       "label": "玉を撫でる",
+       "text": "caressing testicles",
+       "desc": "睾丸を撫でる"
+      },
+      {
+       "label": "抱きつき手コキ",
+       "text": "cuddling handjob",
+       "desc": "抱きついて密着しながらの手コキ"
+      },
+      {
+       "label": "後ろから手コキ",
+       "text": "reach-around",
+       "desc": "背後から手を回して手コキ"
+      },
+      {
+       "label": "抱きしめて吸う",
+       "text": "hug and suck",
+       "desc": "抱きしめながら口で吸う"
+      },
+      {
+       "label": "手を使わないパイズリ",
+       "text": "handsfree paizuri",
+       "desc": "手を添えずに胸で挟む"
+      },
+      {
+       "label": "服越しパイズリ",
+       "text": "paizuri over clothes",
+       "desc": "服の上から胸で挟む"
+      },
+      {
+       "label": "服の下パイズリ",
+       "text": "paizuri under clothes",
+       "desc": "服の中で胸で挟む"
+      },
+      {
+       "label": "跨りパイズリ",
+       "text": "straddling paizuri",
+       "desc": "相手にまたがって胸で挟む"
+      },
+      {
+       "label": "膝上パイズリ",
+       "text": "paizuri on lap",
+       "desc": "膝の上に座った状態で胸で挟む"
+      },
+      {
+       "label": "垂直パイズリ",
+       "text": "perpendicular paizuri",
+       "desc": "胸の谷間と垂直に挟む"
+      },
+      {
+       "label": "両足コキ",
+       "text": "two-footed footjob",
+       "desc": "両足で挟んで擦る"
+      },
+      {
+       "label": "靴下足コキ",
+       "text": "footjob with legwear",
+       "desc": "靴下やタイツ越しの足コキ"
+      },
+      {
+       "label": "後ろから足コキ",
+       "text": "footjob from behind",
+       "desc": "背後から足で刺激する"
+      },
+      {
+       "label": "机の下の足コキ",
+       "text": "footjob under table",
+       "desc": "机の下でこっそり足で刺激する"
+      },
+      {
+       "label": "足を舐める",
+       "text": "licking foot",
+       "desc": "足を舐める"
+      },
+      {
+       "label": "立ち69",
+       "text": "upright 69",
+       "desc": "立ったまま上下逆で口で愛撫する"
+      },
+      {
+       "label": "女性の自慰",
+       "text": "female masturbation",
+       "desc": "女性が自分で慰める"
+      },
+      {
+       "label": "服越しの自慰",
+       "text": "masturbation through clothes",
+       "desc": "服の上から自分を触る"
+      },
+      {
+       "label": "服の下の自慰",
+       "text": "masturbation under clothes",
+       "desc": "服の中に手を入れて自分を触る"
+      },
+      {
+       "label": "股を擦る",
+       "text": "crotch rub",
+       "desc": "股間を何かに擦りつける"
+      },
+      {
+       "label": "枕で自慰",
+       "text": "pillow humping",
+       "desc": "枕に股を押し当てる"
+      },
+      {
+       "label": "角オナ",
+       "text": "table humping",
+       "desc": "机の角に股を押し当てる"
+      },
+      {
+       "label": "服越し指入れ",
+       "text": "fingering through clothes",
+       "desc": "服の上から指で刺激する"
+      },
+      {
+       "label": "パンツ越し指入れ",
+       "text": "fingering through panties",
+       "desc": "下着の上から指で刺激する"
+      },
+      {
+       "label": "パフパフ",
+       "text": "breast smother",
+       "desc": "顔を胸に埋めさせる"
       }
      ]
     },
@@ -1155,6 +1305,106 @@
      ]
     },
     {
+     "title": "挿入の描写",
+     "items": [
+      {
+       "label": "挿入直前",
+       "text": "imminent penetration",
+       "desc": "挿入する直前の場面"
+      },
+      {
+       "label": "手で導く挿入",
+       "text": "guided penetration",
+       "desc": "手で導いて挿入する"
+      },
+      {
+       "label": "最奥まで届く",
+       "text": "cervical penetration",
+       "desc": "最奥まで届いている"
+      },
+      {
+       "label": "お腹の膨らみ",
+       "text": "stomach bulge",
+       "desc": "挿入でお腹が盛り上がる"
+      },
+      {
+       "label": "断面図",
+       "text": "cross-section",
+       "desc": "体内を断面で見せる"
+      },
+      {
+       "label": "体内射精(断面)",
+       "text": "internal cumshot",
+       "desc": "体内に出される様子を断面で見せる"
+      },
+      {
+       "label": "レントゲン",
+       "text": "x-ray",
+       "desc": "体内を透視する"
+      },
+      {
+       "label": "挿入したまま射精",
+       "text": "ejaculating while penetrated",
+       "desc": "挿入しながら射精している"
+      },
+      {
+       "label": "外出し",
+       "text": "pull out",
+       "desc": "引き抜いて外に出す"
+      },
+      {
+       "label": "激しいセックス",
+       "text": "rough sex",
+       "desc": "激しい行為"
+      },
+      {
+       "label": "幸せそうなセックス",
+       "text": "happy sex",
+       "desc": "幸せそうな表情での行為"
+      },
+      {
+       "label": "水中のセックス",
+       "text": "underwater sex",
+       "desc": "水の中での行為"
+      },
+      {
+       "label": "こっそりセックス",
+       "text": "stealth sex",
+       "desc": "周囲に隠れてする行為"
+      },
+      {
+       "label": "行為後",
+       "text": "after sex",
+       "desc": "行為の後の場面"
+      },
+      {
+       "label": "挿入後",
+       "text": "after vaginal",
+       "desc": "挿入行為の後の場面"
+      },
+      {
+       "label": "フェラ後",
+       "text": "after fellatio",
+       "desc": "フェラの後の場面"
+      },
+      {
+       "label": "自慰後",
+       "text": "after masturbation",
+       "desc": "自慰の後の場面"
+      },
+      {
+       "label": "パイズリ後",
+       "text": "after paizuri",
+       "desc": "パイズリの後の場面"
+      },
+      {
+       "label": "指入れ後",
+       "text": "after fingering",
+       "desc": "指入れの後の場面"
+      }
+     ]
+    },
+    {
      "title": "エフェクト・反応",
      "items": [
       {
@@ -1226,6 +1476,206 @@
      ]
     },
     {
+     "title": "精液の位置",
+     "items": [
+      {
+       "label": "髪に",
+       "text": "cum on hair",
+       "desc": "髪に精液がかかる"
+      },
+      {
+       "label": "背中に",
+       "text": "cum on back",
+       "desc": "背中に精液がかかる"
+      },
+      {
+       "label": "脇に",
+       "text": "cum on armpits",
+       "desc": "脇に精液がかかる"
+      },
+      {
+       "label": "足に",
+       "text": "cum on feet",
+       "desc": "足に精液がかかる"
+      },
+      {
+       "label": "指に",
+       "text": "cum on fingers",
+       "desc": "指に精液が付く"
+      },
+      {
+       "label": "割れ目の上に",
+       "text": "cum on pussy",
+       "desc": "陰部に精液がかかる"
+      },
+      {
+       "label": "おへそに",
+       "text": "cum in navel",
+       "desc": "おへそに精液が溜まる"
+      },
+      {
+       "label": "喉奥に",
+       "text": "cum in throat",
+       "desc": "喉の奥に出される"
+      },
+      {
+       "label": "お尻の中に",
+       "text": "cum in ass",
+       "desc": "アナルに出される"
+      },
+      {
+       "label": "服にかかる",
+       "text": "cum on clothes",
+       "desc": "服に精液がかかる"
+      },
+      {
+       "label": "服の中に",
+       "text": "cum in clothes",
+       "desc": "服の中に出される"
+      },
+      {
+       "label": "精液を飲む",
+       "text": "gokkun",
+       "desc": "口の中の精液を飲み込む"
+      },
+      {
+       "label": "ぶっかけ",
+       "text": "bukkake",
+       "desc": "大量にかけられる"
+      },
+      {
+       "label": "口移し",
+       "text": "cum swap",
+       "desc": "口の中の精液を口移しする"
+      },
+      {
+       "label": "精液溜まり",
+       "text": "cum pool",
+       "desc": "精液が水たまりのようになる"
+      }
+     ]
+    },
+    {
+     "title": "疑似・暗示",
+     "items": [
+      {
+       "label": "疑似フェラ",
+       "text": "simulated fellatio",
+       "desc": "棒状のものを咥えて見立てる"
+      },
+      {
+       "label": "疑似手コキ",
+       "text": "simulated handjob",
+       "desc": "物を握って見立てる"
+      },
+      {
+       "label": "疑似パイズリ",
+       "text": "simulated paizuri",
+       "desc": "物を胸で挟んで見立てる"
+      },
+      {
+       "label": "疑似足コキ",
+       "text": "simulated footjob",
+       "desc": "物を足で挟んで見立てる"
+      },
+      {
+       "label": "疑似クンニ",
+       "text": "simulated cunnilingus",
+       "desc": "物を舐めて見立てる"
+      },
+      {
+       "label": "疑似自慰",
+       "text": "simulated masturbation",
+       "desc": "物を使って見立てる"
+      },
+      {
+       "label": "疑似指入れ",
+       "text": "simulated fingering",
+       "desc": "指の動きで見立てる"
+      },
+      {
+       "label": "疑似素股",
+       "text": "simulated thigh sex",
+       "desc": "物を太ももで挟んで見立てる"
+      },
+      {
+       "label": "疑似顔射",
+       "text": "simulated facial",
+       "desc": "白い液体を顔にかけて見立てる"
+      },
+      {
+       "label": "疑似ぶっかけ",
+       "text": "simulated bukkake",
+       "desc": "白い液体を全身にかけて見立てる"
+      },
+      {
+       "label": "疑似脇コキ",
+       "text": "simulated armpit sex",
+       "desc": "物を脇で挟んで見立てる"
+      },
+      {
+       "label": "暗示セックス",
+       "text": "implied sex",
+       "desc": "行為が画面外で行われていると想像させる"
+      },
+      {
+       "label": "暗示フェラ",
+       "text": "implied fellatio",
+       "desc": "フェラが画面外で行われていると想像させる"
+      },
+      {
+       "label": "暗示自慰",
+       "text": "implied masturbation",
+       "desc": "自慰が隠れて行われていると想像させる"
+      },
+      {
+       "label": "暗示指入れ",
+       "text": "implied fingering",
+       "desc": "指入れが隠れて行われていると想像させる"
+      },
+      {
+       "label": "暗示クンニ",
+       "text": "implied cunnilingus",
+       "desc": "クンニが画面外で行われていると想像させる"
+      },
+      {
+       "label": "暗示足コキ",
+       "text": "implied footjob",
+       "desc": "足コキが画面外で行われていると想像させる"
+      },
+      {
+       "label": "フェラの手ぶり",
+       "text": "fellatio gesture",
+       "desc": "手や口でフェラを真似る"
+      },
+      {
+       "label": "手コキの手ぶり",
+       "text": "handjob gesture",
+       "desc": "手で手コキを真似る"
+      },
+      {
+       "label": "クンニの手ぶり",
+       "text": "cunnilingus gesture",
+       "desc": "指と舌でクンニを真似る"
+      },
+      {
+       "label": "挿入の手ぶり",
+       "text": "penetration gesture",
+       "desc": "指で挿入を真似る"
+      },
+      {
+       "label": "口で誘う",
+       "text": "oral invitation",
+       "desc": "口を開けて誘う"
+      },
+      {
+       "label": "揉む動き",
+       "text": "groping motion",
+       "desc": "空中で揉む手の動き"
+      }
+     ]
+    },
+    {
      "title": "脱衣・着衣状態",
      "items": [
       {
@@ -1267,6 +1717,51 @@
        "label": "ノーパン",
        "text": "no panties",
        "desc": "下着をつけていない"
+      }
+     ]
+    },
+    {
+     "title": "露出・シチュエーション",
+     "items": [
+      {
+       "label": "露出",
+       "text": "exhibitionism",
+       "desc": "人に見られる状況での露出"
+      },
+      {
+       "label": "公共の場での露出",
+       "text": "public indecency",
+       "desc": "公共の場での露出"
+      },
+      {
+       "label": "人前で全裸",
+       "text": "public nudity",
+       "desc": "人前で全裸になる"
+      },
+      {
+       "label": "覗き見",
+       "text": "voyeurism",
+       "desc": "隠れて覗く"
+      },
+      {
+       "label": "こっそり覗く",
+       "text": "peeking",
+       "desc": "こっそり覗く"
+      },
+      {
+       "label": "見つかる",
+       "text": "caught",
+       "desc": "行為を見つかる"
+      },
+      {
+       "label": "乱入",
+       "text": "walk-in",
+       "desc": "行為中に誰かが入ってくる"
+      },
+      {
+       "label": "女性主導",
+       "text": "assertive female",
+       "desc": "女性が主導権を握る"
       }
      ]
     },
@@ -1542,6 +2037,166 @@
        "label": "両手を後ろに",
        "text": "arms behind back",
        "desc": "両腕を背中側に回す"
+      },
+      {
+       "label": "片膝立ち",
+       "text": "on one knee",
+       "desc": "片膝をついた姿勢"
+      },
+      {
+       "label": "胎児ポーズ",
+       "text": "fetal position",
+       "desc": "丸くなって横たわる"
+      },
+      {
+       "label": "あぐら",
+       "text": "indian style",
+       "desc": "あぐらで座る"
+      },
+      {
+       "label": "横座り",
+       "text": "yokozuwari",
+       "desc": "脚を横に流して座る"
+      },
+      {
+       "label": "太ももにまたがる",
+       "text": "thigh straddling",
+       "desc": "相手の太ももにまたがる"
+      },
+      {
+       "label": "片足立ち",
+       "text": "standing on one leg",
+       "desc": "片足で立つ"
+      },
+      {
+       "label": "脚を開いて立つ",
+       "text": "legs apart",
+       "desc": "脚を開いて立つ"
+      },
+      {
+       "label": "這う",
+       "text": "crawling",
+       "desc": "這って進む"
+      },
+      {
+       "label": "土下座",
+       "text": "prostration",
+       "desc": "床に伏せて頭を下げる"
+      },
+      {
+       "label": "ガニ股",
+       "text": "bowlegged pose",
+       "desc": "膝を外に開いたガニ股"
+      },
+      {
+       "label": "大の字",
+       "text": "spread eagle position",
+       "desc": "手足を大きく広げる"
+      },
+      {
+       "label": "逆さ",
+       "text": "upside-down",
+       "desc": "上下逆さまになる"
+      },
+      {
+       "label": "開脚(スプリット)",
+       "text": "split",
+       "desc": "脚を前後や左右に開く"
+      },
+      {
+       "label": "縮こまる",
+       "text": "cowering",
+       "desc": "怯えて体を縮める"
+      },
+      {
+       "label": "猫背",
+       "text": "slouching",
+       "desc": "背中を丸める"
+      },
+      {
+       "label": "体をひねる",
+       "text": "twisted torso",
+       "desc": "上半身をひねる"
+      },
+      {
+       "label": "コントラポスト",
+       "text": "contrapposto",
+       "desc": "体重を片脚に乗せた自然な立ち姿"
+      },
+      {
+       "label": "腕で体を支える",
+       "text": "arm support",
+       "desc": "腕で体を支える"
+      },
+      {
+       "label": "頬杖",
+       "text": "head rest",
+       "desc": "頬に手を当てて頭を支える"
+      },
+      {
+       "label": "頭を後ろに反らす",
+       "text": "head back",
+       "desc": "顔を上に向ける"
+      }
+     ]
+    },
+    {
+     "title": "脚",
+     "items": [
+      {
+       "label": "膝を胸に引き寄せる",
+       "text": "knees to chest",
+       "desc": "両膝を胸へ引き寄せる"
+      },
+      {
+       "label": "脚を頭の方へ",
+       "text": "legs over head",
+       "desc": "脚を頭の上へ持っていく"
+      },
+      {
+       "label": "膝を立てる",
+       "text": "knees up",
+       "desc": "両膝を立てる"
+      },
+      {
+       "label": "片膝を立てる",
+       "text": "knee up",
+       "desc": "片方の膝を立てる"
+      },
+      {
+       "label": "足首を交差",
+       "text": "crossed ankles",
+       "desc": "足首を交差させる"
+      },
+      {
+       "label": "内股",
+       "text": "pigeon-toed",
+       "desc": "つま先を内側に向ける"
+      },
+      {
+       "label": "つま先立ち",
+       "text": "tiptoes",
+       "desc": "つま先で立つ"
+      },
+      {
+       "label": "足指を丸める",
+       "text": "toe scrunch",
+       "desc": "足の指を丸める"
+      },
+      {
+       "label": "脚を伸ばす",
+       "text": "outstretched leg",
+       "desc": "脚を前に伸ばす"
+      },
+      {
+       "label": "膝を開いて足を閉じる",
+       "text": "knees apart feet together",
+       "desc": "膝は開き足先は閉じる"
+      },
+      {
+       "label": "膝を閉じて足を開く",
+       "text": "knees together feet apart",
+       "desc": "膝は閉じ足先は開く"
       }
      ]
     },
@@ -1607,6 +2262,456 @@
        "label": "手をつなぐ",
        "text": "holding hands",
        "desc": "手をつなぐ"
+      },
+      {
+       "label": "腕を広げる",
+       "text": "spread arms",
+       "desc": "両腕を左右に広げる"
+      },
+      {
+       "label": "片腕を上げる",
+       "text": "arm up",
+       "desc": "片腕を上げる"
+      },
+      {
+       "label": "腕を下ろす",
+       "text": "arms at sides",
+       "desc": "腕を体の横に下ろす"
+      },
+      {
+       "label": "力こぶ",
+       "text": "flexing",
+       "desc": "力こぶを見せる"
+      },
+      {
+       "label": "肩をすくめる",
+       "text": "shrugging",
+       "desc": "肩をすくめる"
+      },
+      {
+       "label": "指を組む",
+       "text": "interlocked fingers",
+       "desc": "両手の指を組む"
+      },
+      {
+       "label": "両手を握る",
+       "text": "own hands clasped",
+       "desc": "両手を握り合わせる"
+      },
+      {
+       "label": "両手を合わせる",
+       "text": "own hands together",
+       "desc": "両手を合わせる"
+      },
+      {
+       "label": "頭に手を当てる",
+       "text": "hand on own head",
+       "desc": "自分の頭に手を置く"
+      },
+      {
+       "label": "耳に手を当てる",
+       "text": "hand on own ear",
+       "desc": "耳に手を当てる"
+      },
+      {
+       "label": "額に手を当てる",
+       "text": "hand on own forehead",
+       "desc": "額に手を当てる"
+      },
+      {
+       "label": "顎に手を当てる",
+       "text": "hand on own chin",
+       "desc": "顎に手を添える"
+      },
+      {
+       "label": "首に手を当てる",
+       "text": "hand on own neck",
+       "desc": "自分の首に手を当てる"
+      },
+      {
+       "label": "肩に手を置く",
+       "text": "hand on own shoulder",
+       "desc": "自分の肩に手を置く"
+      },
+      {
+       "label": "お腹に手を当てる",
+       "text": "hand on own stomach",
+       "desc": "お腹に手を当てる"
+      },
+      {
+       "label": "胸を持ち上げる",
+       "text": "breast lift",
+       "desc": "手で胸を持ち上げる"
+      },
+      {
+       "label": "胸を寄せる",
+       "text": "breasts squeezed together",
+       "desc": "腕で胸を寄せる"
+      },
+      {
+       "label": "自分の胸を掴む",
+       "text": "grabbing own breast",
+       "desc": "自分の胸を掴む"
+      },
+      {
+       "label": "ブラに手を入れる",
+       "text": "hand in bra",
+       "desc": "ブラの中に手を入れる"
+      },
+      {
+       "label": "股間に手を当てる",
+       "text": "hand on own crotch",
+       "desc": "股間に手を当てる"
+      },
+      {
+       "label": "お尻に手を当てる",
+       "text": "hand on own ass",
+       "desc": "お尻に手を当てる"
+      },
+      {
+       "label": "太ももに手を置く",
+       "text": "hand on own thigh",
+       "desc": "自分の太ももに手を置く"
+      },
+      {
+       "label": "脚の間に手を入れる",
+       "text": "hand between own legs",
+       "desc": "脚の間に手を入れる"
+      },
+      {
+       "label": "両手を腰に当てる",
+       "text": "hands on own hips",
+       "desc": "両手を腰に当てる"
+      },
+      {
+       "label": "ポケットに手",
+       "text": "hand in pocket",
+       "desc": "ポケットに手を入れる"
+      },
+      {
+       "label": "メガネを直す",
+       "text": "adjusting eyewear",
+       "desc": "メガネの位置を直す"
+      }
+     ]
+    },
+    {
+     "title": "手・腕 / 相手に触れる",
+     "items": [
+      {
+       "label": "相手の頭に手",
+       "text": "hand on another's head",
+       "desc": "相手の頭に手を置く"
+      },
+      {
+       "label": "相手の顔に手",
+       "text": "hand on another's face",
+       "desc": "相手の顔に手を添える"
+      },
+      {
+       "label": "相手の頬に手",
+       "text": "hand on another's cheek",
+       "desc": "相手の頬に手を当てる"
+      },
+      {
+       "label": "相手の顎に手",
+       "text": "hand on another's chin",
+       "desc": "相手の顎に手をかける"
+      },
+      {
+       "label": "相手の首に手",
+       "text": "hand on another's neck",
+       "desc": "相手の首に手を回す"
+      },
+      {
+       "label": "相手の肩に手",
+       "text": "hand on another's shoulder",
+       "desc": "相手の肩に手を置く"
+      },
+      {
+       "label": "肩を抱く",
+       "text": "arm around shoulder",
+       "desc": "相手の肩に腕を回す"
+      },
+      {
+       "label": "相手の背中に手",
+       "text": "hand on another's back",
+       "desc": "相手の背中に手を回す"
+      },
+      {
+       "label": "相手の胸に手",
+       "text": "hand on another's chest",
+       "desc": "相手の胸に手を当てる"
+      },
+      {
+       "label": "相手の腰に手",
+       "text": "hand on another's waist",
+       "desc": "相手の腰に手を回す"
+      },
+      {
+       "label": "相手の太ももに手",
+       "text": "hand on another's thigh",
+       "desc": "相手の太ももに手を置く"
+      },
+      {
+       "label": "相手の股間に手",
+       "text": "hand on another's crotch",
+       "desc": "相手の股間に手を当てる"
+      },
+      {
+       "label": "相手のお尻に手",
+       "text": "hand on another's ass",
+       "desc": "相手のお尻に手を置く"
+      },
+      {
+       "label": "相手の髪を直す",
+       "text": "adjusting another's hair",
+       "desc": "相手の髪を整える"
+      },
+      {
+       "label": "頬をつまむ",
+       "text": "cheek pinching",
+       "desc": "相手の頬をつまむ"
+      },
+      {
+       "label": "頬をつつく",
+       "text": "cheek poking",
+       "desc": "相手の頬をつつく"
+      },
+      {
+       "label": "頬を挟む",
+       "text": "cheek squash",
+       "desc": "相手の頬を挟んで潰す"
+      }
+     ]
+    },
+    {
+     "title": "ジェスチャー",
+     "items": [
+      {
+       "label": "ダブルピース",
+       "text": "double v",
+       "desc": "両手でピース"
+      },
+      {
+       "label": "指ハート",
+       "text": "finger heart",
+       "desc": "指でハートを作る"
+      },
+      {
+       "label": "ハートの手",
+       "text": "heart hands",
+       "desc": "両手でハートを作る"
+      },
+      {
+       "label": "OKサイン",
+       "text": "ok sign",
+       "desc": "指で輪を作るOKサイン"
+      },
+      {
+       "label": "グッド",
+       "text": "thumbs up",
+       "desc": "親指を立てる"
+      },
+      {
+       "label": "人差し指を立てる",
+       "text": "index finger raised",
+       "desc": "人差し指を立てる"
+      },
+      {
+       "label": "静かに",
+       "text": "shushing",
+       "desc": "人差し指を口に当てる"
+      },
+      {
+       "label": "手招き",
+       "text": "beckoning",
+       "desc": "手招きする"
+      },
+      {
+       "label": "こちらを指さす",
+       "text": "pointing at viewer",
+       "desc": "視聴者を指さす"
+      },
+      {
+       "label": "指鉄砲",
+       "text": "finger gun",
+       "desc": "指で鉄砲を作る"
+      },
+      {
+       "label": "あっかんべー",
+       "text": "akanbe",
+       "desc": "舌を出して目の下を引く"
+      },
+      {
+       "label": "敬礼",
+       "text": "salute",
+       "desc": "敬礼する"
+      },
+      {
+       "label": "握りこぶし",
+       "text": "clenched hand",
+       "desc": "拳を握る"
+      },
+      {
+       "label": "ガッツポーズ",
+       "text": "fist pump",
+       "desc": "拳を握って力む"
+      },
+      {
+       "label": "指をつつき合わせる",
+       "text": "index fingers together",
+       "desc": "人差し指をつつき合わせる"
+      },
+      {
+       "label": "指切り",
+       "text": "pinky swear",
+       "desc": "小指を絡める"
+      },
+      {
+       "label": "手を器にする",
+       "text": "cupping hands",
+       "desc": "両手を器の形にする"
+      },
+      {
+       "label": "指のフレーム",
+       "text": "finger frame",
+       "desc": "指で枠を作る"
+      },
+      {
+       "label": "髪をくるくる",
+       "text": "twirling hair",
+       "desc": "指で髪を巻く"
+      },
+      {
+       "label": "小指を立てる",
+       "text": "pinky out",
+       "desc": "小指を立てる"
+      },
+      {
+       "label": "お辞儀",
+       "text": "bowing",
+       "desc": "お辞儀をする"
+      },
+      {
+       "label": "カーテシー",
+       "text": "curtsey",
+       "desc": "スカートをつまんで礼をする"
+      },
+      {
+       "label": "顔を覆う",
+       "text": "facepalm",
+       "desc": "手で顔を覆う"
+      },
+      {
+       "label": "猫ポーズ",
+       "text": "paw pose",
+       "desc": "猫の手のポーズ"
+      },
+      {
+       "label": "ウサギポーズ",
+       "text": "rabbit pose",
+       "desc": "うさぎの耳のようなポーズ"
+      },
+      {
+       "label": "ドジっ子ポーズ",
+       "text": "dojikko pose",
+       "desc": "拳を頭に当てて舌を出す"
+      },
+      {
+       "label": "お嬢様ポーズ",
+       "text": "ojou-sama pose",
+       "desc": "手の甲を口元に当てて笑う"
+      }
+     ]
+    },
+    {
+     "title": "二人のポーズ",
+     "items": [
+      {
+       "label": "向かい合う",
+       "text": "face-to-face",
+       "desc": "向かい合う"
+      },
+      {
+       "label": "背中合わせ",
+       "text": "back-to-back",
+       "desc": "背中を合わせる"
+      },
+      {
+       "label": "お腹を合わせる",
+       "text": "belly-to-belly",
+       "desc": "お腹同士を合わせる"
+      },
+      {
+       "label": "頬ずり",
+       "text": "cheek-to-cheek",
+       "desc": "頬を寄せ合う"
+      },
+      {
+       "label": "おでこを合わせる",
+       "text": "forehead-to-forehead",
+       "desc": "おでこを合わせる"
+      },
+      {
+       "label": "胸に頭を預ける",
+       "text": "head on chest",
+       "desc": "相手の胸に頭を預ける"
+      },
+      {
+       "label": "後ろから抱きしめる",
+       "text": "hug from behind",
+       "desc": "背後から抱きしめる"
+      },
+      {
+       "label": "腰に抱きつく",
+       "text": "waist hug",
+       "desc": "腰に抱きつく"
+      },
+      {
+       "label": "腕に抱きつく",
+       "text": "arm hug",
+       "desc": "腕に抱きつく"
+      },
+      {
+       "label": "胸に頬を寄せる",
+       "text": "cheek-to-breast",
+       "desc": "胸に頬を寄せる"
+      },
+      {
+       "label": "乳首を合わせる",
+       "text": "nipple-to-nipple",
+       "desc": "乳首同士を合わせる"
+      },
+      {
+       "label": "鼻を触れ合わせる",
+       "text": "noses touching",
+       "desc": "鼻を触れ合わせる"
+      },
+      {
+       "label": "膝の上にうつ伏せ",
+       "text": "over the knee",
+       "desc": "相手の膝の上にうつ伏せになる"
+      },
+      {
+       "label": "お姫様抱っこ",
+       "text": "princess carry",
+       "desc": "お姫様抱っこ"
+      },
+      {
+       "label": "おんぶ",
+       "text": "piggyback",
+       "desc": "おんぶ"
+      },
+      {
+       "label": "担ぎ上げ",
+       "text": "fireman's carry",
+       "desc": "肩に担ぎ上げる"
+      },
+      {
+       "label": "肩に担ぐ",
+       "text": "carrying over shoulder",
+       "desc": "肩に担ぐ"
       }
      ]
     }
@@ -2399,18 +3504,15 @@
       },
       {
        "label": "セーラー服",
-       "text": "serafuku",
-       "desc": "セーラー服"
+       "garment": "g_0"
       },
       {
        "label": "体操服",
-       "text": "gym uniform",
-       "desc": "体操服"
+       "garment": "g_1"
       },
       {
        "label": "ブルマ",
-       "text": "bloomers",
-       "desc": "ブルマ"
+       "garment": "g_2"
       },
       {
        "label": "スクール水着",
@@ -2418,28 +3520,15 @@
       },
       {
        "label": "ブレザー",
-       "text": "blazer",
-       "desc": "ブレザー"
+       "garment": "g_3"
       },
       {
        "label": "Tシャツ",
-       "text": "t-shirt",
-       "desc": "Tシャツ"
-      },
-      {
-       "label": "白の無地のTシャツ",
-       "text": "Plain white T-shirt",
-       "desc": "無地の白Tシャツ"
+       "garment": "g_4"
       },
       {
        "label": "シャツ",
-       "text": "shirt",
-       "desc": "襟付きのシャツ"
-      },
-      {
-       "label": "白シャツ",
-       "text": "white shirt",
-       "desc": "白いシャツ"
+       "garment": "g_5"
       },
       {
        "label": "シャツ一枚",
@@ -2448,38 +3537,31 @@
       },
       {
        "label": "セーター",
-       "text": "sweater",
-       "desc": "セーター"
+       "garment": "g_6"
       },
       {
        "label": "パーカー",
-       "text": "hoodie",
-       "desc": "フード付きパーカー"
+       "garment": "g_7"
       },
       {
        "label": "カーディガン",
-       "text": "cardigan",
-       "desc": "カーディガン"
+       "garment": "g_8"
       },
       {
        "label": "タンクトップ",
-       "text": "tank top",
-       "desc": "タンクトップ"
+       "garment": "g_9"
       },
       {
        "label": "キャミソール",
-       "text": "camisole",
-       "desc": "キャミソール"
+       "garment": "g_10"
       },
       {
        "label": "クロップトップ",
-       "text": "crop top",
-       "desc": "丈の短いトップス"
+       "garment": "g_11"
       },
       {
        "label": "タートルネック",
-       "text": "turtleneck",
-       "desc": "タートルネック"
+       "garment": "g_12"
       },
       {
        "label": "オフショルダー",
@@ -2488,58 +3570,43 @@
       },
       {
        "label": "スカート",
-       "text": "skirt",
-       "desc": "スカート"
+       "garment": "g_13"
       },
       {
        "label": "ミニスカート",
-       "text": "miniskirt",
-       "desc": "丈の短いスカート"
+       "garment": "g_14"
       },
       {
        "label": "プリーツスカート",
-       "text": "pleated skirt",
-       "desc": "プリーツスカート"
+       "garment": "g_15"
       },
       {
        "label": "ロングスカート",
-       "text": "long skirt",
-       "desc": "丈の長いスカート"
+       "garment": "g_16"
       },
       {
        "label": "ショートパンツ",
-       "text": "shorts",
-       "desc": "ショートパンツ"
+       "garment": "g_17"
       },
       {
        "label": "ジーンズ",
-       "text": "jeans",
-       "desc": "ジーンズ"
+       "garment": "g_18"
       },
       {
        "label": "ワンピース",
-       "text": "dress",
-       "desc": "ワンピースドレス"
-      },
-      {
-       "label": "白ワンピース",
-       "text": "white dress",
-       "desc": "白いワンピース"
+       "garment": "g_19"
       },
       {
        "label": "サンドレス",
-       "text": "sundress",
-       "desc": "夏向けの軽いワンピース"
+       "garment": "g_20"
       },
       {
        "label": "ジャケット",
-       "text": "jacket",
-       "desc": "ジャケット"
+       "garment": "g_21"
       },
       {
        "label": "コート",
-       "text": "coat",
-       "desc": "コート"
+       "garment": "g_22"
       },
       {
        "label": "白衣",
@@ -2556,8 +3623,7 @@
       },
       {
        "label": "水着",
-       "text": "swimsuit",
-       "desc": "水着"
+       "garment": "g_23"
       },
       {
        "label": "タオルだけ",
@@ -2587,68 +3653,55 @@
       },
       {
        "label": "着物",
-       "text": "kimono",
-       "desc": "着物"
+       "garment": "g_24"
       },
       {
        "label": "浴衣",
-       "text": "yukata",
-       "desc": "浴衣"
+       "garment": "g_25"
       },
       {
        "label": "パジャマ",
-       "text": "pajamas",
-       "desc": "パジャマ"
+       "garment": "g_26"
       },
       {
        "label": "バスローブ",
-       "text": "bathrobe",
-       "desc": "バスローブ"
+       "garment": "g_27"
       },
       {
        "label": "エプロン",
-       "text": "apron",
-       "desc": "エプロン"
+       "garment": "g_28"
       },
       {
        "label": "ストッキング",
-       "text": "stockings",
-       "desc": "ストッキング"
+       "garment": "g_29"
       },
       {
        "label": "サイハイソックス",
-       "text": "thighhighs",
-       "desc": "太ももまでのソックス"
+       "garment": "g_30"
       },
       {
        "label": "網タイツ",
-       "text": "fishnet stockings",
-       "desc": "網タイツ"
+       "garment": "g_31"
       },
       {
        "label": "ガーターベルト",
-       "text": "garter belt",
-       "desc": "ガーターベルト"
+       "garment": "g_32"
       },
       {
        "label": "首輪",
-       "text": "collar",
-       "desc": "首輪"
+       "garment": "g_33"
       },
       {
        "label": "チョーカー",
-       "text": "choker",
-       "desc": "首に巻くチョーカー"
+       "garment": "g_34"
       },
       {
        "label": "サンダル",
-       "text": "sandals",
-       "desc": "サンダル"
+       "garment": "g_35"
       },
       {
        "label": "ブーツ",
-       "text": "boots",
-       "desc": "ブーツ"
+       "garment": "g_36"
       }
      ]
     },
@@ -2697,28 +3750,23 @@
       },
       {
        "label": "帽子",
-       "text": "hat",
-       "desc": "帽子"
+       "garment": "g_37"
       },
       {
        "label": "ベレー帽",
-       "text": "beret",
-       "desc": "ベレー帽"
+       "garment": "g_38"
       },
       {
        "label": "リボン",
-       "text": "ribbon",
-       "desc": "リボン"
+       "garment": "g_39"
       },
       {
        "label": "髪リボン",
-       "text": "hair ribbon",
-       "desc": "髪につけるリボン"
+       "garment": "g_40"
       },
       {
        "label": "ヘアバンド",
-       "text": "hairband",
-       "desc": "ヘアバンド"
+       "garment": "g_41"
       },
       {
        "label": "ヘアピン",
@@ -2742,13 +3790,11 @@
       },
       {
        "label": "マフラー",
-       "text": "scarf",
-       "desc": "マフラー・スカーフ"
+       "garment": "g_42"
       },
       {
        "label": "手袋",
-       "text": "gloves",
-       "desc": "手袋"
+       "garment": "g_43"
       },
       {
        "label": "腕輪",
@@ -2762,13 +3808,11 @@
       },
       {
        "label": "ソックス",
-       "text": "socks",
-       "desc": "ソックス"
+       "garment": "g_44"
       },
       {
        "label": "パンスト",
-       "text": "pantyhose",
-       "desc": "パンスト(パンティストッキング)"
+       "garment": "g_45"
       }
      ]
     },
@@ -4193,17 +5237,17 @@
     {
      "label": "基本のだいしゅきホールド",
      "desc": "脚を抱え上げて密着挿入",
-     "text": "full nelson, legs held up, arms locked, deep penetration"
+     "text": "leg lock, legs held up, arms locked, deep penetration"
     },
     {
      "label": "強く抱きしめただいしゅきホールド",
      "desc": "強く抱きながら",
-     "text": "tight full nelson, intense embrace while penetrating"
+     "text": "tight leg lock, intense embrace while penetrating"
     },
     {
      "label": "中出しだいしゅきホールド",
      "desc": "抱きしめたまま中出し",
-     "text": "full nelson, creampie"
+     "text": "leg lock, creampie"
     }
    ]
   },
@@ -5356,6 +6400,472 @@
      "text": "china dress, disheveled china dress"
     }
    ]
+  },
+  "g_0": {
+   "label": "セーラー服",
+   "base": "serafuku",
+   "colorSet": "common",
+   "stateSet": "outfit"
+  },
+  "g_1": {
+   "label": "体操服",
+   "base": "gym uniform",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_2": {
+   "label": "ブルマ",
+   "base": "bloomers",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_3": {
+   "label": "ブレザー",
+   "base": "blazer",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_4": {
+   "label": "Tシャツ",
+   "base": "t-shirt",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_5": {
+   "label": "シャツ",
+   "base": "shirt",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_6": {
+   "label": "セーター",
+   "base": "sweater",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_7": {
+   "label": "パーカー",
+   "base": "hoodie",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_8": {
+   "label": "カーディガン",
+   "base": "cardigan",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_9": {
+   "label": "タンクトップ",
+   "base": "tank top",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_10": {
+   "label": "キャミソール",
+   "base": "camisole",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_11": {
+   "label": "クロップトップ",
+   "base": "crop top",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_12": {
+   "label": "タートルネック",
+   "base": "turtleneck",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_13": {
+   "label": "スカート",
+   "base": "skirt",
+   "colorSet": "common",
+   "stateSet": "skirt"
+  },
+  "g_14": {
+   "label": "ミニスカート",
+   "base": "miniskirt",
+   "colorSet": "common",
+   "stateSet": "skirt"
+  },
+  "g_15": {
+   "label": "プリーツスカート",
+   "base": "pleated skirt",
+   "colorSet": "common",
+   "stateSet": "skirt"
+  },
+  "g_16": {
+   "label": "ロングスカート",
+   "base": "long skirt",
+   "colorSet": "common",
+   "stateSet": "skirt"
+  },
+  "g_17": {
+   "label": "ショートパンツ",
+   "base": "shorts",
+   "colorSet": "common",
+   "stateSet": "pants"
+  },
+  "g_18": {
+   "label": "ジーンズ",
+   "base": "jeans",
+   "colorSet": "common",
+   "stateSet": "pants"
+  },
+  "g_19": {
+   "label": "ワンピース",
+   "base": "dress",
+   "colorSet": "common",
+   "stateSet": "dress"
+  },
+  "g_20": {
+   "label": "サンドレス",
+   "base": "sundress",
+   "colorSet": "common",
+   "stateSet": "dress"
+  },
+  "g_21": {
+   "label": "ジャケット",
+   "base": "jacket",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_22": {
+   "label": "コート",
+   "base": "coat",
+   "colorSet": "common",
+   "stateSet": "top"
+  },
+  "g_23": {
+   "label": "水着",
+   "base": "swimsuit",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_24": {
+   "label": "着物",
+   "base": "kimono",
+   "colorSet": "common",
+   "stateSet": "outfit"
+  },
+  "g_25": {
+   "label": "浴衣",
+   "base": "yukata",
+   "colorSet": "common",
+   "stateSet": "outfit"
+  },
+  "g_26": {
+   "label": "パジャマ",
+   "base": "pajamas",
+   "colorSet": "common",
+   "stateSet": "outfit"
+  },
+  "g_27": {
+   "label": "バスローブ",
+   "base": "bathrobe",
+   "colorSet": "common",
+   "stateSet": "outfit"
+  },
+  "g_28": {
+   "label": "エプロン",
+   "base": "apron",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_29": {
+   "label": "ストッキング",
+   "base": "stockings",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_30": {
+   "label": "サイハイソックス",
+   "base": "thighhighs",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_31": {
+   "label": "網タイツ",
+   "base": "fishnet stockings",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_32": {
+   "label": "ガーターベルト",
+   "base": "garter belt",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_33": {
+   "label": "首輪",
+   "base": "collar",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_34": {
+   "label": "チョーカー",
+   "base": "choker",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_35": {
+   "label": "サンダル",
+   "base": "sandals",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_36": {
+   "label": "ブーツ",
+   "base": "boots",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_37": {
+   "label": "帽子",
+   "base": "hat",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_38": {
+   "label": "ベレー帽",
+   "base": "beret",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_39": {
+   "label": "リボン",
+   "base": "ribbon",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_40": {
+   "label": "髪リボン",
+   "base": "hair ribbon",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_41": {
+   "label": "ヘアバンド",
+   "base": "hairband",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_42": {
+   "label": "マフラー",
+   "base": "scarf",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_43": {
+   "label": "手袋",
+   "base": "gloves",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_44": {
+   "label": "ソックス",
+   "base": "socks",
+   "colorSet": "common",
+   "stateSet": "plain"
+  },
+  "g_45": {
+   "label": "パンスト",
+   "base": "pantyhose",
+   "colorSet": "common",
+   "stateSet": "plain"
   }
+ },
+ "colorSets": {
+  "common": [
+   {
+    "label": "白",
+    "value": "white"
+   },
+   {
+    "label": "黒",
+    "value": "black"
+   },
+   {
+    "label": "赤",
+    "value": "red"
+   },
+   {
+    "label": "青",
+    "value": "blue"
+   },
+   {
+    "label": "水色",
+    "value": "light blue"
+   },
+   {
+    "label": "ピンク",
+    "value": "pink"
+   },
+   {
+    "label": "黄",
+    "value": "yellow"
+   },
+   {
+    "label": "緑",
+    "value": "green"
+   },
+   {
+    "label": "紫",
+    "value": "purple"
+   },
+   {
+    "label": "グレー",
+    "value": "grey"
+   },
+   {
+    "label": "茶",
+    "value": "brown"
+   },
+   {
+    "label": "ベージュ",
+    "value": "beige"
+   },
+   {
+    "label": "ネイビー",
+    "value": "navy"
+   }
+  ]
+ },
+ "stateSets": {
+  "top": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   },
+   {
+    "label": "前を開けている",
+    "suffix": ", open clothes"
+   },
+   {
+    "label": "めくり上げている",
+    "suffix": ", clothes lift"
+   },
+   {
+    "label": "ずり下げている",
+    "suffix": ", clothes pull"
+   },
+   {
+    "label": "肩を出している",
+    "suffix": ", off shoulder"
+   },
+   {
+    "label": "濡れて透けている",
+    "suffix": ", wet clothes, see-through"
+   },
+   {
+    "label": "破れている",
+    "suffix": ", torn clothes"
+   }
+  ],
+  "skirt": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   },
+   {
+    "label": "めくれている",
+    "suffix": ", skirt lift"
+   },
+   {
+    "label": "ずり下げている",
+    "suffix": ", clothes pull"
+   },
+   {
+    "label": "濡れている",
+    "suffix": ", wet clothes"
+   },
+   {
+    "label": "破れている",
+    "suffix": ", torn clothes"
+   }
+  ],
+  "pants": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   },
+   {
+    "label": "ずり下げている",
+    "suffix": ", clothes pull"
+   },
+   {
+    "label": "濡れている",
+    "suffix": ", wet clothes"
+   },
+   {
+    "label": "破れている",
+    "suffix": ", torn clothes"
+   }
+  ],
+  "dress": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   },
+   {
+    "label": "はだけている",
+    "suffix": ", open clothes"
+   },
+   {
+    "label": "裾をめくっている",
+    "suffix": ", dress lift"
+   },
+   {
+    "label": "肩紐がずれている",
+    "suffix": ", strap slip"
+   },
+   {
+    "label": "ずり下げている",
+    "suffix": ", clothes pull"
+   },
+   {
+    "label": "濡れて透けている",
+    "suffix": ", wet clothes, see-through"
+   },
+   {
+    "label": "破れている",
+    "suffix": ", torn clothes"
+   }
+  ],
+  "outfit": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   },
+   {
+    "label": "はだけている",
+    "suffix": ", open clothes"
+   },
+   {
+    "label": "めくり上げている",
+    "suffix": ", clothes lift"
+   },
+   {
+    "label": "乱れている",
+    "suffix": ", disheveled, messy clothes"
+   },
+   {
+    "label": "脱ぎかけ",
+    "suffix": ", undressing, clothes pull"
+   },
+   {
+    "label": "破れている",
+    "suffix": ", torn clothes"
+   }
+  ],
+  "plain": [
+   {
+    "label": "普通に着ている",
+    "suffix": ""
+   }
+  ]
  }
 }
