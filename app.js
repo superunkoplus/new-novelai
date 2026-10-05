@@ -66,7 +66,7 @@ function renderContent() {
   box.innerHTML = "";
   state.data.categories[state.tab].sections.forEach((sec) => {
     const isOpen = state.open.has(sec.title);
-    const n = sec.items.filter((it) => it.text && find(it.text) >= 0).length;
+    const n = sec.items.filter((it) => (it.text && find(it.text) >= 0) || (it.garment && state.selected.some((s) => s.group === it.garment))).length;
     const head = el("button", (isOpen ? "▾ " : "▸ ") + sec.title + (n ? "  (" + n + ")" : ""), "sechead" + (isOpen ? " open" : ""), () => {
       if (isOpen) state.open.delete(sec.title); else state.open.add(sec.title);
       renderContent();
@@ -75,7 +75,10 @@ function renderContent() {
     if (!isOpen) return;
     const row = el("div", "", "buttons");
     sec.items.forEach((it) => {
-      if (it.variation) {
+      if (it.garment) {
+        const on = state.selected.some((s) => s.group === it.garment);
+        row.appendChild(el("button", it.label, "var" + (on ? " on" : ""), () => openGarment(it.garment, null)));
+      } else if (it.variation) {
         row.appendChild(el("button", it.label, "var", () => openVariation(it.variation)));
       } else {
         const b = el("button", it.label, find(it.text) >= 0 ? "on" : "", () => toggle(it.text, it.label, sec));
@@ -124,6 +127,37 @@ function openInfo(it) {
   openPanel(it.label, box);
 }
 
+// ===== 服装: 色 → 状態 を続けて選ぶ =====
+function garmentText(g, color, st) {
+  // 状態タグの先頭の基本名を、色付きの名前に置き換える
+  return st.text.startsWith(g.base) ? color.text + st.text.slice(g.base.length) : st.text;
+}
+function garmentLabel(g, color, st) {
+  const head = (color.label === "指定なし" ? "" : color.label + "の") + g.label;
+  if (st.label === "普通に着ている") return head;
+  return /(いる|れる)$/.test(st.label) ? head + "が" + st.label : head + "（" + st.label + "）";
+}
+function pickGarment(key, color, st) {
+  const g = state.data.garments[key];
+  const text = garmentText(g, color, st);
+  const had = find(text) >= 0;
+  state.selected = state.selected.filter((s) => s.group !== key); // 同じ服は1つだけ
+  if (!had) state.selected.push({ text, label: garmentLabel(g, color, st), weight: 1.0, group: key });
+  closePanel();
+  update();
+}
+function openGarment(key, color) {
+  const g = state.data.garments[key];
+  if (!color) {
+    openPanel(g.label + "：色を選ぶ", g.colors.map((c) => el("button", c.label, "", () => openGarment(key, c))));
+    return;
+  }
+  const btns = g.states.map((st) =>
+    el("button", st.label, find(garmentText(g, color, st)) >= 0 ? "on" : "", () => pickGarment(key, color, st)));
+  btns.unshift(el("button", "← 色を選び直す", "", () => openGarment(key, null)));
+  openPanel(g.label + "(" + color.label + ")：状態を選ぶ", btns);
+}
+
 function openVariation(key) {
   const v = state.data.variations[key];
   const btns = v.options.map((o) => {
@@ -161,7 +195,10 @@ function openWeight(i) {
 async function copyPrompt() {
   if (!state.selected.length) return;
   let out = state.selected
-    .map((s) => (s.weight === 1.0 ? s.text : s.weight + "::" + s.text + "::"))
+    .map((s) => {
+      const t = s.text.replace(/[,\s]+$/, ""); // 末尾のカンマ・空白を除いて二重カンマを防ぐ
+      return s.weight === 1.0 ? t : s.weight + "::" + t + "::";
+    })
     .join(", ");
   if (!out.endsWith(",")) out += ",";
   try { await navigator.clipboard.writeText(out); }
