@@ -14,7 +14,7 @@ async function init() {
   try { state.selected = JSON.parse(localStorage.getItem("nai_selected") || "[]"); } catch (e) {}
   $("copy").onclick = copyPrompt;
   $("clear").onclick = () => { state.selected = []; update(); };
-  $("random").onclick = runRandom;
+  $("random").onclick = openRandomPanel;
   $("overlay").onclick = (e) => { if (e.target.id === "overlay") closePanel(); };
   update();
 }
@@ -298,7 +298,14 @@ function addResolved(labels) {
   }
 }
 
-function runRandom() {
+/** ハート系エフェクトを除外する */
+function withoutHeart(arr) {
+  if (!arr) return [];
+  return arr.filter((x) => x !== "ハート" && !String(x).includes("ハート"));
+}
+
+/** mode: "foreplay" | "sex" | "any" */
+function runRandom(mode) {
   const rnd = state.data && state.data.random;
   if (!rnd) {
     alert("prompts.json に random セクションがありません");
@@ -309,29 +316,42 @@ function runRandom() {
   state.selected = [];
 
   // --- 段階をランダム選択 ---
-  const stageKeys = Object.keys(rnd.stages || {});
-  const stageKey = pick(stageKeys) || "mid";
+  // 前戯は導入寄り、性行は中盤・終盤寄り
+  let stageKey;
+  if (mode === "foreplay") {
+    stageKey = pick(["intro", "intro", "mid"]) || "intro";
+  } else if (mode === "sex") {
+    stageKey = pick(["mid", "mid", "end", "end"]) || "mid";
+  } else {
+    stageKey = pick(Object.keys(rnd.stages || {})) || "mid";
+  }
   const stage = rnd.stages[stageKey] || {};
 
-  // --- 体位 or 前戯 をランダム選択（中盤・終盤は体位寄り、導入は前戯寄り） ---
+  // --- 前戯 or 性行 ---
   let group = null;
   let isPosition = false;
-  const usePosition = stageKey === "intro" ? Math.random() < 0.35 : Math.random() < 0.65;
 
-  if (usePosition && rnd.positions) {
-    const posKeys = Object.keys(rnd.positions);
-    const pk = pick(posKeys);
-    group = rnd.positions[pk];
-    isPosition = true;
-  } else if (rnd.foreplay) {
-    const fpKeys = Object.keys(rnd.foreplay);
-    const fk = pick(fpKeys);
-    group = rnd.foreplay[fk];
-    isPosition = false;
-  } else if (rnd.positions) {
+  if (mode === "sex" && rnd.positions) {
     const posKeys = Object.keys(rnd.positions);
     group = rnd.positions[pick(posKeys)];
     isPosition = true;
+  } else if (mode === "foreplay" && rnd.foreplay) {
+    const fpKeys = Object.keys(rnd.foreplay);
+    group = rnd.foreplay[pick(fpKeys)];
+    isPosition = false;
+  } else {
+    // おまかせ
+    const usePosition = stageKey === "intro" ? Math.random() < 0.3 : Math.random() < 0.65;
+    if (usePosition && rnd.positions) {
+      group = rnd.positions[pick(Object.keys(rnd.positions))];
+      isPosition = true;
+    } else if (rnd.foreplay) {
+      group = rnd.foreplay[pick(Object.keys(rnd.foreplay))];
+      isPosition = false;
+    } else if (rnd.positions) {
+      group = rnd.positions[pick(Object.keys(rnd.positions))];
+      isPosition = true;
+    }
   }
 
   if (!group) {
@@ -345,14 +365,12 @@ function runRandom() {
   addResolved(acts);
 
   // --- 視点（angle / camera / gaze）---
-  // グループ固有があれば優先、なければ defaults
   const anglePool = (group.angle && group.angle.length) ? group.angle : (rnd.defaults && rnd.defaults.angle) || [];
   const cameraPool = (group.camera && group.camera.length) ? group.camera : (rnd.defaults && rnd.defaults.camera) || [];
   const gazePool = (group.gaze && group.gaze.length) ? group.gaze : (rnd.defaults && rnd.defaults.gaze) || [];
 
   addResolved([pick(anglePool)]);
   addResolved([pick(cameraPool)]);
-  // gaze は 70% の確率で入れる（目を閉じる等と矛盾しにくいよう任意）
   if (Math.random() < 0.7) addResolved([pick(gazePool)]);
 
   // --- 体位の場合、overlay（重ね前戯）を確率で ---
@@ -360,26 +378,23 @@ function runRandom() {
     addResolved([pick(group.overlay)]);
   }
 
-  // --- 段階別：体液・エフェクト（表情・服装状態は入れない） ---
-  // fluid: 1〜2個
+  // --- 段階別：体液・エフェクト（表情・服装・ハートは入れない） ---
   if (stage.fluid && stage.fluid.length) {
     const n = Math.random() < 0.4 ? 2 : 1;
     addResolved(pickN(stage.fluid, n));
   }
-  // effect: 1〜2個
-  if (stage.effect && stage.effect.length) {
+  const effects = withoutHeart(stage.effect);
+  if (effects.length) {
     const n = Math.random() < 0.5 ? 2 : 1;
-    addResolved(pickN(stage.effect, n));
+    addResolved(pickN(effects, n));
   }
-  // effectFore: 終盤などで強めに出したいもの（確率低め）
-  if (stage.effectFore && stage.effectFore.length && Math.random() < 0.35) {
-    addResolved([pick(stage.effectFore)]);
+  const effectFore = withoutHeart(stage.effectFore);
+  if (effectFore.length && Math.random() < 0.35) {
+    addResolved([pick(effectFore)]);
   }
 
-  // --- 挿入の描写など、段階が mid/end で体位のとき追加で少し ---
-  // （variations に "挿入の状態" 等がある想定。ラベルで解決できれば入る）
+  // --- 挿入の描写（性行・中盤/終盤のみ） ---
   if (isPosition && (stageKey === "mid" || stageKey === "end") && Math.random() < 0.45) {
-    // よくある挿入関連ラベルを候補に（データに存在すれば解決される）
     const insertCandidates = [
       "挿入", "深い挿入", "浅い挿入", "膣内射精", "中出し",
       "アナル挿入", "二穴", "玩具挿入"
@@ -387,13 +402,27 @@ function runRandom() {
     addResolved([pick(insertCandidates)]);
   }
 
+  closePanel();
   update();
 
-  // フィードバック
+  // フィードバック（折り返し防止のため短い文字）
   const b = $("random");
-  const prev = b.textContent;
-  b.textContent = "生成しました";
-  setTimeout(() => (b.textContent = prev), 1000);
+  b.textContent = "✓";
+  setTimeout(() => (b.textContent = "ランダム"), 800);
+}
+
+function openRandomPanel() {
+  const rnd = state.data && state.data.random;
+  if (!rnd) {
+    alert("prompts.json に random セクションがありません");
+    return;
+  }
+  const btns = [
+    el("button", "前戯ランダム", "", () => runRandom("foreplay")),
+    el("button", "性行ランダム", "", () => runRandom("sex")),
+    el("button", "おまかせ", "", () => runRandom("any")),
+  ];
+  openPanel("ランダム生成", btns);
 }
 
 init();
