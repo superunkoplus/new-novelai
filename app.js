@@ -14,6 +14,7 @@ async function init() {
   try { state.selected = JSON.parse(localStorage.getItem("nai_selected") || "[]"); } catch (e) {}
   $("copy").onclick = copyPrompt;
   $("clear").onclick = () => { state.selected = []; update(); };
+  $("random").onclick = runRandom;
   $("overlay").onclick = (e) => { if (e.target.id === "overlay") closePanel(); };
   update();
 }
@@ -222,6 +223,177 @@ async function copyPrompt() {
   const b = $("copy");
   b.textContent = "コピーしました";
   setTimeout(() => (b.textContent = "コピー"), 1200);
+}
+
+// ===== ランダム生成 =====
+// 表情・服装・場所は抽選しない。体位/前戯・視点・体液・エフェクト等を相性の良い組み合わせから選ぶ
+
+function pick(arr) {
+  if (!arr || !arr.length) return null;
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function pickN(arr, n) {
+  if (!arr || !arr.length) return [];
+  const copy = [...arr];
+  const out = [];
+  const count = Math.min(n, copy.length);
+  for (let i = 0; i < count; i++) {
+    const idx = Math.floor(Math.random() * copy.length);
+    out.push(copy.splice(idx, 1)[0]);
+  }
+  return out;
+}
+
+/** ラベルから実体（text/label）を探す。variation なら options からランダムに1つ */
+function resolveLabel(label) {
+  if (!label || !state.data) return null;
+
+  // 1. variations の title や options の label を探す
+  if (state.data.variations) {
+    for (const key of Object.keys(state.data.variations)) {
+      const v = state.data.variations[key];
+      if (v.title === label && v.options && v.options.length) {
+        const o = pick(v.options);
+        return { text: o.text, label: o.label || label };
+      }
+      if (v.options) {
+        const found = v.options.find((o) => o.label === label);
+        if (found) return { text: found.text, label: found.label };
+      }
+    }
+  }
+
+  // 2. categories 内の items を探す（text 直接 or variation キー）
+  for (const cat of state.data.categories || []) {
+    for (const sec of cat.sections || []) {
+      for (const it of sec.items || []) {
+        if (it.label === label) {
+          if (it.text) return { text: it.text, label: it.label };
+          if (it.variation && state.data.variations && state.data.variations[it.variation]) {
+            const v = state.data.variations[it.variation];
+            if (v.options && v.options.length) {
+              const o = pick(v.options);
+              return { text: o.text, label: o.label || it.label };
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 3. 見つからなければラベルをそのまま text として使う（フォールバック）
+  return { text: label, label };
+}
+
+/** 複数ラベルを解決して selected に追加（重複 text は避ける） */
+function addResolved(labels) {
+  const seen = new Set(state.selected.map((s) => s.text));
+  for (const lab of labels) {
+    if (!lab) continue;
+    const r = resolveLabel(lab);
+    if (!r || !r.text || seen.has(r.text)) continue;
+    seen.add(r.text);
+    state.selected.push({ text: r.text, label: r.label, weight: 1.0 });
+  }
+}
+
+function runRandom() {
+  const rnd = state.data && state.data.random;
+  if (!rnd) {
+    alert("prompts.json に random セクションがありません");
+    return;
+  }
+
+  // 全消去して上書き
+  state.selected = [];
+
+  // --- 段階をランダム選択 ---
+  const stageKeys = Object.keys(rnd.stages || {});
+  const stageKey = pick(stageKeys) || "mid";
+  const stage = rnd.stages[stageKey] || {};
+
+  // --- 体位 or 前戯 をランダム選択（中盤・終盤は体位寄り、導入は前戯寄り） ---
+  let group = null;
+  let isPosition = false;
+  const usePosition = stageKey === "intro" ? Math.random() < 0.35 : Math.random() < 0.65;
+
+  if (usePosition && rnd.positions) {
+    const posKeys = Object.keys(rnd.positions);
+    const pk = pick(posKeys);
+    group = rnd.positions[pk];
+    isPosition = true;
+  } else if (rnd.foreplay) {
+    const fpKeys = Object.keys(rnd.foreplay);
+    const fk = pick(fpKeys);
+    group = rnd.foreplay[fk];
+    isPosition = false;
+  } else if (rnd.positions) {
+    const posKeys = Object.keys(rnd.positions);
+    group = rnd.positions[pick(posKeys)];
+    isPosition = true;
+  }
+
+  if (!group) {
+    update();
+    return;
+  }
+
+  // --- 行為（acts）を1〜2個 ---
+  const actCount = Math.random() < 0.25 ? 2 : 1;
+  const acts = pickN(group.acts || [], actCount);
+  addResolved(acts);
+
+  // --- 視点（angle / camera / gaze）---
+  // グループ固有があれば優先、なければ defaults
+  const anglePool = (group.angle && group.angle.length) ? group.angle : (rnd.defaults && rnd.defaults.angle) || [];
+  const cameraPool = (group.camera && group.camera.length) ? group.camera : (rnd.defaults && rnd.defaults.camera) || [];
+  const gazePool = (group.gaze && group.gaze.length) ? group.gaze : (rnd.defaults && rnd.defaults.gaze) || [];
+
+  addResolved([pick(anglePool)]);
+  addResolved([pick(cameraPool)]);
+  // gaze は 70% の確率で入れる（目を閉じる等と矛盾しにくいよう任意）
+  if (Math.random() < 0.7) addResolved([pick(gazePool)]);
+
+  // --- 体位の場合、overlay（重ね前戯）を確率で ---
+  if (isPosition && group.overlay && group.overlay.length && Math.random() < 0.4) {
+    addResolved([pick(group.overlay)]);
+  }
+
+  // --- 段階別：体液・エフェクト（表情・服装状態は入れない） ---
+  // fluid: 1〜2個
+  if (stage.fluid && stage.fluid.length) {
+    const n = Math.random() < 0.4 ? 2 : 1;
+    addResolved(pickN(stage.fluid, n));
+  }
+  // effect: 1〜2個
+  if (stage.effect && stage.effect.length) {
+    const n = Math.random() < 0.5 ? 2 : 1;
+    addResolved(pickN(stage.effect, n));
+  }
+  // effectFore: 終盤などで強めに出したいもの（確率低め）
+  if (stage.effectFore && stage.effectFore.length && Math.random() < 0.35) {
+    addResolved([pick(stage.effectFore)]);
+  }
+
+  // --- 挿入の描写など、段階が mid/end で体位のとき追加で少し ---
+  // （variations に "挿入の状態" 等がある想定。ラベルで解決できれば入る）
+  if (isPosition && (stageKey === "mid" || stageKey === "end") && Math.random() < 0.45) {
+    // よくある挿入関連ラベルを候補に（データに存在すれば解決される）
+    const insertCandidates = [
+      "挿入", "深い挿入", "浅い挿入", "膣内射精", "中出し",
+      "アナル挿入", "二穴", "玩具挿入"
+    ];
+    addResolved([pick(insertCandidates)]);
+  }
+
+  update();
+
+  // フィードバック
+  const b = $("random");
+  const prev = b.textContent;
+  b.textContent = "生成しました";
+  setTimeout(() => (b.textContent = prev), 1000);
 }
 
 init();
