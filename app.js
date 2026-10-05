@@ -128,6 +128,17 @@ function openInfo(it) {
 }
 
 // ===== 服装: 色 → 状態 を続けて選ぶ =====
+// 色・状態は、服ごとの個別指定 or 共通セット(colorSets / stateSets)から作る
+function getColors(g) {
+  if (g.colors) return g.colors;
+  const list = state.data.colorSets[g.colorSet].map((c) => ({ label: c.label, text: c.value + " " + g.base }));
+  list.push({ label: "指定なし", text: g.base });
+  return list;
+}
+function getStates(g) {
+  if (g.states) return g.states;
+  return state.data.stateSets[g.stateSet].map((x) => ({ label: x.label, text: g.base + x.suffix }));
+}
 function garmentText(g, color, st) {
   // 状態タグの先頭の基本名を、色付きの名前に置き換える
   return st.text.startsWith(g.base) ? color.text + st.text.slice(g.base.length) : st.text;
@@ -149,10 +160,12 @@ function pickGarment(key, color, st) {
 function openGarment(key, color) {
   const g = state.data.garments[key];
   if (!color) {
-    openPanel(g.label + "：色を選ぶ", g.colors.map((c) => el("button", c.label, "", () => openGarment(key, c))));
+    openPanel(g.label + "：色を選ぶ", getColors(g).map((c) => el("button", c.label, "", () => openGarment(key, c))));
     return;
   }
-  const btns = g.states.map((st) =>
+  const sts = getStates(g);
+  if (sts.length === 1) { pickGarment(key, color, sts[0]); return; } // 状態が無い服は色だけで確定
+  const btns = sts.map((st) =>
     el("button", st.label, find(garmentText(g, color, st)) >= 0 ? "on" : "", () => pickGarment(key, color, st)));
   btns.unshift(el("button", "← 色を選び直す", "", () => openGarment(key, null)));
   openPanel(g.label + "(" + color.label + ")：状態を選ぶ", btns);
