@@ -8,7 +8,7 @@
      "items": [
       {
        "label": "ベース",
-       "text": "best quality, amazing quality,1.5::artist:key(kagibangou)::,1.3::artist:ishigaki takashi::, 1.3::artist:meme50 ::, 1.2::artist:kotoyama::, 1.2::artist:orushibu::, 1.2::artist:siirakannu::,highres,4K, highly detailed, Curated, masterpiece, simple background, depth of field,ultra complexity,anime screencap, clean lineart, flat colors, simple cel shading, smooth shading,-4::multiple views::,-4::speech bubble::,-4::sound effects::,-4::Low Luminance::,",
+       "text": "2::artist:key(kagibangou)::,1.4::artist:ishigaki takashi::, 1.8::artist:meme50 ::,0.7::artist:kotoyama::, 0.5::artist:orushibu::, 0.8::artist:siirakannu::,year 2025, year 2024,best quality, amazing quality,highres,highly detailed, Curated, masterpiece, simple background, depth of field,ultra complexity,-4::multiple views::,-4::speech bubble::,-4::sound effects::,-4::Low Luminance::,-6::artist collaboration ::,",
        "desc": "画質・アーティスト指定を底上げする定番セット。"
       },
       {
@@ -1246,19 +1246,23 @@
      ]
     },
     {
-     "title": "疑似・暗示",
+     "title": "体液",
      "items": [
       {
-       "label": "疑似行為",
-       "variation": "simulated"
+       "label": "愛液",
+       "variation": "love_juice"
       },
       {
-       "label": "暗示",
-       "variation": "implied"
+       "label": "精液",
+       "variation": "semen"
       },
       {
-       "label": "手ぶり・誘い",
-       "variation": "gesture_sex"
+       "label": "よだれ・唾液",
+       "variation": "saliva"
+      },
+      {
+       "label": "汗",
+       "variation": "sweat"
       }
      ]
     },
@@ -1312,23 +1316,6 @@
      ]
     },
     {
-     "title": "性的な衣装・下着",
-     "items": [
-      {
-       "label": "ランジェリー",
-       "variation": "lingerie_sexy"
-      },
-      {
-       "label": "露出の多い服・穴あき",
-       "variation": "exposure_attire"
-      },
-      {
-       "label": "拘束系の衣装",
-       "variation": "bdsm_attire"
-      }
-     ]
-    },
-    {
      "title": "複数人",
      "items": [
       {
@@ -1359,27 +1346,6 @@
       {
        "label": "シチュエーション",
        "variation": "situation"
-      }
-     ]
-    },
-    {
-     "title": "体液",
-     "items": [
-      {
-       "label": "愛液",
-       "variation": "love_juice"
-      },
-      {
-       "label": "精液",
-       "variation": "semen"
-      },
-      {
-       "label": "よだれ・唾液",
-       "variation": "saliva"
-      },
-      {
-       "label": "汗",
-       "variation": "sweat"
       }
      ]
     },
@@ -1643,6 +1609,18 @@
       {
        "label": "お辞儀・その他",
        "variation": "g_other"
+      },
+      {
+       "label": "疑似行為",
+       "variation": "simulated"
+      },
+      {
+       "label": "暗示",
+       "variation": "implied"
+      },
+      {
+       "label": "手ぶり・誘い",
+       "variation": "gesture_sex"
       }
      ]
     },
@@ -2749,6 +2727,23 @@
       {
        "label": "穴あき・露出衣装",
        "variation": "exposed"
+      }
+     ]
+    },
+    {
+     "title": "性的な衣装・下着",
+     "items": [
+      {
+       "label": "ランジェリー",
+       "variation": "lingerie_sexy"
+      },
+      {
+       "label": "露出の多い服・穴あき",
+       "variation": "exposure_attire"
+      },
+      {
+       "label": "拘束系の衣装",
+       "variation": "bdsm_attire"
       }
      ]
     },
