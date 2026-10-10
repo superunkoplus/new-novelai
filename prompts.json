@@ -1513,35 +1513,6 @@
       {
        "label": "隠す",
        "variation": "covering"
-      },
-      {
-       "label": "手で持つ",
-       "handHold": {
-        "targets": [
-         {
-          "label": "男性器",
-          "one": {
-           "label": "片手で男性器を持つ",
-           "text": "holding penis, one hand"
-          },
-          "both": {
-           "label": "両手で男性器を持つ",
-           "text": "holding penis, both hands"
-          }
-         },
-         {
-          "label": "相手の手首",
-          "one": {
-           "label": "片手で相手の手首を持つ",
-           "text": "holding another's wrist, one hand"
-          },
-          "both": {
-           "label": "両手で相手の手首を持つ",
-           "text": "holding another's wrist, both hands"
-          }
-         }
-        ]
-       }
       }
      ]
     },
@@ -1555,35 +1526,6 @@
       {
        "label": "相手の体に触れる",
        "variation": "touch_body"
-      },
-      {
-       "label": "手で持つ",
-       "handHold": {
-        "targets": [
-         {
-          "label": "男性器",
-          "one": {
-           "label": "片手で男性器を持つ",
-           "text": "holding penis, one hand"
-          },
-          "both": {
-           "label": "両手で男性器を持つ",
-           "text": "holding penis, both hands"
-          }
-         },
-         {
-          "label": "相手の手首",
-          "one": {
-           "label": "片手で相手の手首を持つ",
-           "text": "holding another's wrist, one hand"
-          },
-          "both": {
-           "label": "両手で相手の手首を持つ",
-           "text": "holding another's wrist, both hands"
-          }
-         }
-        ]
-       }
       }
      ]
     },
@@ -1915,6 +1857,11 @@
        "label": "片側だけ上がった笑顔",
        "text": "one-sided smile",
        "desc": "口の片側だけ上がった笑顔"
+      },
+      {
+       "label": "ニコニコ",
+       "text": "^_^",
+       "desc": "ニコニコした表情（^_^）"
       }
      ]
     },
@@ -7166,7 +7113,8 @@
      "text": "finger to mouth",
      "desc": "指を口元に当てる"
     }
-   ]
+   ],
+   "handCount": true
   },
   "hand_chest": {
    "title": "胸・体に手",
@@ -7206,7 +7154,8 @@
      "text": "hand on own shoulder",
      "desc": "自分の肩に手を置く"
     }
-   ]
+   ],
+   "handCount": true
   },
   "hand_lower": {
    "title": "腰・下半身に手",
@@ -7255,8 +7204,14 @@
      "label": "スカートをつまむ",
      "text": "skirt hold",
      "desc": "スカートの裾をつまむ"
+    },
+    {
+     "label": "男性器を持つ",
+     "text": "holding penis",
+     "desc": "男性器を手で持つ"
     }
-   ]
+   ],
+   "handCount": true
   },
   "covering": {
    "title": "隠す",
@@ -7316,7 +7271,8 @@
      "text": "covering own ears",
      "desc": "耳を手で塞ぐ"
     }
-   ]
+   ],
+   "handCount": true
   },
   "touch_head": {
    "title": "相手の頭・顔に触れる",
@@ -7366,7 +7322,8 @@
      "text": "cheek squash",
      "desc": "相手の頬を挟んで潰す"
     }
-   ]
+   ],
+   "handCount": true
   },
   "touch_body": {
    "title": "相手の体に触れる",
@@ -7415,8 +7372,14 @@
      "label": "手をつなぐ",
      "text": "holding hands",
      "desc": "手をつなぐ"
+    },
+    {
+     "label": "相手の手首を持つ",
+     "text": "holding another's wrist",
+     "desc": "相手の手首を掴む・持つ"
     }
-   ]
+   ],
+   "handCount": true
   },
   "g_peace": {
    "title": "ピース・ハート",

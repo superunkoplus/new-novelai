@@ -226,10 +226,72 @@ function openGarment(key, color) {
   openPanel(g.label + "(" + color.label + ")：状態を選ぶ", btns);
 }
 
+/** ラベルに既に片手・両手が含まれる場合は追加選択不要 */
+function optionHasHandCount(o) {
+  return /片手|両手|片腕|両腕/.test(o.label || "");
+}
+
+/** プロンプトに片手/両手を反映 */
+function applyHandCount(text, count) {
+  let t = (text || "").replace(/,?\s*(one hand|both hands|two hands)\s*$/i, "").trim();
+  if (count === "both") {
+    t = t
+      .replace(/\bhand on\b/g, "hands on")
+      .replace(/\bhand in\b/g, "hands in")
+      .replace(/\bhand between\b/g, "hands between");
+    if (!/\bboth hands\b/i.test(t)) t += ", both hands";
+  } else {
+    if (!/\bone hand\b/i.test(t)) t += ", one hand";
+  }
+  return t;
+}
+
+function relatedHandTexts(o) {
+  return [o.text, applyHandCount(o.text, "one"), applyHandCount(o.text, "both")];
+}
+
+function isOptionSelected(o, handCountVar) {
+  if (!handCountVar || optionHasHandCount(o)) return find(o.text) >= 0;
+  return relatedHandTexts(o).some((t) => find(t) >= 0);
+}
+
+function pickHandCountOption(varKey, o, count) {
+  const text = applyHandCount(o.text, count);
+  const label = (count === "both" ? "両手で" : "片手で") + o.label;
+  // 同じ位置指定の別カウントを外す
+  relatedHandTexts(o).forEach((t) => {
+    const i = find(t);
+    if (i >= 0) state.selected.splice(i, 1);
+  });
+  state.selected.push({ text, label, weight: 1.0 });
+  closePanel();
+  update();
+}
+
+function openHandCountForOption(varKey, o) {
+  const oneText = applyHandCount(o.text, "one");
+  const bothText = applyHandCount(o.text, "both");
+  const btns = [
+    el("button", "← 戻る", "", () => openVariation(varKey)),
+    el("button", "片手で", find(oneText) >= 0 ? "on" : "", () => pickHandCountOption(varKey, o, "one")),
+    el("button", "両手で", find(bothText) >= 0 ? "on" : "", () => pickHandCountOption(varKey, o, "both")),
+  ];
+  openPanel(o.label + "：片手 / 両手", btns);
+}
+
 function openVariation(key) {
   const v = state.data.variations[key];
+  const useCount = !!v.handCount;
   const btns = v.options.map((o) => {
-    const b = el("button", o.label, find(o.text) >= 0 ? "on" : "", () => { toggle(o.text, o.label); closePanel(); });
+    const on = isOptionSelected(o, useCount);
+    const b = el("button", o.label, on ? "on" : "", () => {
+      if (useCount && !optionHasHandCount(o)) {
+        openHandCountForOption(key, o);
+      } else {
+        toggle(o.text, o.label);
+        closePanel();
+      }
+    });
     if (o.desc) b.appendChild(el("small", o.desc));
     return b;
   });
