@@ -231,19 +231,30 @@ function optionHasHandCount(o) {
   return /片手|両手|片腕|両腕/.test(o.label || "");
 }
 
-/** プロンプトに片手/両手を反映 */
+/** プロンプトに片手/両手を反映（one hand on ... 形式にまとめる） */
 function applyHandCount(text, count) {
-  let t = (text || "").replace(/,?\s*(one hand|both hands|two hands)\s*$/i, "").trim();
-  if (count === "both") {
-    t = t
-      .replace(/\bhand on\b/g, "hands on")
-      .replace(/\bhand in\b/g, "hands in")
-      .replace(/\bhand between\b/g, "hands between");
-    if (!/\bboth hands\b/i.test(t)) t += ", both hands";
-  } else {
-    if (!/\bone hand\b/i.test(t)) t += ", one hand";
+  let t = (text || "")
+    .replace(/\banother's\b/gi, "other person's")
+    .replace(/,?\s*(one hand|both hands|two hands)\s*$/i, "")
+    .trim();
+
+  // hand on/in/between X  →  one hand on X / both hands on X
+  let m = t.match(/^hands?\s+(on|in|between)\s+(.+)$/i);
+  if (m) {
+    const prep = m[1].toLowerCase();
+    const rest = m[2];
+    return (count === "both" ? "both hands" : "one hand") + " " + prep + " " + rest;
   }
-  return t;
+
+  // holding X  →  holding X with one hand / with both hands
+  m = t.match(/^holding\s+(.+)$/i);
+  if (m) {
+    return "holding " + m[1] + (count === "both" ? " with both hands" : " with one hand");
+  }
+
+  // それ以外
+  if (count === "both") return t + ", both hands";
+  return t + ", one hand";
 }
 
 function relatedHandTexts(o) {

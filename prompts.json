@@ -2309,6 +2309,11 @@
      "title": "口・目まわり",
      "items": [
       {
+       "label": "パーツなし",
+       "text": "faceless",
+       "desc": "顔のパーツを描かない（faceless）"
+      },
+      {
        "label": "口を閉じる",
        "text": "closed mouth",
        "desc": "口を閉じる"
@@ -7289,32 +7294,32 @@
    "options": [
     {
      "label": "相手の頭に手",
-     "text": "hand on another's head",
+     "text": "hand on other person's head",
      "desc": "相手の頭に手を置く"
     },
     {
      "label": "相手の顔に手",
-     "text": "hand on another's face",
+     "text": "hand on other person's face",
      "desc": "相手の顔に手を添える"
     },
     {
      "label": "相手の頬に手",
-     "text": "hand on another's cheek",
+     "text": "hand on other person's cheek",
      "desc": "相手の頬に手を当てる"
     },
     {
      "label": "相手の顎に手",
-     "text": "hand on another's chin",
+     "text": "hand on other person's chin",
      "desc": "相手の顎に手をかける"
     },
     {
      "label": "相手の首に手",
-     "text": "hand on another's neck",
+     "text": "hand on other person's neck",
      "desc": "相手の首に手を回す"
     },
     {
      "label": "相手の髪を直す",
-     "text": "adjusting another's hair",
+     "text": "adjusting other person's hair",
      "desc": "相手の髪を整える"
     },
     {
@@ -7340,7 +7345,7 @@
    "options": [
     {
      "label": "相手の肩に手",
-     "text": "hand on another's shoulder",
+     "text": "hand on other person's shoulder",
      "desc": "相手の肩に手を置く"
     },
     {
@@ -7350,32 +7355,32 @@
     },
     {
      "label": "相手の背中に手",
-     "text": "hand on another's back",
+     "text": "hand on other person's back",
      "desc": "相手の背中に手を回す"
     },
     {
      "label": "相手の胸に手",
-     "text": "hand on another's chest",
+     "text": "hand on other person's chest",
      "desc": "相手の胸に手を当てる"
     },
     {
      "label": "相手の腰に手",
-     "text": "hand on another's waist",
+     "text": "hand on other person's waist",
      "desc": "相手の腰に手を回す"
     },
     {
      "label": "相手の太ももに手",
-     "text": "hand on another's thigh",
+     "text": "hand on other person's thigh",
      "desc": "相手の太ももに手を置く"
     },
     {
      "label": "相手の股間に手",
-     "text": "hand on another's crotch",
+     "text": "hand on other person's crotch",
      "desc": "相手の股間に手を当てる"
     },
     {
      "label": "相手のお尻に手",
-     "text": "hand on another's ass",
+     "text": "hand on other person's ass",
      "desc": "相手のお尻に手を置く"
     },
     {
@@ -7385,7 +7390,7 @@
     },
     {
      "label": "相手の手首を持つ",
-     "text": "holding another's wrist",
+     "text": "holding other person's wrist",
      "desc": "相手の手首を掴む・持つ"
     }
    ],
