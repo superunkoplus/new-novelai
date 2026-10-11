@@ -3230,6 +3230,11 @@
        "desc": "小さめの胸"
       },
       {
+       "label": "無乳",
+       "text": "flat chest",
+       "desc": "ほぼ平らな胸（無乳）"
+      },
+      {
        "label": "広い腰",
        "text": "wide hips",
        "desc": "腰回りが広い"
@@ -3435,28 +3440,33 @@
    "options": [
     {
      "label": "男性が女性の乳首を責める",
-     "desc": "男性→女性",
-     "text": "nipple play, sucking nipples, man sucking woman's nipples"
+     "desc": "男性→女性（摘まむ・擦る・弾く）",
+     "text": "nipple play, nipple tweak, nipple rub, nipple flick, man playing with woman's nipples"
     },
     {
      "label": "女性が男性の乳首を責める",
-     "desc": "女性→男性",
-     "text": "nipple play, woman sucking man's nipples"
+     "desc": "女性→男性（摘まむ・擦る・弾く）",
+     "text": "nipple play, nipple tweak, nipple rub, nipple flick, woman playing with man's nipples"
     },
     {
      "label": "乳首を摘まむ・捻る",
-     "desc": "指で摘まむ",
-     "text": "pinching nipples, twisting nipples"
+     "desc": "指で摘まむ・捻る",
+     "text": "pinching nipples, twisting nipples, nipple tweak"
     },
     {
-     "label": "乳首を強く吸う",
-     "desc": "強く吸う",
-     "text": "hard sucking nipples, intense nipple play"
+     "label": "乳首を擦る",
+     "desc": "指で擦る・撫でる",
+     "text": "nipple rub, rubbing nipples"
     },
     {
-     "label": "抱きしめて吸う",
-     "text": "hug and suck",
-     "desc": "抱きしめながら口で吸う"
+     "label": "乳首を弾く",
+     "desc": "指で弾く・はじく",
+     "text": "nipple flick, flicking nipples"
+    },
+    {
+     "label": "乳首を強く弄る",
+     "desc": "強めに摘まむ・弄る",
+     "text": "intense nipple play, hard nipple tweak, pinching nipples"
     }
    ]
   },
