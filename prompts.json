@@ -22,6 +22,11 @@
        "desc": "NSFWにモザイク検閲を入れる指定。"
       },
       {
+       "label": "金玉のモザイク",
+       "text": "Mosaic on the Testicles,",
+       "desc": "金玉にモザイクを入れる指定。"
+      },
+      {
        "label": "陰毛",
        "text": "black pubic hair",
        "desc": "黒い陰毛を描画する指定。"
@@ -1732,6 +1737,31 @@
        "label": "理性が飛ぶ",
        "text": "fucked silly",
        "desc": "快感で頭が真っ白になったような表情。"
+      },
+      {
+       "label": "余韻の顔",
+       "text": "afterglow",
+       "desc": "行為後の余韻"
+      },
+      {
+       "label": "興奮した顔",
+       "text": "aroused",
+       "desc": "性的に興奮した表情"
+      },
+      {
+       "label": "naughty face",
+       "text": "naughty face",
+       "desc": "悪戯っぽく色気のある顔"
+      },
+      {
+       "label": "おほ顔",
+       "text": "ohogao",
+       "desc": "おほ顔（恍惚）"
+      },
+      {
+       "label": "発情した顔",
+       "text": "horny",
+       "desc": "発情した表情"
       }
      ]
     },
@@ -1867,6 +1897,51 @@
        "label": "ニコニコ",
        "text": "^_^",
        "desc": "ニコニコした表情（^_^）"
+      },
+      {
+       "label": "にっこり",
+       "text": "smile",
+       "desc": "口を閉じた笑顔"
+      },
+      {
+       "label": "歯を見せて笑う",
+       "text": "grin",
+       "desc": "歯を見せた笑顔"
+      },
+      {
+       "label": "軽い笑顔",
+       "text": "light smile",
+       "desc": "控えめな笑顔"
+      },
+      {
+       "label": "大きく口を開けて笑う",
+       "text": ":D",
+       "desc": "口を大きく開けた笑顔"
+      },
+      {
+       "label": "狂気の笑顔",
+       "text": "crazy smile",
+       "desc": "狂気じみた笑顔"
+      },
+      {
+       "label": "邪悪な笑顔",
+       "text": "evil smile",
+       "desc": "悪意のある笑顔"
+      },
+      {
+       "label": "指で作る笑顔",
+       "text": "fingersmile",
+       "desc": "指で口角を上げる"
+      },
+      {
+       "label": "悲しい笑顔",
+       "text": "sad smile",
+       "desc": "悲しげな笑顔"
+      },
+      {
+       "label": "笑いをこらえる",
+       "text": "stifled laugh",
+       "desc": "笑いを我慢する"
       }
      ]
     },
@@ -1952,6 +2027,26 @@
        "label": "悲しさで唇を噛む",
        "text": "biting lip in sadness",
        "desc": "悲しみで唇を噛む"
+      },
+      {
+       "label": "悲しい顔",
+       "text": "sad",
+       "desc": "悲しんでいる表情"
+      },
+      {
+       "label": "落ち込んだ顔",
+       "text": "depressed",
+       "desc": "落ち込んだ表情"
+      },
+      {
+       "label": "憂いのある顔",
+       "text": "melancholy",
+       "desc": "憂いを帯びた表情"
+      },
+      {
+       "label": "しょんぼり",
+       "text": "dejected",
+       "desc": "しょんぼりした顔"
       }
      ]
     },
@@ -2007,6 +2102,36 @@
        "label": "唇を結び怒りを堪える",
        "text": "tight-lipped anger",
        "desc": "唇を結んで怒りを堪える"
+      },
+      {
+       "label": "怒り",
+       "text": "angry",
+       "desc": "怒った表情"
+      },
+      {
+       "label": "激怒",
+       "text": "furious",
+       "desc": "激しく怒った表情"
+      },
+      {
+       "label": "怒りマーク",
+       "text": "anger vein",
+       "desc": "額の怒りマーク"
+      },
+      {
+       "label": "しかめっ面",
+       "text": "scowl",
+       "desc": "険しいしかめ面"
+      },
+      {
+       "label": "眉を逆八の字に",
+       "text": "v-shaped eyebrows",
+       "desc": "怒り・険しさの眉"
+      },
+      {
+       "label": "睨みつける",
+       "text": "glaring",
+       "desc": "鋭く睨む"
       }
      ]
     },
@@ -2067,6 +2192,21 @@
        "label": "爪を噛む",
        "text": "biting nails",
        "desc": "不安で爪を噛む"
+      },
+      {
+       "label": "怖がっている",
+       "text": "scared",
+       "desc": "恐怖を感じている顔"
+      },
+      {
+       "label": "不安そう",
+       "text": "nervous",
+       "desc": "緊張・不安の表情"
+      },
+      {
+       "label": "青ざめる",
+       "text": "turn pale",
+       "desc": "血の気が引く"
       }
      ]
     },
@@ -2147,6 +2287,21 @@
        "label": "信じられない顔",
        "text": "disbelief",
        "desc": "信じられないという顔"
+      },
+      {
+       "label": ":o",
+       "text": ":o",
+       "desc": "口を丸く開けた驚き"
+      },
+      {
+       "label": "o_o",
+       "text": "o_o",
+       "desc": "目を丸くした表情"
+      },
+      {
+       "label": "目が飛び出す",
+       "text": "eye pop",
+       "desc": "目が飛び出るほどの驚き"
       }
      ]
     },
@@ -2197,6 +2352,26 @@
        "label": "はにかんで下を向く",
        "text": "looking down bashfully",
        "desc": "はにかんで下を向く"
+      },
+      {
+       "label": "赤面シール",
+       "text": "blush stickers",
+       "desc": "赤面を表すシール表現"
+      },
+      {
+       "label": "顔全体の赤面",
+       "text": "full-face blush",
+       "desc": "顔全体が赤くなる"
+      },
+      {
+       "label": "恥ずかしい",
+       "text": "embarrassed",
+       "desc": "恥ずかしがっている"
+      },
+      {
+       "label": "うろたえる",
+       "text": "flustered",
+       "desc": "慌てて動揺する"
       }
      ]
     },
@@ -2257,6 +2432,16 @@
        "label": "冷や汗",
        "text": "sweat drop",
        "desc": "冷や汗が出る"
+      },
+      {
+       "label": "嫌悪",
+       "text": "disgust",
+       "desc": "嫌悪感を示した顔"
+      },
+      {
+       "label": "嫌そうな顔",
+       "text": "displeased",
+       "desc": "不機嫌・不満の顔"
       }
      ]
     },
@@ -2307,6 +2492,41 @@
        "label": "無表情",
        "text": "deadpan",
        "desc": "感情のない無表情"
+      },
+      {
+       "label": "退屈",
+       "text": "bored",
+       "desc": "退屈そうな顔"
+      },
+      {
+       "label": "真面目な顔",
+       "text": "serious",
+       "desc": "真剣・厳しい顔"
+      },
+      {
+       "label": "考え事",
+       "text": "thinking",
+       "desc": "考え込んでいる顔"
+      },
+      {
+       "label": "ぼんやり",
+       "text": "pensive",
+       "desc": "物思いにふける"
+      },
+      {
+       "label": "すねる",
+       "text": "sulking",
+       "desc": "すねた表情"
+      },
+      {
+       "label": "困惑",
+       "text": "confused",
+       "desc": "混乱した表情"
+      },
+      {
+       "label": "きつい顔",
+       "text": "wince",
+       "desc": "苦痛・しかめっ面"
       }
      ]
     },
@@ -2362,6 +2582,176 @@
        "label": "眠そう",
        "text": "sleepy",
        "desc": "眠そうな顔"
+      },
+      {
+       "label": "目を閉じる",
+       "text": "closed eyes",
+       "desc": "両目を閉じる"
+      },
+      {
+       "label": "半目",
+       "text": "half-closed eyes",
+       "desc": "まぶたが半分閉じた目"
+      },
+      {
+       "label": "ジト目",
+       "text": "jitome",
+       "desc": "上縁が直線の目"
+      },
+      {
+       "label": "虚ろな目",
+       "text": "blank stare",
+       "desc": "焦点の合わない目"
+      },
+      {
+       "label": "舌を出す",
+       "text": ":p",
+       "desc": "舌を出した表情"
+      },
+      {
+       "label": ":3",
+       "text": ":3",
+       "desc": "猫口のような口"
+      },
+      {
+       "label": ";)",
+       "text": "wink",
+       "desc": ";) ウインク"
+      },
+      {
+       "label": ">_<",
+       "text": ">_<",
+       "desc": "目を細めて耐える・照れる"
+      },
+      {
+       "label": "@_@",
+       "text": "@_@",
+       "desc": "目が回っている"
+      },
+      {
+       "label": "T_T",
+       "text": "T_T",
+       "desc": "泣き顔の顔文字"
+      },
+      {
+       "label": "=_=",
+       "text": "=_=",
+       "desc": "虚脱・呆れの目"
+      },
+      {
+       "label": "+_+",
+       "text": "+_+",
+       "desc": "キラキラした目"
+      }
+     ]
+    },
+    {
+     "title": "ドヤ・得意げ",
+     "items": [
+      {
+       "label": "ドヤ顔",
+       "text": "doyagao",
+       "desc": "自画自賛・得意げな顔"
+      },
+      {
+       "label": "にやり",
+       "text": "smirk",
+       "desc": "にやりとした笑み"
+      },
+      {
+       "label": "得意げ",
+       "text": "smug",
+       "desc": "得意げ・うぬぼれた顔"
+      },
+      {
+       "label": "トロール顔",
+       "text": "troll face",
+       "desc": "煽るような顔"
+      }
+     ]
+    },
+    {
+     "title": "顔文字",
+     "items": [
+      {
+       "label": ";)",
+       "text": ";)",
+       "desc": "ウインクの顔文字"
+      },
+      {
+       "label": ":D",
+       "text": ":D",
+       "desc": "大きく笑う顔文字"
+      },
+      {
+       "label": ":3",
+       "text": ":3",
+       "desc": "猫口の顔文字"
+      },
+      {
+       "label": ":p",
+       "text": ":p",
+       "desc": "舌出しの顔文字"
+      },
+      {
+       "label": ">:)",
+       "text": ">:)",
+       "desc": "意地悪そうな笑顔"
+      },
+      {
+       "label": ">:(",
+       "text": ">:(",
+       "desc": "怒った顔文字"
+      },
+      {
+       "label": ":/",
+       "text": ":/",
+       "desc": "不満・微妙な顔"
+      },
+      {
+       "label": ":|",
+       "text": ":|",
+       "desc": "無表情の顔文字"
+      },
+      {
+       "label": "o_o",
+       "text": "o_o",
+       "desc": "目を丸くした顔文字"
+      },
+      {
+       "label": "^_^",
+       "text": "^_^",
+       "desc": "ニコニコの顔文字"
+      },
+      {
+       "label": ">_<",
+       "text": ">_<",
+       "desc": "目を細めた顔文字"
+      },
+      {
+       "label": "@_@",
+       "text": "@_@",
+       "desc": "目が回った顔文字"
+      },
+      {
+       "label": "T_T",
+       "text": "T_T",
+       "desc": "泣きの顔文字"
+      },
+      {
+       "label": "=_=",
+       "text": "=_=",
+       "desc": "虚脱の顔文字"
+      },
+      {
+       "label": "+_+",
+       "text": "+_+",
+       "desc": "キラキラ目の顔文字"
+      },
+      {
+       "label": "x mouth",
+       "text": "x mouth",
+       "desc": "口が×の表情"
       }
      ]
     }
@@ -3416,7 +3806,7 @@
     {
      "label": "深く咥えるフェラ",
      "desc": "奥まで咥える",
-     "text": "deepthroat, deep fellatio"
+     "text": "deepthroat"
     },
     {
      "label": "先端を舐めるフェラ",
@@ -5333,6 +5723,11 @@
   "self_mast": {
    "title": "自慰",
    "options": [
+    {
+     "label": "男性の自慰",
+     "text": "male masturbation",
+     "desc": "男性の自慰"
+    },
     {
      "label": "女性の自慰",
      "text": "female masturbation",
