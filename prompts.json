@@ -25,6 +25,11 @@
        "label": "陰毛",
        "text": "black pubic hair",
        "desc": "黒い陰毛を描画する指定。"
+      },
+      {
+       "label": "竿役の顔",
+       "text": "faceless,simple short hair style,black hair,",
+       "desc": "竿役の顔を描かず、短い黒髪のみ指定。"
       }
      ]
     },
@@ -3280,92 +3285,92 @@
    "options": [
     {
      "label": "男→女 首筋",
-     "text": "neck kissing, licking neck, man licking woman's neck",
+     "text": "man licking woman's neck",
      "desc": "男性が女性の首筋を舐める"
     },
     {
      "label": "男→女 耳",
-     "text": "ear licking, man licking woman's ear, whispering",
+     "text": "man licking woman's ear",
      "desc": "男性が女性の耳を舐める"
     },
     {
      "label": "男→女 脇",
-     "text": "armpit licking, man licking woman's armpit",
+     "text": "man licking woman's armpit",
      "desc": "男性が女性の脇を舐める"
     },
     {
      "label": "男→女 へそ",
-     "text": "navel licking, man licking woman's navel",
+     "text": "man licking woman's navel",
      "desc": "男性が女性のへそを舐める"
     },
     {
-     "label": "男→女 体・胸元",
-     "text": "body licking, licking body, man licking woman's body",
-     "desc": "男性が女性の体・胸元を舐める"
+     "label": "男→女 乳首",
+     "text": "man licking woman's nipple",
+     "desc": "男性が女性の乳首を舐める"
     },
     {
      "label": "男→女 太もも",
-     "text": "licking thighs, man licking woman's thighs",
+     "text": "man licking woman's thighs",
      "desc": "男性が女性の太ももを舐める"
     },
     {
      "label": "男→女 足・足指",
-     "text": "foot licking, toe sucking, man licking woman's feet",
+     "text": "man licking woman's feet",
      "desc": "男性が女性の足・足指を舐める"
     },
     {
      "label": "男→女 背中",
-     "text": "licking back, man licking woman's back",
+     "text": "man licking woman's back",
      "desc": "男性が女性の背中を舐める"
     },
     {
      "label": "男→女 お腹",
-     "text": "licking stomach, man licking woman's stomach",
+     "text": "man licking woman's stomach",
      "desc": "男性が女性のお腹を舐める"
     },
     {
      "label": "女→男 首筋",
-     "text": "neck kissing, licking neck, woman licking man's neck",
+     "text": "woman licking man's neck",
      "desc": "女性が男性の首筋を舐める"
     },
     {
      "label": "女→男 耳",
-     "text": "ear licking, woman licking man's ear, whispering",
+     "text": "woman licking man's ear",
      "desc": "女性が男性の耳を舐める"
     },
     {
      "label": "女→男 脇",
-     "text": "armpit licking, woman licking man's armpit",
+     "text": "woman licking man's armpit",
      "desc": "女性が男性の脇を舐める"
     },
     {
      "label": "女→男 へそ",
-     "text": "navel licking, woman licking man's navel",
+     "text": "woman licking man's navel",
      "desc": "女性が男性のへそを舐める"
     },
     {
-     "label": "女→男 体・胸元",
-     "text": "body licking, licking body, woman licking man's body",
-     "desc": "女性が男性の体・胸元を舐める"
+     "label": "女→男 乳首",
+     "text": "woman licking man's nipple",
+     "desc": "女性が男性の乳首を舐める"
     },
     {
      "label": "女→男 太もも",
-     "text": "licking thighs, woman licking man's thighs",
+     "text": "woman licking man's thighs",
      "desc": "女性が男性の太ももを舐める"
     },
     {
      "label": "女→男 足・足指",
-     "text": "foot licking, toe sucking, woman licking man's feet",
+     "text": "woman licking man's feet",
      "desc": "女性が男性の足・足指を舐める"
     },
     {
      "label": "女→男 背中",
-     "text": "licking back, woman licking man's back",
+     "text": "woman licking man's back",
      "desc": "女性が男性の背中を舐める"
     },
     {
      "label": "女→男 お腹",
-     "text": "licking stomach, woman licking man's stomach",
+     "text": "woman licking man's stomach",
      "desc": "女性が男性のお腹を舐める"
     }
    ]
