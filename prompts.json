@@ -1608,9 +1608,9 @@
        "desc": "とろけた表情"
       },
       {
-       "label": "おほ顔",
+       "label": "オホ顔",
        "text": "ohogao",
-       "desc": "おほ顔"
+       "desc": "オホ顔"
       },
       {
        "label": "理性が飛ぶ",
@@ -5849,7 +5849,7 @@
    "options": [
     {
      "label": "モーションライン",
-     "text": "motion lines, speed lines",
+     "text": "motion lines",
      "desc": "動きを線で強調する表現。"
     },
     {
@@ -7206,6 +7206,11 @@
      "label": "頭を後ろに反らす",
      "text": "head back",
      "desc": "顔を上に向ける"
+    },
+    {
+     "label": "頭を横に向ける",
+     "text": "head to the side",
+     "desc": "頭を横方向に向ける"
     }
    ]
   },
