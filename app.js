@@ -228,37 +228,56 @@ function openGarment(key, color) {
 
 /** ラベルに既に片手・両手が含まれる場合は追加選択不要 */
 function optionHasHandCount(o) {
-  return /片手|両手|片腕|両腕/.test(o.label || "");
+  return /片手|両手|片腕|両腕|右手|左手/.test(o.label || "");
 }
 
-/** プロンプトに片手/両手を反映（one hand on ... 形式にまとめる） */
+const HAND_COUNT_LABELS = {
+  one: "片手で",
+  right: "右手で",
+  left: "左手で",
+  both: "両手で",
+};
+
+/** プロンプトに片手/両手/右/左を反映（one hand on ... 形式にまとめる） */
 function applyHandCount(text, count) {
   let t = (text || "")
     .replace(/\banother's\b/gi, "other person's")
-    .replace(/,?\s*(one hand|both hands|two hands)\s*$/i, "")
+    .replace(/,?\s*(one hand|both hands|two hands|right hand|left hand)\s*$/i, "")
+    .replace(/\s+with\s+(one|both|right|left)\s+hands?\s*$/i, "")
     .trim();
 
-  // hand on/in/between X  →  one hand on X / both hands on X
+  const handWord =
+    count === "both" ? "both hands" :
+    count === "right" ? "right hand" :
+    count === "left" ? "left hand" :
+    "one hand";
+
+  // hand on/in/between X  →  one hand on X / right hand on X など
   let m = t.match(/^hands?\s+(on|in|between)\s+(.+)$/i);
   if (m) {
     const prep = m[1].toLowerCase();
     const rest = m[2];
-    return (count === "both" ? "both hands" : "one hand") + " " + prep + " " + rest;
+    return handWord + " " + prep + " " + rest;
   }
 
-  // holding X  →  holding X with one hand / with both hands
+  // holding X  →  holding X with one hand / with right hand など
   m = t.match(/^holding\s+(.+)$/i);
   if (m) {
-    return "holding " + m[1] + (count === "both" ? " with both hands" : " with one hand");
+    return "holding " + m[1] + " with " + handWord;
   }
 
   // それ以外
-  if (count === "both") return t + ", both hands";
-  return t + ", one hand";
+  return t + ", " + handWord;
 }
 
 function relatedHandTexts(o) {
-  return [o.text, applyHandCount(o.text, "one"), applyHandCount(o.text, "both")];
+  return [
+    o.text,
+    applyHandCount(o.text, "one"),
+    applyHandCount(o.text, "right"),
+    applyHandCount(o.text, "left"),
+    applyHandCount(o.text, "both"),
+  ];
 }
 
 function isOptionSelected(o, handCountVar) {
@@ -268,7 +287,7 @@ function isOptionSelected(o, handCountVar) {
 
 function pickHandCountOption(varKey, o, count) {
   const text = applyHandCount(o.text, count);
-  const label = (count === "both" ? "両手で" : "片手で") + o.label;
+  const label = (HAND_COUNT_LABELS[count] || "片手で") + o.label;
   // 同じ位置指定の別カウントを外す
   relatedHandTexts(o).forEach((t) => {
     const i = find(t);
@@ -280,14 +299,15 @@ function pickHandCountOption(varKey, o, count) {
 }
 
 function openHandCountForOption(varKey, o) {
-  const oneText = applyHandCount(o.text, "one");
-  const bothText = applyHandCount(o.text, "both");
-  const btns = [
-    el("button", "← 戻る", "", () => openVariation(varKey)),
-    el("button", "片手で", find(oneText) >= 0 ? "on" : "", () => pickHandCountOption(varKey, o, "one")),
-    el("button", "両手で", find(bothText) >= 0 ? "on" : "", () => pickHandCountOption(varKey, o, "both")),
-  ];
-  openPanel(o.label + "：片手 / 両手", btns);
+  const counts = ["one", "right", "left", "both"];
+  const btns = [el("button", "← 戻る", "", () => openVariation(varKey))];
+  counts.forEach((c) => {
+    const t = applyHandCount(o.text, c);
+    btns.push(
+      el("button", HAND_COUNT_LABELS[c], find(t) >= 0 ? "on" : "", () => pickHandCountOption(varKey, o, c))
+    );
+  });
+  openPanel(o.label + "：どの手で？", btns);
 }
 
 function openVariation(key) {
