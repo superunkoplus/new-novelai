@@ -4325,7 +4325,7 @@
     {
      "label": "顔アップ",
      "desc": "顔中心",
-     "text": "face close-up, portrait"
+     "text": "close-up face"
     },
     {
      "label": "極端なクローズアップ",
@@ -4335,12 +4335,12 @@
     {
      "label": "局部アップ",
      "desc": "性器を強調",
-     "text": "pussy focus, crotch close-up"
+     "text": "close-up crotch"
     },
     {
      "label": "胸アップ",
      "desc": "胸を強調",
-     "text": "breast focus, chest close-up"
+     "text": "close-up breasts"
     }
    ]
   },
@@ -7660,6 +7660,11 @@
      "label": "相手の首に手",
      "text": "hand on other person's neck",
      "desc": "相手の首に手を回す"
+    },
+    {
+     "label": "首の後ろに手を回す",
+     "text": "wrap arms around the back of other person's neck",
+     "desc": "相手の首の後ろに手（腕）を回す"
     },
     {
      "label": "相手の髪を直す",

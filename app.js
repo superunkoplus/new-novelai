@@ -266,6 +266,18 @@ function applyHandCount(text, count) {
     return "holding " + m[1] + " with " + handWord;
   }
 
+  // wrap arms around X  →  wrap one arm around X / wrap both arms around X など
+  m = t.match(/^wrap\s+arms\s+around\s+(.+)$/i);
+  if (m) {
+    const rest = m[1];
+    const armWord =
+      count === "both" ? "both arms" :
+      count === "right" ? "right arm" :
+      count === "left" ? "left arm" :
+      "one arm";
+    return "wrap " + armWord + " around " + rest;
+  }
+
   // それ以外
   return t + ", " + handWord;
 }
