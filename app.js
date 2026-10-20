@@ -322,13 +322,48 @@ function openHandCountForOption(varKey, o) {
   openPanel(o.label + "：どの手で？", btns);
 }
 
+function partnerTexts(o) {
+  return [o.manToWoman, o.womanToMan].filter(Boolean);
+}
+
+function isPartnerOptionSelected(o) {
+  return partnerTexts(o).some((t) => find(t) >= 0);
+}
+
+function pickPartnerDirection(varKey, o, dir) {
+  const text = dir === "mw" ? o.manToWoman : o.womanToMan;
+  const dirLabel = dir === "mw" ? "男性が女性に" : "女性が男性に";
+  if (!text) return;
+  partnerTexts(o).forEach((t) => {
+    const i = find(t);
+    if (i >= 0) state.selected.splice(i, 1);
+  });
+  state.selected.push({ text, label: dirLabel + o.label, weight: 1.0 });
+  closePanel();
+  update();
+}
+
+function openPartnerDirection(varKey, o) {
+  const btns = [
+    el("button", "← 戻る", "", () => openVariation(varKey)),
+    el("button", "男性が女性に", find(o.manToWoman) >= 0 ? "on" : "", () => pickPartnerDirection(varKey, o, "mw")),
+    el("button", "女性が男性に", find(o.womanToMan) >= 0 ? "on" : "", () => pickPartnerDirection(varKey, o, "wm")),
+  ];
+  openPanel(o.label + "：誰が？", btns);
+}
+
 function openVariation(key) {
   const v = state.data.variations[key];
   const useCount = !!v.handCount;
+  const usePartner = !!v.partnerDirection;
   const btns = v.options.map((o) => {
-    const on = isOptionSelected(o, useCount);
+    let on = false;
+    if (usePartner) on = isPartnerOptionSelected(o);
+    else on = isOptionSelected(o, useCount);
     const b = el("button", o.label, on ? "on" : "", () => {
-      if (useCount && !optionHasHandCount(o)) {
+      if (usePartner) {
+        openPartnerDirection(key, o);
+      } else if (useCount && !optionHasHandCount(o)) {
         openHandCountForOption(key, o);
       } else {
         toggle(o.text, o.label);

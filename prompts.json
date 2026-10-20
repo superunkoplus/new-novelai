@@ -3776,36 +3776,37 @@
   },
   "nipple": {
    "title": "乳首責め",
+   "partnerDirection": true,
    "options": [
-    {
-     "label": "男性が女性の乳首を責める",
-     "desc": "男性→女性（摘まむ・擦る・弾く）",
-     "text": "nipple play, nipple tweak, nipple rub, nipple flick, man playing with woman's nipples"
-    },
-    {
-     "label": "女性が男性の乳首を責める",
-     "desc": "女性→男性（摘まむ・擦る・弾く）",
-     "text": "nipple play, nipple tweak, nipple rub, nipple flick, woman playing with man's nipples"
-    },
     {
      "label": "乳首を摘まむ・捻る",
      "desc": "指で摘まむ・捻る",
-     "text": "pinching nipples, twisting nipples, nipple tweak"
+     "manToWoman": "man pinching woman's nipples, twisting nipples",
+     "womanToMan": "woman pinching man's nipples, twisting nipples"
     },
     {
      "label": "乳首を擦る",
      "desc": "指で擦る・撫でる",
-     "text": "nipple rub, rubbing nipples"
+     "manToWoman": "man rubbing woman's nipples",
+     "womanToMan": "woman rubbing man's nipples"
     },
     {
      "label": "乳首を弾く",
      "desc": "指で弾く・はじく",
-     "text": "nipple flick, flicking nipples"
+     "manToWoman": "man flicking woman's nipples",
+     "womanToMan": "woman flicking man's nipples"
     },
     {
      "label": "乳首を強く弄る",
      "desc": "強めに摘まむ・弄る",
-     "text": "intense nipple play, hard nipple tweak, pinching nipples"
+     "manToWoman": "man intensely playing with woman's nipples, hard nipple tweak",
+     "womanToMan": "woman intensely playing with man's nipples, hard nipple tweak"
+    },
+    {
+     "label": "乳首を責める",
+     "desc": "全般的な乳首責め",
+     "manToWoman": "man playing with woman's nipples, nipple tweak, nipple rub, nipple flick",
+     "womanToMan": "woman playing with man's nipples, nipple tweak, nipple rub, nipple flick"
     }
    ]
   },
@@ -6996,6 +6997,11 @@
      "label": "コントラポスト",
      "text": "contrapposto",
      "desc": "体重を片脚に乗せた自然な立ち姿"
+    },
+    {
+     "label": "脚を開いて立つ",
+     "text": "legs apart",
+     "desc": "脚を開いて立つ"
     }
    ]
   },
@@ -7246,11 +7252,6 @@
      "label": "ガニ股",
      "text": "bowlegged pose",
      "desc": "膝を外に開いたガニ股"
-    },
-    {
-     "label": "脚を開いて立つ",
-     "text": "legs apart",
-     "desc": "脚を開いて立つ"
     }
    ]
   },
@@ -8517,11 +8518,11 @@
    "states": [
     {
      "label": "普通に着ている",
-     "text": "school uniform, short skirt"
+     "text": "school uniform"
     },
     {
      "label": "シャツはだけ",
-     "text": "school uniform, open shirt, unbuttoned blouse, short skirt"
+     "text": "school uniform, open shirt, unbuttoned blouse"
     },
     {
      "label": "スカートめくれ",
