@@ -3610,97 +3610,22 @@
  ],
  "variations": {
   "body_lick": {
-   "title": "舐める",
+   "title": "体を舐める",
    "options": [
     {
-     "label": "男→女 首筋",
-     "text": "man licking woman's neck",
-     "desc": "男性が女性の首筋を舐める"
+     "label": "体を舐める",
+     "text": "licking body",
+     "desc": "体を舐める"
     },
     {
-     "label": "男→女 耳",
-     "text": "man licking woman's ear",
-     "desc": "男性が女性の耳を舐める"
+     "label": "胸を舐める",
+     "text": "licking breasts",
+     "desc": "胸を舐める"
     },
     {
-     "label": "男→女 脇",
-     "text": "man licking woman's armpit",
-     "desc": "男性が女性の脇を舐める"
-    },
-    {
-     "label": "男→女 へそ",
-     "text": "man licking woman's navel",
-     "desc": "男性が女性のへそを舐める"
-    },
-    {
-     "label": "男→女 乳首",
-     "text": "man licking woman's nipple",
-     "desc": "男性が女性の乳首を舐める"
-    },
-    {
-     "label": "男→女 太もも",
-     "text": "man licking woman's thighs",
-     "desc": "男性が女性の太ももを舐める"
-    },
-    {
-     "label": "男→女 足・足指",
-     "text": "man licking woman's feet",
-     "desc": "男性が女性の足・足指を舐める"
-    },
-    {
-     "label": "男→女 背中",
-     "text": "man licking woman's back",
-     "desc": "男性が女性の背中を舐める"
-    },
-    {
-     "label": "男→女 お腹",
-     "text": "man licking woman's stomach",
-     "desc": "男性が女性のお腹を舐める"
-    },
-    {
-     "label": "女→男 首筋",
-     "text": "woman licking man's neck",
-     "desc": "女性が男性の首筋を舐める"
-    },
-    {
-     "label": "女→男 耳",
-     "text": "woman licking man's ear",
-     "desc": "女性が男性の耳を舐める"
-    },
-    {
-     "label": "女→男 脇",
-     "text": "woman licking man's armpit",
-     "desc": "女性が男性の脇を舐める"
-    },
-    {
-     "label": "女→男 へそ",
-     "text": "woman licking man's navel",
-     "desc": "女性が男性のへそを舐める"
-    },
-    {
-     "label": "女→男 乳首",
-     "text": "woman licking man's nipple",
-     "desc": "女性が男性の乳首を舐める"
-    },
-    {
-     "label": "女→男 太もも",
-     "text": "woman licking man's thighs",
-     "desc": "女性が男性の太ももを舐める"
-    },
-    {
-     "label": "女→男 足・足指",
-     "text": "woman licking man's feet",
-     "desc": "女性が男性の足・足指を舐める"
-    },
-    {
-     "label": "女→男 背中",
-     "text": "woman licking man's back",
-     "desc": "女性が男性の背中を舐める"
-    },
-    {
-     "label": "女→男 お腹",
-     "text": "woman licking man's stomach",
-     "desc": "女性が男性のお腹を舐める"
+     "label": "お腹を舐める",
+     "text": "licking stomach",
+     "desc": "お腹を舐める"
     }
    ]
   },
@@ -3738,75 +3663,49 @@
    "title": "フェラチオ",
    "options": [
     {
-     "label": "基本のフェラ",
-     "desc": "口で咥える",
-     "text": "fellatio, oral sex, sucking penis"
+     "label": "フェラチオ",
+     "text": "fellatio",
+     "desc": "フェラチオ"
     },
     {
-     "label": "深く咥えるフェラ",
-     "desc": "奥まで咥える",
-     "text": "deepthroat"
+     "label": "ディープスロート",
+     "text": "deepthroat",
+     "desc": "奥まで咥える"
     },
     {
-     "label": "先端を舐めるフェラ",
-     "desc": "亀頭・先端を舌で舐める",
-     "text": "licking penis, glans"
+     "label": "亀頭を舐める",
+     "text": "licking penis",
+     "desc": "先端を舐める"
     },
     {
-     "label": "裏筋を舐めるフェラ",
-     "desc": "裏側の筋を舌で舐め上げる",
-     "text": "licking penis, frenulum"
+     "label": "玉も舐める",
+     "text": "fellatio, licking testicle",
+     "desc": "睾丸も舐める"
     },
     {
-     "label": "玉も舐めるフェラ",
-     "desc": "睾丸も舐める",
-     "text": "fellatio, licking balls"
-    },
-    {
-     "label": "顔射されるフェラ",
-     "desc": "顔にかけられる",
-     "text": "facial after fellatio, cum on face"
-    },
-    {
-     "label": "口内射精されるフェラ",
-     "desc": "口の中に出される",
-     "text": "cum in mouth, oral creampie"
+     "label": "イラマチオ",
+     "text": "irrumatio",
+     "desc": "激しいフェラ（イラマ）"
     }
    ]
   },
   "nipple": {
    "title": "乳首責め",
-   "partnerDirection": true,
    "options": [
     {
-     "label": "乳首を摘まむ・捻る",
-     "desc": "指で摘まむ・捻る",
-     "manToWoman": "man pinching woman's nipples, twisting nipples",
-     "womanToMan": "woman pinching man's nipples, twisting nipples"
+     "label": "乳首責め",
+     "text": "nipple stimulation",
+     "desc": "乳首を刺激"
     },
     {
-     "label": "乳首を擦る",
-     "desc": "指で擦る・撫でる",
-     "manToWoman": "man rubbing woman's nipples",
-     "womanToMan": "woman rubbing man's nipples"
+     "label": "乳首を摘む",
+     "text": "nipple tweak",
+     "desc": "乳首を摘まむ"
     },
     {
-     "label": "乳首を弾く",
-     "desc": "指で弾く・はじく",
-     "manToWoman": "man flicking woman's nipples",
-     "womanToMan": "woman flicking man's nipples"
-    },
-    {
-     "label": "乳首を強く弄る",
-     "desc": "強めに摘まむ・弄る",
-     "manToWoman": "man intensely playing with woman's nipples, hard nipple tweak",
-     "womanToMan": "woman intensely playing with man's nipples, hard nipple tweak"
-    },
-    {
-     "label": "乳首を責める",
-     "desc": "全般的な乳首責め",
-     "manToWoman": "man playing with woman's nipples, nipple tweak, nipple rub, nipple flick",
-     "womanToMan": "woman playing with man's nipples, nipple tweak, nipple rub, nipple flick"
+     "label": "乳首を舐める",
+     "text": "breast sucking",
+     "desc": "乳首を舐める・吸う"
     }
    ]
   },
@@ -3814,14 +3713,9 @@
    "title": "キスしながら指入れ",
    "options": [
     {
-     "label": "深いキス＋指入れ",
-     "desc": "キスと指を同時に",
-     "text": "deep kiss while fingering, kissing and fingering"
-    },
-    {
-     "label": "首キス＋指入れ",
-     "desc": "首にキスしながら指",
-     "text": "neck kiss while fingering"
+     "label": "キスしながら指入れ",
+     "text": "kiss, fingering",
+     "desc": "キスと指入れを同時に"
     }
    ]
   },
@@ -3829,14 +3723,9 @@
    "title": "側位対面",
    "options": [
     {
-     "label": "基本の側位対面",
-     "desc": "向かい合って横になる",
-     "text": "side by side facing each other, legs intertwined"
-    },
-    {
-     "label": "片脚上げの側位対面",
-     "desc": "片脚を上げる",
-     "text": "side sex, one leg raised"
+     "label": "側位対面",
+     "text": "sideways sex",
+     "desc": "横向きで向かい合う"
     }
    ]
   },
@@ -3844,24 +3733,14 @@
    "title": "駅弁",
    "options": [
     {
-     "label": "基本の駅弁",
-     "desc": "抱き上げて立ったまま挿入",
-     "text": "standing carry, ekiben, woman held up, legs wrapped around man"
+     "label": "駅弁",
+     "text": "ekiben (sex)",
+     "desc": "持ち上げての駅弁"
     },
     {
-     "label": "壁に押し付けた駅弁",
-     "desc": "壁に押し付けて",
-     "text": "standing carry against wall, pressed to wall"
-    },
-    {
-     "label": "激しく突き上げる駅弁",
-     "desc": "抱き上げて激しく突く",
-     "text": "intense standing carry, hard thrusting while holding"
-    },
-    {
-     "label": "背面駅弁",
-     "text": "reverse suspended congress",
-     "desc": "背を向けて抱え上げられる"
+     "label": "サスペンデッドコングレス",
+     "text": "suspended congress",
+     "desc": "吊り下げ体位"
     }
    ]
   },
@@ -3869,54 +3748,19 @@
    "title": "騎乗位",
    "options": [
     {
-     "label": "基本の騎乗位",
-     "desc": "女性が上で向かい合って腰を振る",
-     "text": "cowgirl, woman on top facing man, riding, hands on his chest"
+     "label": "騎乗位",
+     "text": "cowgirl position",
+     "desc": "騎乗位"
     },
     {
      "label": "逆騎乗位",
-     "desc": "女性が上で後ろ向き",
-     "text": "reverse cowgirl, woman on top facing away, looking back over her shoulder"
+     "text": "reverse cowgirl position",
+     "desc": "後ろ向き騎乗位"
     },
     {
-     "label": "前かがみ騎乗位",
-     "desc": "胸を近づけて前かがみ",
-     "text": "cowgirl leaning forward, breasts close to man's face"
-    },
-    {
-     "label": "後ろ手つき逆騎乗位",
-     "desc": "後ろに手をついて",
-     "text": "reverse cowgirl, woman leaning back with hands on the bed for support"
-    },
-    {
-     "label": "激しく腰を振る騎乗位",
-     "desc": "激しく上下に動く",
-     "text": "cowgirl, intense riding, bouncing hard"
-    },
-    {
-     "label": "スクワット騎乗位",
+     "label": "しゃがみ騎乗位",
      "text": "squatting cowgirl position",
-     "desc": "しゃがんで上下に動く騎乗位"
-    },
-    {
-     "label": "背面スクワット騎乗位",
-     "text": "reverse squatting cowgirl position",
-     "desc": "背を向けてしゃがむ騎乗位"
-    },
-    {
-     "label": "上体を起こした騎乗位",
-     "text": "upright straddle",
-     "desc": "上体を起こして向かい合う騎乗位"
-    },
-    {
-     "label": "背面で上体を起こした騎乗位",
-     "text": "reverse upright straddle",
-     "desc": "背を向けて上体を起こす騎乗位"
-    },
-    {
-     "label": "女性上位",
-     "text": "girl on top",
-     "desc": "女性が上になる体位"
+     "desc": "しゃがんだ騎乗位"
     }
    ]
   },
@@ -3924,14 +3768,9 @@
    "title": "フルネルソン",
    "options": [
     {
-     "label": "基本のフルネルソン",
-     "desc": "腕をロックして脚を開く",
-     "text": "full nelson, arms locked behind head, legs spread, deep penetration"
-    },
-    {
-     "label": "強く抱き込んだフルネルソン",
-     "desc": "強く抱き込む",
-     "text": "intense full nelson, tight hold"
+     "label": "フルネルソン",
+     "text": "full nelson",
+     "desc": "フルネルソン"
     }
    ]
   },
@@ -3939,24 +3778,9 @@
    "title": "お尻を叩く",
    "options": [
     {
-     "label": "軽くお尻を叩く",
-     "desc": "優しめ",
-     "text": "light spanking, gentle slap on ass"
-    },
-    {
-     "label": "強くお尻を叩く",
-     "desc": "強め",
-     "text": "hard spanking, intense slap on ass"
-    },
-    {
-     "label": "連続でお尻を叩く",
-     "desc": "連打",
-     "text": "repeated spanking, continuous spanking"
-    },
-    {
-     "label": "赤い痕がつくほど叩く",
-     "desc": "痕が残る",
-     "text": "spanking, red marks on ass"
+     "label": "スパンキング",
+     "text": "spanking",
+     "desc": "お尻を叩く"
     }
    ]
   },
@@ -4014,34 +3838,24 @@
    "title": "手コキ",
    "options": [
     {
-     "label": "基本の手コキ",
-     "desc": "手でしごく",
-     "text": "handjob, stroking penis"
+     "label": "手コキ",
+     "text": "handjob",
+     "desc": "手コキ"
     },
     {
-     "label": "両手の手コキ",
-     "desc": "両手で",
-     "text": "two-handed handjob"
-    },
-    {
-     "label": "オイル手コキ",
-     "desc": "ローション付き",
-     "text": "oiled handjob, slippery handjob"
-    },
-    {
-     "label": "射精させる手コキ",
-     "desc": "射精までしごく",
-     "text": "handjob, cumshot, ejaculation"
-    },
-    {
-     "label": "抱きつき手コキ",
-     "text": "cuddling handjob",
-     "desc": "抱きついて密着しながらの手コキ"
+     "label": "両手手コキ",
+     "text": "two-handed handjob",
+     "desc": "両手で"
     },
     {
      "label": "後ろから手コキ",
      "text": "reach-around",
-     "desc": "背後から手を回して手コキ"
+     "desc": "背後から"
+    },
+    {
+     "label": "玉も刺激",
+     "text": "handjob, caressing testicles",
+     "desc": "睾丸も触る"
     }
    ]
   },
@@ -4049,44 +3863,19 @@
    "title": "後背位",
    "options": [
     {
-     "label": "基本の後背位",
-     "desc": "四つん這いで後ろから",
-     "text": "doggy style, woman on all fours, man behind, arched back"
+     "label": "後背位（四つん這い）",
+     "text": "doggystyle",
+     "desc": "四つん這いの後背位"
     },
     {
      "label": "うつ伏せ後背位",
-     "desc": "うつ伏せで後ろから",
-     "text": "prone bone, woman lying flat on her stomach, man on top from behind"
+     "text": "prone bone",
+     "desc": "うつ伏せでの後背位"
     },
     {
-     "label": "膝立ち後背位",
-     "desc": "両者が膝立ちで",
-     "text": "kneeling doggy, both on knees, man thrusting from behind"
-    },
-    {
-     "label": "立ちバック",
-     "desc": "立ったまま後ろから",
-     "text": "standing doggy, woman bent over a table or wall, man standing behind"
-    },
-    {
-     "label": "尻を掴んだ後背位",
-     "desc": "尻を掴んで突く",
-     "text": "doggy style, grabbing ass, holding hips"
-    },
-    {
-     "label": "尻を高く上げた後背位",
-     "text": "top-down bottom-up",
-     "desc": "顔を伏せて尻を高く上げる後背位"
-    },
-    {
-     "label": "前屈みの後背位",
-     "text": "sex from behind, bent over",
-     "desc": "前屈みで後ろから"
-    },
-    {
-     "label": "ドギースタイル",
-     "text": "doggystyle",
-     "desc": "四つん這いで後ろから"
+     "label": "立位後背位",
+     "text": "standing doggystyle",
+     "desc": "立った状態の後背位"
     }
    ]
   },
@@ -4094,14 +3883,9 @@
    "title": "アマゾネス体位",
    "options": [
     {
-     "label": "基本のアマゾネス",
-     "desc": "女性上位で男性の脚を上げる",
-     "text": "amazon position, woman on top, man's legs up, female dominant"
-    },
-    {
-     "label": "激しく腰を振るアマゾネス",
-     "desc": "激しく腰を振る",
-     "text": "amazon position, intense riding"
+     "label": "アマゾネス体位",
+     "text": "amazon position",
+     "desc": "アマゾネス体位"
     }
    ]
   },
@@ -4109,19 +3893,9 @@
    "title": "アナル舐め",
    "options": [
     {
-     "label": "男性が女性のアナルを舐める",
-     "desc": "男性→女性",
-     "text": "anilingus, rimming, man licking woman's anus"
-    },
-    {
-     "label": "女性が男性のアナルを舐める",
-     "desc": "女性→男性",
-     "text": "anilingus, rimming, woman licking man's anus"
-    },
-    {
-     "label": "深く舌を入れるアナル舐め",
-     "desc": "奥まで",
-     "text": "deep anilingus, tongue in anus"
+     "label": "アナル舐め",
+     "text": "anilingus",
+     "desc": "アナル舐め"
     }
    ]
   },
@@ -4229,49 +4003,24 @@
    "title": "パイズリ",
    "options": [
     {
-     "label": "基本のパイズリ",
-     "desc": "胸で挟む",
-     "text": "paizuri, titjob, breast job"
-    },
-    {
-     "label": "胸に射精されるパイズリ",
-     "desc": "胸にかけられる",
-     "text": "paizuri, cum on breasts"
-    },
-    {
-     "label": "舌も使うパイズリ",
-     "desc": "先端を舐めながら",
-     "text": "paizuri, licking tip during titjob"
+     "label": "パイズリ",
+     "text": "paizuri",
+     "desc": "パイズリ"
     },
     {
      "label": "手を使わないパイズリ",
      "text": "handsfree paizuri",
-     "desc": "手を添えずに胸で挟む"
+     "desc": "手を添えず"
     },
     {
      "label": "服越しパイズリ",
      "text": "paizuri over clothes",
-     "desc": "服の上から胸で挟む"
+     "desc": "服の上から"
     },
     {
      "label": "服の下パイズリ",
      "text": "paizuri under clothes",
-     "desc": "服の中で胸で挟む"
-    },
-    {
-     "label": "跨りパイズリ",
-     "text": "straddling paizuri",
-     "desc": "相手にまたがって胸で挟む"
-    },
-    {
-     "label": "膝上パイズリ",
-     "text": "paizuri on lap",
-     "desc": "膝の上に座った状態で胸で挟む"
-    },
-    {
-     "label": "垂直パイズリ",
-     "text": "perpendicular paizuri",
-     "desc": "胸の谷間と垂直に挟む"
+     "desc": "服の中で"
     }
    ]
   },
@@ -4279,39 +4028,24 @@
    "title": "指入れ",
    "options": [
     {
-     "label": "男性が女性に指入れ",
-     "desc": "男性→女性",
-     "text": "fingering, finger in pussy, man fingering woman"
+     "label": "指入れ",
+     "text": "fingering",
+     "desc": "指での挿入"
     },
     {
-     "label": "女性が自分に指入れ",
-     "desc": "オナニー",
-     "text": "fingering herself, masturbation"
+     "label": "二本指",
+     "text": "fingering, two fingers",
+     "desc": "二本の指"
     },
     {
-     "label": "二本指で指入れ",
-     "desc": "2本",
-     "text": "two fingers, double fingering"
+     "label": "クリトリスも刺激",
+     "text": "fingering, clitoral stimulation",
+     "desc": "クリトリスも同時に"
     },
     {
-     "label": "Gスポット刺激の指入れ",
-     "desc": "Gスポ",
-     "text": "g-spot stimulation, fingering g-spot"
-    },
-    {
-     "label": "アナルに指入れ",
-     "desc": "アナル",
-     "text": "anal fingering, finger in anus"
-    },
-    {
-     "label": "服越し指入れ",
-     "text": "fingering through clothes",
-     "desc": "服の上から指で刺激する"
-    },
-    {
-     "label": "パンツ越し指入れ",
-     "text": "fingering through panties",
-     "desc": "下着の上から指で刺激する"
+     "label": "アナル指入れ",
+     "text": "anal fingering",
+     "desc": "アナルへの指入れ"
     }
    ]
   },
@@ -4349,54 +4083,14 @@
    "title": "正常位",
    "options": [
     {
-     "label": "基本の正常位",
-     "desc": "仰向けで向かい合って挿入",
-     "text": "missionary position, man on top, woman on her back with legs spread, face to face, deep penetration"
+     "label": "正常位",
+     "text": "missionary",
+     "desc": "正常位"
     },
     {
-     "label": "脚を肩に乗せた正常位",
-     "desc": "脚を肩に乗せて深く",
-     "text": "missionary with woman's legs over man's shoulders, deep angle"
-    },
-    {
-     "label": "片脚上げ正常位",
-     "desc": "片脚を高く上げる",
-     "text": "missionary, one of woman's legs raised high, other wrapped around man's waist"
-    },
-    {
-     "label": "膝を胸に抱えた正常位",
-     "desc": "膝を胸まで折り曲げる",
-     "text": "missionary, man holding woman's knees to her chest"
-    },
-    {
-     "label": "深く突き上げる正常位",
-     "desc": "深く強く突く正常位",
-     "text": "missionary, deep thrusting, intense penetration"
-    },
-    {
-     "label": "脚を頭の方へ折る正常位",
-     "text": "anvil position, legs over head",
-     "desc": "脚を頭の上へ持ち上げる正常位"
-    },
-    {
-     "label": "脚を畳んだ正常位",
-     "text": "folded",
-     "desc": "脚を折りたたんだ正常位"
-    },
-    {
-     "label": "打ち下ろす正常位",
-     "text": "piledriver (sex)",
-     "desc": "真上から打ち下ろす体位"
-    },
-    {
-     "label": "男性上位",
-     "text": "boy on top",
-     "desc": "男性が上になる体位"
-    },
-    {
-     "label": "覆いかぶさる",
-     "text": "mounting",
-     "desc": "覆いかぶさる体勢"
+     "label": "脚を上げた正常位",
+     "text": "missionary, legs up",
+     "desc": "脚を上げた状態"
     }
    ]
   },
@@ -4574,19 +4268,9 @@
    "title": "側位",
    "options": [
     {
-     "label": "基本の側位",
-     "desc": "横向きで後ろから",
-     "text": "spooning position, both lying on their side, man behind"
-    },
-    {
-     "label": "脚を絡めた側位",
-     "desc": "脚を絡める",
-     "text": "spooning, legs intertwined"
-    },
-    {
-     "label": "深く挿入する側位",
-     "desc": "深く突く",
-     "text": "spooning, deep penetration from behind"
+     "label": "側位",
+     "text": "spooning",
+     "desc": "側位"
     }
    ]
   },
@@ -4594,14 +4278,14 @@
    "title": "座位（密着）",
    "options": [
     {
-     "label": "基本の座位密着",
-     "desc": "脚を絡めて密着",
-     "text": "lotus position, sitting face to face, legs wrapped, intimate"
+     "label": "座位",
+     "text": "lotus position",
+     "desc": "向かい合って座る体位"
     },
     {
-     "label": "抱きしめた座位密着",
-     "desc": "強く抱きながら",
-     "text": "lotus, tight embrace while sitting"
+     "label": "アップライトストラドル",
+     "text": "upright straddle",
+     "desc": "座位の一種"
     }
    ]
   },
@@ -4649,19 +4333,9 @@
    "title": "対面座位",
    "options": [
     {
-     "label": "基本の対面座位",
-     "desc": "向かい合って座る",
-     "text": "sitting face to face, woman straddling man on a chair or bed, intimate eye contact"
-    },
-    {
-     "label": "密着した対面座位",
-     "desc": "体を密着させて",
-     "text": "sitting sex, bodies pressed close, tight embrace"
-    },
-    {
-     "label": "椅子の上の対面座位",
-     "desc": "椅子の上で",
-     "text": "sitting sex on chair, straddling"
+     "label": "対面座位",
+     "text": "upright straddle",
+     "desc": "向かい合って座る"
     }
    ]
   },
@@ -4669,19 +4343,9 @@
    "title": "だいしゅきホールド",
    "options": [
     {
-     "label": "基本のだいしゅきホールド",
-     "desc": "脚を抱え上げて密着挿入",
-     "text": "leg lock, legs held up, arms locked, deep penetration"
-    },
-    {
-     "label": "強く抱きしめただいしゅきホールド",
-     "desc": "強く抱きながら",
-     "text": "tight leg lock, intense embrace while penetrating"
-    },
-    {
-     "label": "中出しだいしゅきホールド",
-     "desc": "抱きしめたまま中出し",
-     "text": "leg lock, creampie"
+     "label": "だいしゅきホールド",
+     "text": "leg lock",
+     "desc": "脚で相手をホールド"
     }
    ]
   },
@@ -4715,23 +4379,18 @@
    "options": [
     {
      "label": "玉を舐める",
-     "desc": "舌で舐める",
-     "text": "ball licking, licking testicles"
+     "text": "licking testicle",
+     "desc": "睾丸を舐める"
     },
     {
      "label": "玉を吸う",
-     "desc": "口で吸う",
-     "text": "sucking balls, ball sucking"
+     "text": "testicle sucking",
+     "desc": "睾丸を吸う"
     },
     {
-     "label": "玉を優しく触る",
-     "desc": "手で優しく",
-     "text": "gentle ball massage"
-    },
-    {
-     "label": "玉を撫でる",
+     "label": "玉を触る",
      "text": "caressing testicles",
-     "desc": "睾丸を撫でる"
+     "desc": "睾丸を触る"
     }
    ]
   },
@@ -4839,24 +4498,9 @@
    "title": "立位対面",
    "options": [
     {
-     "label": "基本の立位対面",
-     "desc": "立ったまま向かい合う",
-     "text": "standing face to face, woman with one leg raised, man supporting her thigh"
-    },
-    {
-     "label": "両脚を抱えた立位",
-     "desc": "両脚を持ち上げる",
-     "text": "standing sex, lifting both legs"
-    },
-    {
-     "label": "壁に寄りかかった立位対面",
-     "desc": "壁を使って",
-     "text": "standing sex against wall, face to face"
-    },
-    {
-     "label": "立ち正常位",
-     "text": "standing missionary",
-     "desc": "立ったままの正常位"
+     "label": "立位対面",
+     "text": "standing sex, standing missionary",
+     "desc": "立ったまま向かい合う"
     }
    ]
   },
@@ -4864,49 +4508,24 @@
    "title": "足コキ",
    "options": [
     {
+     "label": "足コキ",
+     "text": "footjob",
+     "desc": "足コキ"
+    },
+    {
      "label": "両足の足コキ",
-     "desc": "両足で",
-     "text": "footjob, both feet, stroking with feet"
-    },
-    {
-     "label": "足の裏の足コキ",
-     "desc": "足裏で",
-     "text": "solejob, footjob with soles"
-    },
-    {
-     "label": "足指の足コキ",
-     "desc": "足指で",
-     "text": "toejob, footjob with toes"
-    },
-    {
-     "label": "射精させる足コキ",
-     "desc": "足で射精させる",
-     "text": "footjob, cumshot from footjob"
-    },
-    {
-     "label": "両足コキ",
      "text": "two-footed footjob",
-     "desc": "両足で挟んで擦る"
+     "desc": "両足で"
     },
     {
-     "label": "靴下足コキ",
+     "label": "足裏で",
+     "text": "solejob",
+     "desc": "足の裏で"
+    },
+    {
+     "label": "靴下・タイツ越し",
      "text": "footjob with legwear",
-     "desc": "靴下やタイツ越しの足コキ"
-    },
-    {
-     "label": "後ろから足コキ",
-     "text": "footjob from behind",
-     "desc": "背後から足で刺激する"
-    },
-    {
-     "label": "机の下の足コキ",
-     "text": "footjob under table",
-     "desc": "机の下でこっそり足で刺激する"
-    },
-    {
-     "label": "足を舐める",
-     "text": "licking foot",
-     "desc": "足を舐める"
+     "desc": "靴下やタイツ越し"
     }
    ]
   },
@@ -4914,14 +4533,9 @@
    "title": "逆正常位",
    "options": [
     {
-     "label": "女性が上の対面挿入",
-     "desc": "女性が上で向かい合う",
-     "text": "reverse missionary, woman on top facing man, lying down"
-    },
-    {
-     "label": "深く腰を落とす逆正常位",
-     "desc": "深く沈める",
-     "text": "reverse missionary, deep penetration"
+     "label": "逆正常位",
+     "text": "reverse missionary",
+     "desc": "女性が上になる正常位寄り"
     }
    ]
   },
@@ -4959,29 +4573,19 @@
    "title": "クンニ",
    "options": [
     {
-     "label": "基本のクンニ",
-     "desc": "性器を舐める",
-     "text": "cunnilingus, oral sex, licking pussy"
+     "label": "クンニ",
+     "text": "cunnilingus",
+     "desc": "クンニリングス"
     },
     {
-     "label": "クリトリス重点のクンニ",
-     "desc": "クリトリスを中心に",
-     "text": "cunnilingus, licking clitoris"
+     "label": "クリトリス重点",
+     "text": "cunnilingus, licking clitoris",
+     "desc": "クリトリスを中心に"
     },
     {
-     "label": "深く舌を入れるクンニ",
-     "desc": "舌を奥まで入れる",
-     "text": "deep cunnilingus, tongue in pussy"
-    },
-    {
-     "label": "脚を開かせたクンニ",
-     "desc": "脚を開いて舐める",
-     "text": "cunnilingus, legs spread"
-    },
-    {
-     "label": "顔を埋めるクンニ",
-     "desc": "顔を密着させて",
-     "text": "face buried in pussy, intense cunnilingus"
+     "label": "顔を埋める",
+     "text": "face buried in pussy",
+     "desc": "顔を密着させて"
     }
    ]
   },
@@ -5009,14 +4613,9 @@
    "title": "机の上",
    "options": [
     {
-     "label": "机に座らせて挿入",
-     "desc": "机の端に座らせて",
-     "text": "sex on table, woman sitting on edge"
-    },
-    {
-     "label": "机に伏せて後背位",
-     "desc": "机に伏せて後ろから",
-     "text": "bent over table, sex from behind"
+     "label": "机の上",
+     "text": "sex on table",
+     "desc": "机の上での性交"
     }
    ]
   },
@@ -5024,14 +4623,9 @@
    "title": "相互オナニー",
    "options": [
     {
-     "label": "互いに触る相互オナニー",
-     "desc": "同時に触り合う",
-     "text": "mutual masturbation, touching each other"
-    },
-    {
-     "label": "見つめ合いながら相互オナニー",
-     "desc": "視線を交わしながら",
-     "text": "mutual masturbation, eye contact"
+     "label": "相互オナニー",
+     "text": "mutual masturbation",
+     "desc": "お互いに自慰"
     }
    ]
   },
@@ -5069,34 +4663,29 @@
    "title": "キス",
    "options": [
     {
-     "label": "軽いキス",
-     "desc": "触れる程度のキス",
-     "text": "light kiss, peck"
+     "label": "キス",
+     "text": "kiss",
+     "desc": "キス"
     },
     {
-     "label": "深いキス（舌）",
-     "desc": "舌を絡める深いキス",
-     "text": "deep kiss, french kiss, tongue kiss"
+     "label": "ディープキス",
+     "text": "french kiss",
+     "desc": "舌を使った深いキス"
     },
     {
-     "label": "情熱的なキス",
-     "desc": "激しく求め合うキス",
-     "text": "passionate kiss, intense kissing"
-    },
-    {
-     "label": "首筋へのキス",
-     "desc": "首にキスする",
-     "text": "kissing neck, neck kiss"
+     "label": "首へのキス",
+     "text": "kissing neck",
+     "desc": "首筋へのキス"
     },
     {
      "label": "耳へのキス",
-     "desc": "耳にキスする",
-     "text": "kissing ear, ear kiss"
+     "text": "kissing ear",
+     "desc": "耳へのキス"
     },
     {
      "label": "行為中のキス",
-     "desc": "挿入しながらキス",
-     "text": "kissing during sex"
+     "text": "kissing during sex",
+     "desc": "性交しながらキス"
     }
    ]
   },
@@ -5134,14 +4723,9 @@
    "title": "壁ドン立位",
    "options": [
     {
-     "label": "壁に押し付けた立位",
-     "desc": "壁を使って立位",
-     "text": "sex against wall, standing, pressed to wall"
-    },
-    {
-     "label": "片脚上げの壁ドン立位",
-     "desc": "片脚を上げて",
-     "text": "wall sex, one leg raised"
+     "label": "壁際立位",
+     "text": "standing sex, against wall",
+     "desc": "壁に押し付けての立位"
     }
    ]
   },
@@ -5149,14 +4733,14 @@
    "title": "吊り下げ体位",
    "options": [
     {
-     "label": "抱き上げて挿入",
-     "desc": "持ち上げて立位",
-     "text": "suspended congress, lifting sex, holding up"
+     "label": "サスペンデッドコングレス",
+     "text": "suspended congress",
+     "desc": "吊り下げ体位"
     },
     {
-     "label": "激しく突き上げる吊り下げ",
-     "desc": "抱き上げて激しく",
-     "text": "intense suspended sex, hard thrusting while holding"
+     "label": "逆サスペンデッド",
+     "text": "reverse suspended congress",
+     "desc": "逆向きの吊り下げ"
     }
    ]
   },
@@ -5164,19 +4748,14 @@
    "title": "素股",
    "options": [
     {
-     "label": "基本の素股",
-     "desc": "擦りつける",
-     "text": "grinding, dry humping, thigh sex"
+     "label": "素股",
+     "text": "grinding",
+     "desc": "素股・擦り付け"
     },
     {
-     "label": "クリトリスに当てる素股",
-     "desc": "クリに当てて",
-     "text": "grinding against clitoris"
-    },
-    {
-     "label": "激しく擦る素股",
-     "desc": "激しく擦る",
-     "text": "intense grinding, hard dry humping"
+     "label": "フロッタージュ",
+     "text": "frottage",
+     "desc": "衣類越しの擦り付け"
     }
    ]
   },
@@ -5284,19 +4863,9 @@
    "title": "種付けプレス",
    "options": [
     {
-     "label": "基本の種付けプレス",
-     "desc": "脚を折り曲げて上から押さえ込む",
-     "text": "mating press, legs pushed back, deep penetration, folded in half"
-    },
-    {
-     "label": "体重を乗せた種付けプレス",
-     "desc": "体重を乗せて深く",
-     "text": "intense mating press, full body weight, deep"
-    },
-    {
-     "label": "中出ししながらの種付けプレス",
-     "desc": "押さえ込みながら中出し",
-     "text": "mating press, creampie, cum deep inside"
+     "label": "種付けプレス",
+     "text": "mating press",
+     "desc": "種付けプレス"
     }
    ]
   },
@@ -5329,24 +4898,14 @@
    "title": "イラマチオ",
    "options": [
     {
-     "label": "基本のイラマ",
-     "desc": "突くようにフェラさせる",
-     "text": "irrumatio, face fucking, forced oral"
+     "label": "イラマチオ",
+     "text": "irrumatio",
+     "desc": "イラマチオ"
     },
     {
-     "label": "激しいイラマ",
-     "desc": "激しく突き入れる",
-     "text": "intense irrumatio, rough face fucking"
-    },
-    {
-     "label": "涙目のイラマ",
-     "desc": "涙が出るほど",
-     "text": "irrumatio, teary eyes, gagging"
-    },
-    {
-     "label": "喉奥までイラマ",
-     "desc": "喉の奥まで",
-     "text": "deep irrumatio, throat fucking"
+     "label": "ディープスロート",
+     "text": "deepthroat",
+     "desc": "奥まで咥える"
     }
    ]
   },
@@ -5544,44 +5103,19 @@
    "title": "69",
    "options": [
     {
-     "label": "基本の69",
-     "desc": "互いに口で刺激",
-     "text": "69 position, mutual oral, one on top of the other"
-    },
-    {
-     "label": "女性が上の69",
-     "desc": "女性が上",
-     "text": "69, woman on top"
-    },
-    {
-     "label": "横向きの69",
-     "desc": "横になって",
-     "text": "sideways 69"
-    },
-    {
-     "label": "立ち69",
-     "text": "upright 69",
-     "desc": "立ったまま上下逆で口で愛撫する"
+     "label": "69",
+     "text": "69",
+     "desc": "シックスナイン"
     }
    ]
   },
   "choking": {
-   "title": "首を軽く締める",
+   "title": "首を締める",
    "options": [
     {
-     "label": "首に軽く手を当てる",
-     "desc": "優しめ",
-     "text": "light choking, hand on neck"
-    },
-    {
-     "label": "少し圧をかけて首を締める",
-     "desc": "圧あり",
-     "text": "choking, mild pressure on neck"
-    },
-    {
-     "label": "行為中に首を締める",
-     "desc": "挿入しながら",
-     "text": "choking during sex"
+     "label": "首絞め",
+     "text": "choking",
+     "desc": "首を軽く締める"
     }
    ]
   },
@@ -5609,19 +5143,9 @@
    "title": "焦らし",
    "options": [
     {
-     "label": "入口で止める焦らし",
-     "desc": "入れずに止める",
-     "text": "teasing, tip only, no insertion"
-    },
-    {
-     "label": "ゆっくり擦る焦らし",
-     "desc": "ゆっくり",
-     "text": "slow teasing, gentle rubbing"
-    },
-    {
-     "label": "触れそうで触れない焦らし",
-     "desc": "寸前で止める",
-     "text": "almost touching, denial teasing"
+     "label": "焦らし",
+     "text": "teasing",
+     "desc": "焦らす"
     }
    ]
   },
@@ -5629,34 +5153,24 @@
    "title": "その他のコキ",
    "options": [
     {
-     "label": "髪コキ",
-     "text": "hairjob",
-     "desc": "髪で包んで擦る"
-    },
-    {
-     "label": "亀頭責め",
-     "text": "glansjob",
-     "desc": "先端を集中して刺激する"
-    },
-    {
-     "label": "膝裏コキ",
-     "text": "kneepit sex",
-     "desc": "膝の裏で挟んで擦る"
-    },
-    {
-     "label": "背中コキ",
-     "text": "backjob",
-     "desc": "背中で擦る"
+     "label": "太股コキ",
+     "text": "thigh sex",
+     "desc": "太ももで挟む"
     },
     {
      "label": "尻コキ",
      "text": "buttjob",
-     "desc": "お尻で挟んで擦る"
+     "desc": "お尻で挟む"
     },
     {
-     "label": "脇コキ",
+     "label": "腋コキ",
      "text": "armpit sex",
-     "desc": "脇で挟んで擦る"
+     "desc": "脇で"
+    },
+    {
+     "label": "髪コキ",
+     "text": "hairjob",
+     "desc": "髪で"
     }
    ]
   },
@@ -5664,39 +5178,19 @@
    "title": "自慰",
    "options": [
     {
-     "label": "男性の自慰",
+     "label": "オナニー",
+     "text": "masturbation",
+     "desc": "自慰"
+    },
+    {
+     "label": "女性のオナニー",
+     "text": "female masturbation",
+     "desc": "女性の自慰"
+    },
+    {
+     "label": "男性のオナニー",
      "text": "male masturbation",
      "desc": "男性の自慰"
-    },
-    {
-     "label": "女性の自慰",
-     "text": "female masturbation",
-     "desc": "女性が自分で慰める"
-    },
-    {
-     "label": "服越しの自慰",
-     "text": "masturbation through clothes",
-     "desc": "服の上から自分を触る"
-    },
-    {
-     "label": "服の下の自慰",
-     "text": "masturbation under clothes",
-     "desc": "服の中に手を入れて自分を触る"
-    },
-    {
-     "label": "股を擦る",
-     "text": "crotch rub",
-     "desc": "股間を何かに擦りつける"
-    },
-    {
-     "label": "枕で自慰",
-     "text": "pillow humping",
-     "desc": "枕に股を押し当てる"
-    },
-    {
-     "label": "角オナ",
-     "text": "table humping",
-     "desc": "机の角に股を押し当てる"
     }
    ]
   },
@@ -5704,14 +5198,14 @@
    "title": "顔に押し付ける",
    "options": [
     {
-     "label": "顔面騎乗",
-     "text": "sitting on face",
-     "desc": "相手の顔の上に座る"
+     "label": "顔に押し付ける",
+     "text": "facesitting",
+     "desc": "顔に座る・押し付ける"
     },
     {
-     "label": "パフパフ",
-     "text": "breast smother",
-     "desc": "顔を胸に埋めさせる"
+     "label": "坐面",
+     "text": "sitting on face",
+     "desc": "顔に座る"
     }
    ]
   },
